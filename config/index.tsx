@@ -21,7 +21,6 @@ export const config = defaultWagmiConfig({
   chains,
   projectId,
   metadata,
-  enableOnramp: true,
   ssr: true,
   storage: createStorage({
     storage: cookieStorage,
