@@ -1,6 +1,8 @@
-## What is Onyx?
+## What is OnyxOne?
+- OnyxOne is Onyx augmented with a TanStack React Query powered Web 3.0 provider that utilizes @web3Modal, Wagmi, Viem, and of course TanStack RQ.
 - Onyx is a turnkey, full stack web app written in Typescript that includes role based access control (RBAC),
-complete Supabase SSR Auth and DB integration, Zod and YUP! validation, Tanstack React Query, React Hook form, and more. Fork, customize, and deploy on Vercel or elsewhere to have your MVP up and running in a few days or less. Stack details are below. 
+  complete Supabase SSR Auth and DB integration, Zod and YUP! validation, Tanstack React Query, React Hook form, and more. Fork, customize, and deploy on Vercel or elsewhere to have your MVP up and running in a few days or less. Stack details are 
+  below. 
 
 ## Stack 
 - NextJS 14 App Router
