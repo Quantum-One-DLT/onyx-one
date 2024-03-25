@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
+import ConnectButton from "@/components/connect-button";
 
 export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
@@ -39,6 +40,7 @@ export default async function IndexPage() {
         >
           Sign Up
         </Link>
+        <ConnectButton/>
       </div>
     </section>
   )

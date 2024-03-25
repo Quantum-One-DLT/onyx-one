@@ -1,10 +1,14 @@
-import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import { Inter } from 'next/font/google'
+import type { Metadata,Viewport } from 'next'
+import { headers } from 'next/headers'
 import { ThemeProvider } from "@/components/theme-provider"
 import { fontSans } from "@/lib/font"
 import { siteConfig } from '@/config/site'
-import { ReactQueryClientProvider } from '@/components/react-query-client-provider'
+import { cookieToInitialState } from 'wagmi'
+
+import { config } from '@/config'
+import Web3ModalProvider from '@/context'
 import { Toaster } from "@/components/ui/toaster"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
@@ -30,37 +34,33 @@ export const viewport: Viewport =  {
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
 }
-interface RootLayoutProps {
+
+export default function RootLayout({
+  children
+}: Readonly<{
   children: React.ReactNode
-}
-
-
-export default function RootLayout({ children }: RootLayoutProps) {
+}>) {
+  const initialState = cookieToInitialState(config, headers().get('cookie'))
   return (
-    <ReactQueryClientProvider>
     <html lang="en" suppressHydrationWarning>
       <body className={cn(
             "min-h-screen bg-background font-sans antialiased",
             fontSans.variable
           )}
         >
-<ThemeProvider
+          <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
              <div className="relative flex min-h-screen flex-col">
-              <SiteHeader />
-              <div className="flex-1">{children}<Toaster/></div>
-              </div>
-              <TailwindIndicator />
-          </ThemeProvider>
-        
-
-
-</body>
+             <SiteHeader />
+             <div className="flex-1">
+        <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider></div>
+</div>
+</ThemeProvider>
+      </body>
     </html>
-    </ReactQueryClientProvider>
   )
 }
