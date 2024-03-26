@@ -5,6 +5,7 @@ import { NavItem } from "@/types/nav"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
+import ConnectButton from '@/components/connect-button'
 
 interface MainNavProps {
   items?: NavItem[]
@@ -33,6 +34,9 @@ export function MainNav({ items }: MainNavProps) {
                   {item.title}
                 </Link>
               )
+             item.web3 && (
+             <ConnectButton web3={item.web3} />
+)
           )}
         </nav>
       ) : null}
