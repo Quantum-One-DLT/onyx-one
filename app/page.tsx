@@ -40,7 +40,6 @@ export default async function IndexPage() {
         >
           Sign Up
         </Link>
-        <ConnectButton/>
       </div>
     </section>
   )
