@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons"
+import ConnectButton from '@/components/connect-button'
 
 
 export interface NavItem {
@@ -8,6 +9,7 @@ export interface NavItem {
   external?: boolean
   icon?: keyof typeof Icons
   label?: string
+  web3?: keyof typeof ConnectButton
 }
 
 export interface NavItemWithChildren extends NavItem {
