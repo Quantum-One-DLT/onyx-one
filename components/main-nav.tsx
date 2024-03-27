@@ -34,7 +34,7 @@ export function MainNav({ items }: MainNavProps) {
                   {item.title}
                 </Link>
               )
-             item.web3 && (
+             {item.web3} && (
              <ConnectButton web3={item.web3} />
 )
           )}
