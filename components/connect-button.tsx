@@ -1,3 +1,13 @@
+import { useWeb3Modal } from '@web3modal/wagmi/react'
+
 export default function ConnectButton() {
-    return <w3m-button />
-  }
+  // 4. Use modal hook
+  const { open } = useWeb3Modal()
+
+  return (
+    <>
+      <button onClick={() => open()}>Connect</button>
+      <button onClick={() => open({ view: 'Networks' })}>Networks</button>
+    </>
+  )
+}
