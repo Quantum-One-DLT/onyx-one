@@ -18,10 +18,6 @@ export const siteConfig = {
       title: "OpenAI",
       href: "/playground",
     },
-    {  
-      title: "RBAC",
-      href: "/dashboard/members",
-    }, 
   ],
   links: {
     twitter: "https://twitter.com/r_mourey_jr",
