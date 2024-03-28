@@ -1,4 +1,5 @@
 import { useWeb3Modal } from '@web3modal/wagmi/react'
+import { buttonVariants } from "@/components/ui/button"
 
 export default function ConnectButton() {
   // 4. Use modal hook
