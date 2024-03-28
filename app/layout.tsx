@@ -55,9 +55,9 @@ export default function RootLayout({
             disableTransitionOnChange
           >
              <div className="relative flex min-h-screen flex-col">
-             <SiteHeader />
+             
              <div className="flex-1">
-        <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider></div>
+        <Web3ModalProvider initialState={initialState}><SiteHeader>{children}<Toaster/></SiteHeader></Web3ModalProvider></div>
 </div>
 </ThemeProvider>
       </body>
