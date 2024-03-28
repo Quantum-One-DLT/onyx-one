@@ -57,7 +57,7 @@ export default function RootLayout({
              <div className="relative flex min-h-screen flex-col">
              
              <div className="flex-1">
-        <Web3ModalProvider initialState={initialState}><SiteHeader>{children}<Toaster/></SiteHeader></Web3ModalProvider></div>
+        <Web3ModalProvider initialState={initialState}><SiteHeader/>{children}<Toaster/><Web3ModalProvider></div>
 </div>
 </ThemeProvider>
       </body>
