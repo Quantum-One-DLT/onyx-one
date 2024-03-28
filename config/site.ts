@@ -26,7 +26,7 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/r_mourey_jr",
     github: "https://github.com/rmourey26/onyx",
-    login: "https://onyx-rho-pink.vercel.app/auth",
-    signup: "https://onyx-rho-pink.vercel.app/auth-server-action",
+    login: "https://onyx-one-two.vercel.app/auth",
+    signup: "https://onyx-one-two.vercel.app/auth-server-action",
   },
 }
