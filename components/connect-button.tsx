@@ -7,8 +7,8 @@ export default function ConnectButton() {
 
   return (
     <>
-      <button onClick={() => open()}>Connect</button>
-      <button onClick={() => open({ view: 'Networks' })}>Networks</button>
+      <button           className={buttonVariants({ variant: "outline" })} onClick={() => open()}>Connect</button>
+      <button           className={buttonVariants({ variant: "outline" })}  onClick={() => open({ view: 'Networks' })}>Networks</button>
     </>
   )
 }
