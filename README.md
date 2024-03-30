@@ -21,7 +21,7 @@ below.
 ## API 
 - TODO
 
-## Getting started with Onyx:
+## Getting started with OnyxOne:
 - First, configure your environment
   - Create a file named .env.local in project root
   - Create a Supabase account and add the following to your env file
