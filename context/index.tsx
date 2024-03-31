@@ -24,12 +24,12 @@ createWeb3Modal({
   tokens: {
     1: {
       address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
-      image: 'token_image_url' //optional
-    },
-    1: {
+      image: 'token_image_url',
       address: '0xeaaD65885fEA47a3B1258935f4Ce83aaB06FDD3A',
-      image: 'https://etherscan.io/token/images/quantumone_32.png' //optional
-    }
+      image: 'https://etherscan.io/token/images/quantumone_32.png',
+
+    },
+    
   }})
 
 export default function Web3ModalProvider({
