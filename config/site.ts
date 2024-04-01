@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Onyx",
+  name: "Quantum One DAO",
   description:
-    "Embedded systems",
+    "Humanity's new opportunity paradigm",
   mainNav: [
     {
       title: "Home",
@@ -20,8 +20,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/r_mourey_jr",
-    github: "https://github.com/rmourey26/onyx",
+    twitter: "https://twitter.com/quantumonedlt",
+    github: "https://github.com/quantum-one-dlt/onyx-one",
     login: "https://onyx-one-two.vercel.app/auth",
     signup: "https://onyx-one-two.vercel.app/auth-server-action",
   },
