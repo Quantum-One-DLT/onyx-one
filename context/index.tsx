@@ -27,6 +27,11 @@ createWeb3Modal({
       image: 'https://quantumone.b-cdn.net/quantumone-logo-32x32.png',
 
     },
+
+  themeVariables: {
+     '--w3m-accent': '03fff6',
+
+  },
     
   }})
 
