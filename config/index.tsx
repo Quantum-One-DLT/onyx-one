@@ -10,7 +10,7 @@ if (!projectId) throw new Error('Project ID is not defined')
 
 const metadata = {
   name: 'Quantum One DAO',
-  description: 'Humanity's new opportunity paradigm',
+  description: 'The new opportunity paradigm.',
   url: 'https://onyx-one-two.vercel.app', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
