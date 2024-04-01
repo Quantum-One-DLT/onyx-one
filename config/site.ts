@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Quantum One DAO",
   description:
-    "Humanity's new opportunity paradigm",
+    "The new opportunity paradigm",
   mainNav: [
     {
       title: "Home",
