@@ -30,11 +30,11 @@ createWeb3Modal({
 
   },
  themeVariables: {
-     '--w3m-accent': '03fff6',
+     '--w3m-accent': 'ABABAB',
 
   },
     
-  }})
+})
 
 export default function Web3ModalProvider({
   children,
