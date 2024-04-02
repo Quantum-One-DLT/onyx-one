@@ -69,10 +69,10 @@ export default function OnboardingPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;In 6 months, Onyx has increased our conversions and NPS by 68% and
-                58% respectively.&rdquo;
+                &ldquo;Sign up to be notified about our upcoming token presale campaign.
+                .&rdquo;
               </p>
-              <footer className="text-sm">Sofia Davis</footer>
+              <footer className="text-sm">Quantum One DAO</footer>
             </blockquote>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function OnboardingPage() {
               </Link>{" "}
               and{" "}
               <Link
-                href="#"
+                href="/privacy"
                 className="underline underline-offset-4 hover:text-primary"
               >
                 Privacy Policy
