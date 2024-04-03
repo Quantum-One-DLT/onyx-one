@@ -9,7 +9,7 @@ export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID
 if (!projectId) throw new Error('Project ID is not defined')
 
 const metadata = {
-  name: 'Quantum One DAO',
+  name: 'Quantum One',
   description: 'The new opportunity paradigm.',
   url: 'https://onyx-one-two.vercel.app', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
