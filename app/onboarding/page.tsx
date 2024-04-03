@@ -8,7 +8,7 @@ import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 
 export const metadata: Metadata = {
   title: "Onboarding",
-  description: "Onyx new customer onboarding",
+  description: "Quantum One onboarding",
 }
 
 export default function OnboardingPage() {
@@ -69,10 +69,9 @@ export default function OnboardingPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;Sign up to be notified about our upcoming token presale campaign.
-                .&rdquo;
+                Sign up to be notified about our upcoming token presale campaign.
               </p>
-              <footer className="text-sm">Quantum One DAO</footer>
+              <footer className="text-sm"> DeFi ONE is a Quantum One DAO company</footer>
             </blockquote>
           </div>
         </div>
