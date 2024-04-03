@@ -22,8 +22,8 @@ const Privacy = () => {
       <br />
     </div>
     <div>
-      <span style={{ color: "inherit" }}>
-        <strong>
+     
+  <span style={{ color: "rgb(127, 127, 127)" }}>        <strong>
           <span style={{ fontSize: 15 }}>
             <span data-custom-class="subtitle">
               Last updated <bdt className="question">October 17, 2022</bdt>
