@@ -24,7 +24,7 @@ createWeb3Modal({
   tokens: {
     1: {
       address: '0xeaaD65885fEA47a3B1258935f4Ce83aaB06FDD3A',
-      image: 'https://quantumone.b-cdn.net/quantumone-logo-32x32.png',
+      image: 'https://quantumone.b-cdn.net/share.png',
 
     },
     
