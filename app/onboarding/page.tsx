@@ -1,14 +1,16 @@
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { siteConfig } from "@/config/site"
 
+import { Icons } from "@/components/icons"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 
 export const metadata: Metadata = {
-  title: "Onboarding",
-  description: "Quantum One onboarding",
+  title: "Quantum One Onboarding",
+  description: "Create an account or login to a preexisting account",
 }
 
 export default function OnboardingPage() {
