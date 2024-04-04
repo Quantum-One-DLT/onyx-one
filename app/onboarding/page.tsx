@@ -69,12 +69,6 @@ export default function OnboardingPage() {
             
           </div>
           <div className="relative z-20 mt-auto">
-            <blockquote className="space-y-2">
-              <p className="text-lg">
-                Join the token presale waitlist. 
-              </p>
-              <footer className="text-xs"> Presale reserved for 1st 3000 users.</footer>
-            </blockquote>
           </div>
         </div>
         <div className="lg:p-8">
