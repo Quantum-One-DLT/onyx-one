@@ -69,9 +69,9 @@ export default function OnboardingPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                Sign up to be notified about our upcoming token presale campaign.
+                Join the limited waitlist for our token presale campaign.
               </p>
-              <footer className="text-sm"> DeFi ONE is a Quantum One DAO company</footer>
+              <footer className="text-xs"> Quantum One DAO</footer>
             </blockquote>
           </div>
         </div>
