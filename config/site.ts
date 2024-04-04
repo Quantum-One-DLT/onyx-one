@@ -13,11 +13,6 @@ export const siteConfig = {
       title: "Dashboard",
       href: "/dashboard",
     },
-    
-    { 
-      title: "OpenAI",
-      href: "/playground",
-    },
   ],
   links: {
     twitter: "https://twitter.com/quantumonedlt",
