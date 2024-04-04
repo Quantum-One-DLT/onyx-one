@@ -16,7 +16,7 @@ const metadata = {
 }
 
 // Create wagmiConfig
-const chains = [mainnet, sepolia, optimism] as const
+const chains = [mainnet, sepolia, optimism, bsc, classic, fantom, polygon, filecoin, zksync, gnosis, shimmer, defiChainEVM, iotex, zetachainAthensTestnet, foundry, celo, arbitum] as const
 export const config = defaultWagmiConfig({
   chains,
   projectId,
