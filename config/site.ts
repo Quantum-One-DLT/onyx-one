@@ -17,6 +17,8 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/quantumonedlt",
     github: "https://github.com/quantum-one-dlt/onyx-one",
+    defione:
+"https://defione.io",
     login: "https://onyx-one-two.vercel.app/auth",
     signup: "https://onyx-one-two.vercel.app/auth-server-action",
   },
