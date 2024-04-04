@@ -85,10 +85,10 @@ export default function OnboardingPage() {
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
               <h1 className="text-2xl font-semibold tracking-tight">
-                Create an account
+                Join our presale list!
               </h1>
               <p className="text-sm text-muted-foreground">
-                Enter your email below to create your account
+                Limited to the 1st 3K users.
               </p>
             </div>
             <UserAuthForm />
