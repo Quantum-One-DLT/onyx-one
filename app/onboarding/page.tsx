@@ -43,9 +43,9 @@ export default function OnboardingPage() {
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white md:flex dark:border-r">
           <div className="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-900 to-black">
           <Image
-          src="https://quantumone.b-cdn.net/onyx/quantumob.jpeg"
+          src="https://quantumone.b-cdn.net/onyx/20240404_130314.jpg"
           width={2048}
-          height={2048}
+          height={1946}
           alt="Onboarding-two"
           style={{objectFit: "contain"}}
           
@@ -69,7 +69,7 @@ export default function OnboardingPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                Join the limited waitlist for our token presale campaign.
+                Join to be waitlisted for our token presale campaign. 
               </p>
               <footer className="text-xs"> Quantum One DAO</footer>
             </blockquote>
