@@ -19,7 +19,7 @@ export default async function IndexPage() {
           DeFi ONE<br className="hidden sm:inline" />
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        Learn how you can buy our token and help launch DeFi ONE.
+        Learn how you can buy our token and help deploy DeFi ONE on Zetachain!
         </p>
       </div>
       <div className="flex gap-4">
@@ -43,9 +43,9 @@ export default async function IndexPage() {
           target="_blank"
           rel="noreferrer"
           href={siteConfig.links.defione}
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants()}
         >
-          
+          DeFi ONE
         </Link>
       </div>
     </section>
