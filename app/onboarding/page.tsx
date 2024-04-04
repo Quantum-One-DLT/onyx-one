@@ -71,15 +71,15 @@ export default function OnboardingPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                Join to be waitlisted for our token presale campaign. 
+                Join the token presale waitlist. 
               </p>
-              <footer className="text-xs"> Quantum One DAO</footer>
+              <footer className="text-xs"> Presale reserved for 1st 3000 users.</footer>
             </blockquote>
           </div>
         </div>
         <div className="lg:p-8">
           <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
-            <div className="flex flex-col space-y-2 text-center">
+            <div className="flex flex-col space-y-2 text-center items-center">
       <Link href="/" className="flex items-center space-x-2">
         <Icons.logo className="h-6 w-6" />
         <span className="inline-block font-bold">{siteConfig.name}</span>
