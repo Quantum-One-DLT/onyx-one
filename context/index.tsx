@@ -32,7 +32,7 @@ createWeb3Modal({
 
  themeVariables: {
      '--w3m-accent': '#7d7f7c',
-     '--w3m-border-radius-master': '6px',
+     '--w3m-border-radius-master': '6',
 
   },
 
