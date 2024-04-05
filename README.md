@@ -29,6 +29,7 @@ below.
     - SUPABASE_JWT_SECRET="Your supabase JWT secret"
     - NEXT_PUBLIC_SUPABASE_URL="Your supabase project URL"
     - SUPABASE_SERVIC_ROLE_KEY="Your supabase service role key"
+    - PROJECT_ID= wallectconnect project ID - get your APO key at cloud.walletconnect.com
   - Ensure your Supabase tables match the tables and types found in '@/lib/supabase'.
   - Add authorized development and production URL's to Supabase URL config. 
 ## Run  
