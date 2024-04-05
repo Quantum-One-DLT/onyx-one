@@ -25,7 +25,7 @@ import { UserNav } from "@/app/dashboard/components/user-nav"
 
 export const metadata: Metadata = {
   title: "Onyx Dashboard",
-  description: "Manage your Onyx account and users.",
+  description: "Manage your Onyx account.",
 }
 
 export default function DashboardPage() {
