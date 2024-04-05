@@ -24,15 +24,14 @@ createWeb3Modal({
   tokens: {
     1: {
       address: '0xeaaD65885fEA47a3B1258935f4Ce83aaB06FDD3A',
-      image: 'https://quantumone.b-cdn.net/onyx/share.png',
+      image: 'https://quantumone.b-cdn.net/onyx/share-32x32.png',
 
     },
     
   },
 
  themeVariables: {
-     '--w3m-color-mix': '#fff',
-     '--w3m-border-radius-master': '22',
+     '--w3m-color-mix': '#ffffff',
 
   },
 
