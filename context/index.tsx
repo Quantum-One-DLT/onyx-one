@@ -31,7 +31,7 @@ createWeb3Modal({
   },
 
  themeVariables: {
-     '--w3m-accent': 'inherit',
+     '--w3m-color-mix': '#fff',
      '--w3m-border-radius-master': '22',
 
   },
