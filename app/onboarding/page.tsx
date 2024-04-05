@@ -36,14 +36,14 @@ export default function OnboardingPage() {
         <Link
           href="/auth"
           className={cn(
-            buttonVariants({ variant: "ghost" }),
+            buttonVariants({ variant: "outline" }),
             "absolute right-4 top-4 md:right-8 md:top-8"
           )}
         >
           Login
         </Link>
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white md:flex dark:border-r">
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+          <div className="absolute inset-0">
           <Image
           src="https://quantumone.b-cdn.net/onyx/20240404_130314.jpg"
           width={2048}
