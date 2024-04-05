@@ -43,7 +43,7 @@ export default function OnboardingPage() {
           Login
         </Link>
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white md:flex dark:border-r">
-          <div className="absolute inset-0">
+                    <div className="absolute inset-0 bg-inherit">
           <Image
           src="https://quantumone.b-cdn.net/onyx/20240404_130314.jpg"
           width={2048}
