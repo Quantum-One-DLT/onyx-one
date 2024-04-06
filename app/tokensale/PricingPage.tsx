@@ -18,8 +18,8 @@ export interface PricingTier {
   name: string;
   id: string;
   href: string;
-  discountPrice: string | Record<string, string>;
-  price: string | Record<string, string>;
+  discountPrice: string | Record<string, any>;
+  price: string | Record<string, any>;
   description: string | React.ReactNode;
   features: string[];
   featured?: boolean;
