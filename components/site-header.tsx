@@ -6,6 +6,7 @@ import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 import ConnectButton from "./connect-button"
+import { MobileSideNav } from "@/app/dashboard/components/MobileSideNav"
 
 export function SiteHeader() {
   return (
