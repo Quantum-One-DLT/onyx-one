@@ -46,7 +46,7 @@ export default function AuthForm() {
 
 			if (error) {
 				toast({
-					title: "Fail to login",
+					title: "Login failed!",
 					description: (
 						<pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
 							<code className="text-white">{error.message}</code>
@@ -55,7 +55,7 @@ export default function AuthForm() {
 				});
 			} else {
 				toast({
-					title: "Successfully login 🎉",
+					title: "Successful login 🎉",
 				});
 			}
 		});
