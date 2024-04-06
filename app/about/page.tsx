@@ -58,6 +58,7 @@ Join us as we enable a new opportunity paradigm for all of humanity.
 9. Fairness: Uphold principles of fairness and equity in resource distribution, decision-making processes, and governance structures.
 10. Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.
     </p>
+ </div>
 </div>
 
 </div>
