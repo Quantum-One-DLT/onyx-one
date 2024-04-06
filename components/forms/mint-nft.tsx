@@ -26,7 +26,6 @@ export function MintNFT() {
     })
   }
 
-data
  
  const data: bigint | undefined
 
