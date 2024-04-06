@@ -19,18 +19,24 @@ return (
     
 <>
 
-<div class="sm:flex items-center max-w-screen-xl">
-    <div class="sm:w-1/2 p-10">
-        <div class="image object-center text-center">
-            <img src="https://quantumone.b-cdn.net/onyx/share.png">
+<div className="sm:flex items-center max-w-screen-xl">
+    <div className="sm:w-1/2 p-10">
+        <div className="image object-center text-center">
+            <Image src="https://quantumone.b-cdn.net/onyx/share.png"
+height={1024}
+width={1024}
+alt="Roton logo"
+className="block"
+
+/>
         </div>
     </div>
-    <div class="sm:w-1/2 p-5">
-        <div class="text">
-            <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">About us</span>
-            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
+    <div className="sm:w-1/2 p-5">
+        <div className="text">
+            <span className="border-b-2 border-gray-600 uppercase">About us</span>
+            <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">About <span className="font-muted">Our Company</span>
             </h2>
-            <p class="text-gray-700">
+            <p className="text-align-justify">
                 We are Quantum One...
             </p>
         </div>
