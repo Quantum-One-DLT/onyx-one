@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import { ProfileForm } from '@/components/forms/profile-form'
 import { createClient } from '@/utils/supa-server-actions'
 
-export default async function PrivatePage() {
+export default async function ProfilePage() {
   const cookieStore = cookies()
   const supabase = createClient(cookieStore)
 
@@ -12,11 +12,5 @@ export default async function PrivatePage() {
     redirect('/')
   }
 
-  return 
-     <>
-       <div className="flex text-center items-center">
-       <p>Hello {data.user.email}</p>
-      </div>
-     <ProfileForm/>
-</>
+  return  <p>Hello {data.user.email}</p>
 }
