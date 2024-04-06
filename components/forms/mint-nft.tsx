@@ -24,7 +24,11 @@ export function MintNFT() {
       functionName: 'mint',
       args: [BigInt(tokenId)],
     })
-  } 
+  }
+
+data
+ 
+ const data: bigint | undefined
 
   const { isLoading: isConfirming, isSuccess: isConfirmed } = 
     useWaitForTransactionReceipt({ 
