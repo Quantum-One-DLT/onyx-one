@@ -13,10 +13,10 @@ export default async function PrivatePage() {
   }
 
   return 
-<>
+
        <div className="flex text-center items-center">
        <p>Hello {data.user.email}</p>
       
      <ProfileForm/>
-</>
+
 }
