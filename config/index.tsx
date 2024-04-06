@@ -14,6 +14,11 @@ const metadata = {
   url: 'https://onyx-one-two.vercel.app', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
+declare module 'wagmi' { 
+  interface Register { 
+    config: typeof config 
+  } 
+} 
 
 // Create wagmiConfig
 const chains = [mainnet, sepolia, optimism, classic, fantom, polygon, filecoin, zkSync, gnosis, shimmer, defichainEvm, iotex, zetachainAthensTestnet, foundry, celo, arbitrum] as const
