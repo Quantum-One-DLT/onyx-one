@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from 'react'
 import { config, projectId } from '@/config'
-
+import { SendTransaction } from '@/components/forms/send-transaction'
 import { createWeb3Modal } from '@web3modal/wagmi/react'
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
@@ -46,7 +46,7 @@ export default function Web3ModalProvider({
 }) {
   return (
     <WagmiProvider config={config} initialState={initialState}>
-      <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+      <QueryClientProvider client={queryClient}><SendTransaction/>{children}</QueryClientProvider>
     </WagmiProvider>
   )
 }
