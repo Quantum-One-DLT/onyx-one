@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactForm } from "@/components/forms/contact-form";
+import ContactForm from "@/components/forms/contact-form";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 
