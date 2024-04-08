@@ -33,11 +33,10 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 			password: "",
 		},
 	});
-  async function onSubmit(data: z.infer<typeof LoginSchema>, method: 'loginWithEmailAndPassword' | 'signInWithGithub') {
+  async function onSubmit(data: z.infer<typeof LoginSchema>) {
     
     setIsLoading(true)
     startTransition(async () => {
-    if (method==='loginwithemailandpassword'){
 			    const { error } = JSON.parse(
 				   await loginWithEmailAndPassword(data)
 			    ) as AuthTokenResponse;
@@ -60,33 +59,9 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     setTimeout(() => {
       setIsLoading(false)
     }, 3000)
-
-  } else if (method === 'signInWithGithub') {
-      const { error } = JSON.parse(
-				   await signInWithGithub(data)
-			    ) as AuthTokenResponse;
-
-			    if (error) {
-				  toast({
-				   	title: " Github login failed!",
-					   description: (
-						<pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-							<code className="text-white">{error.message}</code>
-						</pre>
-					),
-				});
-			} else {
-				toast({
-					title: "Successful Github login 🎉",
-				});
-			}
-		});
-    setTimeout(() => {
-      setIsLoading(false)
-    }, 3000)
+    
          
-   }
-}
+  }
  
 
   return (
