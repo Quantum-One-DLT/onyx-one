@@ -37,7 +37,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
     
     setIsLoading(true)
     startTransition(async () => {
-    if (method==='loginwithemailandpassword'{
+    if (method==='loginwithemailandpassword'){
 			    const { error } = JSON.parse(
 				   await loginWithEmailAndPassword(data)
 			    ) as AuthTokenResponse;
