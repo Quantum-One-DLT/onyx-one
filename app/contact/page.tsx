@@ -13,7 +13,7 @@ export default async function ContactPage() {
                 </div>
         );
 
- return redirect("/auth");
+ 
         }
-        
+  return redirect("/auth");      
 }
