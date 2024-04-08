@@ -19,7 +19,7 @@ export const siteConfig = {
     github: "https://github.com/quantum-one-dlt/onyx-one",
     defione:
 "https://defione.io",
-    login: "https://onyx-one-git-quantumone-theblockchaincompany.vercel.app/auth",
-    signup: "https://onyx-one-git-quantumone-theblockchaincompany.vercel.app/auth-server-action",
+    login:"https://app.quantumone.io/auth",
+    signup:"https://app.quantumone.io/auth-server-action",
   },
 }
