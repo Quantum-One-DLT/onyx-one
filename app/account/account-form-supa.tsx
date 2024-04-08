@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
 
-export default function AccountForm({ user }: { user: User | null }) {
+export default function AccountForm() {
   const supabase = useSupabaseBrowser()
   const [loading, setLoading] = useState(true)
   const [fullname, setFullname] = useState<string | null>(null)
