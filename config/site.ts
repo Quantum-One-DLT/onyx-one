@@ -10,8 +10,8 @@ export const siteConfig = {
       href: "/",
     },
     { 
-      title: "Dashboard",
-      href: "/dashboard",
+      title: "Profile",
+      href: "/profile",
     },
   ],
   links: {
@@ -19,7 +19,7 @@ export const siteConfig = {
     github: "https://github.com/quantum-one-dlt/onyx-one",
     defione:
 "https://defione.io",
-    login: "https://onyx-one-two.vercel.app/auth",
-    signup: "https://onyx-one-two.vercel.app/auth-server-action",
+    login: "https://onyx-one-git-quantumone-theblockchaincompany.vercel.app/auth",
+    signup: "https://onyx-one-git-quantumone-theblockchaincompany.vercel.app/auth-server-action",
   },
 }
