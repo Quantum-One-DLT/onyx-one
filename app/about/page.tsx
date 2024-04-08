@@ -14,63 +14,49 @@ export const metadata: Metadata = {
   description: "About Quantum One.",
 }
 
+
+ 
 export default function AboutPage() {
-return (
-    
-<>
-
-<div className="sm:flex items-center max-w-screen-xl">
-    <div className="sm:w-1/2 p-10">
-        <div className="image object-center text-center">
-            <Image src="https://quantumone.b-cdn.net/onyx/share.png"
-height={1024}
-width={1024}
-alt="Roton logo"
-className="block"
-
-/>
-        </div>
-    </div>
-    <div className="sm:w-1/2 p-5">
-        <div className="text">
-            <span className="border-b-2 border-gray-600 uppercase">About us</span>
-            <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">Mission<span className="font-muted"></span>
-            </h2>
-            <p className="text-align-justify">
-
-Join us as we enable a new opportunity paradigm for all of humanity. 
+  return (
+    <div className="w-full py-6 space-y-6">
+      <div className="container space-y-2 px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="space-y-2">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Us</h1>
+            <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              We are a team of passionate individuals dedicated to bringing innovation to the world. Our mission is to
+              make the impossible possible, one breakthrough at a time.
             </p>
+          </div>
         </div>
-  <div className="text">
-            <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">Values<span className="font-muted"></span>
-            </h2>
-            <p className="text-align-justify">
+        <div className="mx-auto max-w-3xl space-y-6">
+          <ol className="list-decimal list-inside space-y-2">
+            
+             <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
 
+<li>Transparency: Ensure transparency in operations, finances, and decision-making to build trust among members and the wider community.</li>
 
-1. Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.
+ <li>Autonomy: Empower individuals to take ownership of their contributions and decisions within the organization.</li>
 
-2. Transparency: Ensure transparency in operations, finances, and decision-making to build trust among members and the wider community.
+<li>Innovation: Foster a culture of innovation and experimentation to drive continuous improvement and adaptation to evolving challenges.</li>
 
-3. Autonomy: Empower individuals to take ownership of their contributions and decisions within the organization.
+<li>Inclusivity: Promote diversity and inclusivity, welcoming individuals from all backgrounds and perspectives to contribute to the success.</li>
 
-4. Innovation: Foster a culture of innovation and experimentation to drive continuous improvement and adaptation to evolving challenges.
+<li>Accountability: Hold members accountable for their actions and decisions, establishing clear mechanisms for responsibility and consequences.</li>
 
-5. Inclusivity: Promote diversity and inclusivity, welcoming individuals from all backgrounds and perspectives to contribute to the success.
+<li>Sustainability: Prioritize sustainable practices in all aspects of operations, including environmental, social, and economic sustainability for both pre and post quantum computing eras.</li>
 
-6. Accountability: Hold members accountable for their actions and decisions, establishing clear mechanisms for responsibility and consequences.
+<li>Community Engagement: Actively engage with and listen to the community to ensure that the actions align with the needs and values of its members.</li>
+<li>Fairness: Uphold principles of fairness and equity in resource distribution, decision-making processes, and governance structures.</li>
 
-7. Sustainability: Prioritize sustainable practices in all aspects of operations, including environmental, social, and economic sustainability for both pre and post quantum computing eras.
-
-8. Community Engagement: Actively engage with and listen to the community to ensure that the actions align with the needs and values of its members.
-
-9. Fairness: Uphold principles of fairness and equity in resource distribution, decision-making processes, and governance structures.
-
-10. Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.
-    </p>
- </div>
-</div>
-
-</div>
-</>
-)
+<li>Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.</li>
+          </ol>
+        </div>
+        <div className="mx-auto max-w-3xl space-y-6">
+          <div className="aspect-video overflow-hidden rounded-lg shadow-lg" />
+        </div>
+      </div>
+    </div>
+  )
 }
+
