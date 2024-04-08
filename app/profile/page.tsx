@@ -20,6 +20,7 @@ export default async function ProfilePage() {
     <Card className="w-full max-w-3xl">
       <CardContent className="space-y-4">
         <div className="flex flex-col items-center gap-2 text-center sm:items-start sm:flex-row">
+     <p>Hello{data.user.email}</p>
           <div className="w-24 h-24 rounded-full overflow-hidden sm:mr-4">
             <img
               alt="Avatar image"
@@ -54,9 +55,4 @@ export default async function ProfilePage() {
         </div>
       </CardContent>
     </Card>
-  
-
-
-
-    <p>Hello{data.user.email}</p>
 }
