@@ -12,32 +12,17 @@ export const docsConfig: DocsConfig = {
       href: "/",
     },
     {
-      title: "Dash",
-      href: "/dashboard",
+      title: "Profile",
+      href: "/profile",
     },
   ],
   sidebarNav: [
     {
-      title: "Navigator",
+      title: "Why?",
       items: [
         {
-          title: "Account",
-          href: "/account",
-          items: [],
-        },
-        {
-          title: "OpenAI",
-          href: "/playground",
-          items: [],
-        },
-        {
-          title: "Profile",
-          href: "/profile",
-          items: [],
-        },
-        {
-          title: "Onboarding",
-          href: "/onboarding",
+          title: "Mission",
+          href: "/about",
           items: [],
         },
       ],
