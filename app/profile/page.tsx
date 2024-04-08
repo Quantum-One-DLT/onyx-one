@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 
 import { createClient } from '@/utils/supa-server-actions'
 
-export default async function PrivatePage() {
+export default async function ProfilePage() {
   const cookieStore = cookies()
   const supabase = createClient(cookieStore)
 
