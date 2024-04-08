@@ -1,6 +1,6 @@
 'use client'
 import { useCallback, useEffect, useState } from 'react'
-import { useSupabaseBrowser } from '@/utils/supabase-browser'
+import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
 
 export default function AccountForm({ user }: { user: User | null }) {
