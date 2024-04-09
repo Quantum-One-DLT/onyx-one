@@ -14,8 +14,11 @@ export const metadata: Metadata = {
   description: "Quantum One is engineering a new opportunity paradigm",
 }
 
+const [youtubeID] = useState('HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf')
 
- 
+
+
+
 export default function AboutPage() {
   return (
     <div className="w-full py-6 space-y-6">
@@ -53,8 +56,14 @@ export default function AboutPage() {
           </ol>
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
-          <div className="aspect-video overflow-hidden rounded-lg shadow-lg"/>
-<PromoVideo />
+          <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+<iframe className='video'
+        title='Youtube player'
+        sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+        src={`https://youtube/${youtubeID}?autoplay=0`}>
+</iframe>
+ </div>
+
        
         </div>
       </div>
