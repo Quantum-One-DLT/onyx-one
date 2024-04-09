@@ -26,9 +26,9 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'youtu.be',
+        hostname: 'youtube.com',
         port: '',
-        pathname: '/HR6a2aHhY_c?si=nfHm_X2F838i1-gL',
+        pathname: '/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP',
       },
     ],
   },
