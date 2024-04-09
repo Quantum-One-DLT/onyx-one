@@ -4,6 +4,7 @@ import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import { Icons } from '@/components/icons'
 import { cn } from "@/lib/utils"
+import Link from "next/link"
 
 export default async function page() {
 	const { data: userSession } = await readUserSession();
