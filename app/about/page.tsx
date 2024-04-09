@@ -24,16 +24,19 @@ const youtubeID = "HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf" as unknown as string;
 
 export default function AboutPage() {
   return (
-    <div className="w-full py-6 space-y-6">
+    <div className="w-full py-6 space-y-8">
       <div className="container space-y-2 px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2.5">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Us</h1>
+        <div className="flex flex-col items-center justify-center space-y-6 text-center">
+          <div className="space-y-3">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
             <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               We're passionately committed to enabling greater socioeconomic opportunity for everyone through technology. We're not here to make billions, we're here to do what we love, live comfortably, and create opportunities for people to do the same.
             </p>
           </div>
         </div>
+<div className="flex flex-col items-center justify-center space-y-6 text-center">
+          <div className="space-y-3">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Values</h1>
         <div className="mx-auto max-w-3xl space-y-6">
           <ol className="list-decimal list-inside space-y-2">
             
@@ -58,8 +61,11 @@ export default function AboutPage() {
           </ol>
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
-          <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+<p className="max-w-[800px] text-center md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"> Why
+are Gemini and ChatGPT Bullish On DAO Owned Data Centers? 
+          </p>
+          <div className="aspect-video overflow-hidden rounded-lg shadow-lg items-center">
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" align="middle" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
 
        
