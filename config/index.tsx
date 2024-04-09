@@ -11,7 +11,7 @@ if (!projectId) throw new Error('Project ID is not defined')
 const metadata = {
   name: 'Quantum One',
   description: 'The new opportunity paradigm.',
-  url: 'https://onyx-one-two.vercel.app', // origin must match your domain & subdomain
+  url: 'https://app.quantumone.io', // origin must match your domain & subdomain
   icons: ['https://quantumone.b-cdn.net/onyx/qlogo.svg']
 }
 declare module 'wagmi' { 
