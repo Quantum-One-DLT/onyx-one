@@ -11,7 +11,7 @@ import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Quantum One is engineering an new opportunity paradigm",
+  description: "Quantum One is engineering a new opportunity paradigm",
 }
 
 
