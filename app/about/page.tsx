@@ -7,7 +7,7 @@ import { Icons } from "@/components/icons"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/app/auth/components/user-auth-form"
-import { PromoVideo } from '@/components/ui'
+import { PromoVideo } from '@/components/ui/promo-video'
 
 export const metadata: Metadata = {
   title: "About Us",
