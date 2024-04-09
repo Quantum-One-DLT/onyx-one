@@ -62,7 +62,7 @@ export default function AuthForm() {
 	}
 
 	return (
-     <div className={cn("grid gap-6", classNames)} {...props}>
+     <div className={cn("grid gap-6", className)} {...props}>
 		
 			<Form {...form}>
 				<form
