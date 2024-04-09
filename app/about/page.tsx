@@ -66,11 +66,11 @@ export default function AboutPage() {
 <p className="max-w-[800px] text-center md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"> Why
 are Gemini and ChatGPT Bullish On DAO Owned Data Centers? 
           </p>
-          <div className="aspect-video overflow-hidden rounded-lg shadow-lg items-center">
+          <div className="aspect-video overflow-hidden rounded-lg shadow-lg text-center">
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
 
-       </div>
+       
         </div>
       </div>
     </div>
