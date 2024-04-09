@@ -36,3 +36,5 @@ export default async function DeFiOnePage() {
     </section>
   )
 }
+  return redirect("/auth");      
+}
