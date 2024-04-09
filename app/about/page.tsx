@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from "next/link"
 import { siteConfig } from "@/config/site"
-import { List } from 'lucide-react'
 import { Icons } from "@/components/icons"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
   description: "Quantum One is engineering a new opportunity paradigm",
 }
 
-const youtubeID = 'HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf' as unknown as string;
+const youtubeID = "HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf" as unknown as string;
 
 
 
@@ -28,7 +27,7 @@ export default function AboutPage() {
     <div className="w-full py-6 space-y-6">
       <div className="container space-y-2 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
+          <div className="space-y-2.5">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Us</h1>
             <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               We're passionately committed to enabling greater socioeconomic opportunity for everyone through technology. We're not here to make billions, we're here to do what we love, live comfortably, and create opportunities for people to do the same.
@@ -36,7 +35,6 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
-<List />
           <ol className="list-decimal list-inside space-y-2">
             
              <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
@@ -64,7 +62,7 @@ export default function AboutPage() {
 <iframe className='video'
         title='Youtube player'
         sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-        src={`https://youtube/${youtubeID}?autoplay=0`}>
+        src={`https://youtu.be/${youtubeID}?autoplay=0`}>
 </iframe>
  </div>
 
