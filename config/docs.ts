@@ -12,8 +12,8 @@ export const docsConfig: DocsConfig = {
       href: "/",
     },
     {
-      title: "Profile",
-      href: "/profile",
+      title: "Contact",
+      href: "/contact",
     },
   ],
   sidebarNav: [
