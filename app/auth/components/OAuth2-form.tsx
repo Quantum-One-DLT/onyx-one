@@ -104,15 +104,14 @@ export default function AuthForm() {
                                                         </FormItem>
                                                 )}
                                         />
-    <Button
-                                className="w-full flex items-center gap-2"
-                                variant="outline"
-                        >
-                                Log In{" "}
-                                <AiOutlineLoading3Quarters
-                                        className={cn(" animate-spin", { hidden: !isPending })}
-                                />
-                        </Button>
+          <Button variant="outline" type="button" disabled={isLoading}>
+        {isLoading ? (
+          <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+        ) : (
+          <Icons.gitHub className="mr-2 h-4 w-4" />
+        )}{" "}
+        GitHub
+      </Button>
                                 </form>
                         </Form>
                 </div>
