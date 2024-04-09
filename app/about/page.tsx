@@ -70,7 +70,7 @@ are Gemini and ChatGPT Bullish On DAO Owned Data Centers?
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
 
-       
+       </div>
         </div>
       </div>
     </div>
