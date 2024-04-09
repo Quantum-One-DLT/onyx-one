@@ -33,7 +33,7 @@ export default function ContactForm() {
               </div>
               <div className="flex items-center space-x-2">
                 <Avatar className="w-4 h-4" />
-                <Link href="#">support@quantumone.io</Link>
+                <Link href="mailto:support@quantumone.io">support@quantumone.io</Link>
               </div>
             </div>
           </CardContent>
