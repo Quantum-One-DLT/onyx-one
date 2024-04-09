@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Quantum One is engineering a new opportunity paradigm",
 }
 
-const youtubeID = ['HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf'] as string
+const youtubeID = 'HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf' as unknown as string;
 
 
 
