@@ -5,6 +5,8 @@ import { redirect } from "next/navigation";
 import { Icons } from '@/components/icons'
 import { cn } from "@/lib/utils"
 import Link from "next/link"
+import { siteConfig } from "@/config/site"
+import { buttonVariants } from "@/components/ui/button"
 
 export default async function page() {
 	const { data: userSession } = await readUserSession();
