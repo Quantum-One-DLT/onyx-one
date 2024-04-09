@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from "next/link"
 import { siteConfig } from "@/config/site"
-
+import { List } from 'lucide-react'
 import { Icons } from "@/components/icons"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
@@ -11,7 +11,7 @@ import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "About Quantum One.",
+  description: "Quantum One is engineering an new opportunity paradigm",
 }
 
 
@@ -24,12 +24,12 @@ export default function AboutPage() {
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Us</h1>
             <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              We are a team of passionate individuals dedicated to bringing innovation to the world. Our mission is to
-              make the impossible possible, one breakthrough at a time.
+              We're passionately committed to enabling greater socioeconomic opportunity for everyone through technology. We're not here to make billions, we're here to do what we love, live comfortably, and create opportunities for people to do the same.
             </p>
           </div>
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
+<List />
           <ol className="list-decimal list-inside space-y-2">
             
              <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
