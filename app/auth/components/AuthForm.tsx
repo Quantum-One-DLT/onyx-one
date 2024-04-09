@@ -62,7 +62,8 @@ export default function AuthForm() {
 	}
 
 	return (
-		<div className="w-96">
+     <div className={cn("grid gap-6", className)} {...props}>
+		
 			<Form {...form}>
 				<form
 					onSubmit={form.handleSubmit(onSubmit)}
