@@ -40,9 +40,8 @@ export default function AuthForm() {
 
         function onSubmit(data: z.infer<typeof LoginSchema>) {
                 startTransition(async () => {
-                        const { error } = JSON.parse(
-                                await signInWithGithub()
-                        ) as AuthTokenResponse;
+                        const { error } = (
+                                await signInWithGithub())
 
                         if (error) {
                                 toast({
