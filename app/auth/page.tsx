@@ -15,7 +15,7 @@ export default async function page() {
 		return redirect("/dashboard");
 	}
 	return (
-        <div className="lg:p-8">
+        <div className="m-1 my-2 lg:p-8">
           <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
             <div className="flex flex-col space-y-2 text-center items-center">
       <Link href="/" className="flex items-center space-x-2 mb-8">
