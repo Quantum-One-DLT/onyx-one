@@ -12,7 +12,7 @@ const metadata = {
   name: 'Quantum One',
   description: 'The new opportunity paradigm.',
   url: 'https://onyx-one-two.vercel.app', // origin must match your domain & subdomain
-  icons: ['https://avatars.githubusercontent.com/u/37784886']
+  icons: ['https://quantumone.b-cdn.net/onyx/qlogo.svg']
 }
 declare module 'wagmi' { 
   interface Register { 
