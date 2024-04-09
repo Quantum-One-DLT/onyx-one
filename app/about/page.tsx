@@ -8,13 +8,17 @@ import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 import { PromoVideo } from '@/components/ui/promo-video'
+import { useState } from 'react'
 
+interface YouTubeID {
+  youtubeID : string;
+}
 export const metadata: Metadata = {
   title: "About Us",
   description: "Quantum One is engineering a new opportunity paradigm",
 }
 
-const [youtubeID] = useState('HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf')
+const [youtubeID] = ['HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf'] as string
 
 
 
