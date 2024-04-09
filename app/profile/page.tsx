@@ -12,5 +12,5 @@ export default async function ProfilePage() {
     redirect('/')
   }
 
-  return <p>Hello {data.user.email}</p>
+  return <p>Hello {data.user.email}! Your complete profile is coming soon!</p>
 }
