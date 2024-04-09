@@ -37,6 +37,8 @@ export default function AboutPage() {
 <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Values</h1>
+</div>
+</div>
         <div className="mx-auto max-w-3xl space-y-6">
           <ol className="list-decimal list-inside space-y-2">
             
