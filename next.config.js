@@ -26,7 +26,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'youtu.be'
+        hostname: 'youtu.be',
         port: '',
         pathname: '/HR6a2aHhY_c?si=nfHm_X2F838i1-gL',
       },
