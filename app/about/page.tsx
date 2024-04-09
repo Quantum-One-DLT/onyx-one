@@ -53,9 +53,9 @@ export default function AboutPage() {
           </ol>
         </div>
         <div className="mx-auto max-w-3xl space-y-6">
-          <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+          <div className="aspect-video overflow-hidden rounded-lg shadow-lg"/>
 <PromoVideo />
-        </div>
+       
         </div>
       </div>
     </div>
