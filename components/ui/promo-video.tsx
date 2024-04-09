@@ -10,7 +10,7 @@ export function PromoVideo() {
     >
       <video autoPlay muted playsInline>
         <source
-          src="https://ui-shadcn.s3.amazonaws.com/ui-promo-hd.mp4"
+          ="https://youtu.be/HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf"
           type="video/mp4"
         />
       </video>
