@@ -23,7 +23,7 @@ return (
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           DeFi ONE <br className=" xs:inline" />
-         Preview
+         Swap tokens and NFTs on every chain, BitCoin included! 
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
         Once we hit our funding milestone, we will become the first to deploy Uniswap v3 smart contracts on ZetaChain! For now, you can connect your wallet to DeFi ONE and view your balance. 
