@@ -29,7 +29,7 @@ return (
        DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. </p> 
 
 <p className="max-w-[700px] text-lg text-muted-foreground">In the near term, our token lock campaign milestones include: </p>
-          <ol className="list-decimal list-inside space-y-2">
+          <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
 
 <li> Upgrading and changing the name of our existing DAO governance ERC20 'Da-Fi Token'</li>
 
