@@ -7,7 +7,7 @@ import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 
 
-export default function DeFiOnePage() {
+export default async function DefionePage() {
   
 const { data: userSession } = await readUserSession();
 
