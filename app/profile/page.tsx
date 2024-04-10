@@ -13,4 +13,5 @@ export default async function ProfilePage() {
   }
 
   return <p>Hello {data.user.email}! Your complete profile is coming soon!</p>
+<ProfileForm/>
 }
