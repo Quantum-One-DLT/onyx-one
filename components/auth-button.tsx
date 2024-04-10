@@ -1,4 +1,3 @@
-"use client";
 import { logout } from "@/app/auth/actions";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -7,7 +6,11 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 
-export default function AuthButton() {
+export default async function AuthButton() {
+
+         const { data: userSession } = await readUserSession();
+
+        
         const [isPending, startTransition] = useTransition();
         const onSubmit = async () => {
                 startTransition(async () => {
@@ -15,7 +18,11 @@ export default function AuthButton() {
                 });
         };
 
-        return (
+        
+if (userSession.session) {
+             
+        
+return (
                 <form action={onSubmit}>
                         <Button
                                 className="w-full flex items-center gap-2"
@@ -28,4 +35,5 @@ export default function AuthButton() {
                         </Button>
                 </form>
         );
+}
 }
