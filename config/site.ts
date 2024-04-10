@@ -10,6 +10,18 @@ export const siteConfig = {
       href: "/",
     },
     { 
+      title: "DeFi ONE",
+      href: "/defione",
+    },
+    { 
+      title: "Profile",
+      href: "/profile",
+    },
+    { 
+      title: "About",
+      href: "/about",
+    },
+    { 
       title: "Contact",
       href: "/contact",
     },
