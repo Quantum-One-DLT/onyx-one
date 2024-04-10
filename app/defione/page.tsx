@@ -8,7 +8,7 @@ import ConnectButton from "@/components/connect-button";
 
 export const metadata: Metadata = {
   title: "DeFi ONE Preview",
-  description: "Coming to Zetachain!",
+  description: "Swap tokens and NFTs on every chain, including BitCoin!",
 }
 export default async function DefionePage() {
   
@@ -23,10 +23,10 @@ return (
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           DeFi ONE <br className=" xs:inline" />
-         Swap tokens and NFTs on every chain, BitCoin included! 
+         Swap tokens and NFTs on every chain,  including BitCoin. 
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        Once we hit our funding milestone, we will become the first to deploy Uniswap v3 smart contracts on ZetaChain! For now, you can connect your wallet to DeFi ONE and view your balance. 
+       1st round token lock campaign milestones include upgrading and changing the name of our existing DAO governance ERC20 'Da-Fi Token', deploying our optimized Uniswap v3 smart contracts on several chains, and launching DeFi ONE browser and mobile DApps and mobile wallet. The current and maximum supply of 50,000 tokens will remain the same. Existing holders will automatically receive the new token that's symbol will be announced along with the planned token lock campaign PR. DeFi ONE'S browser interface is live and ready to plug in our smart contract ABI's upon deployment. 
         </p>
       
          <Link
