@@ -11,6 +11,18 @@ export const docsConfig: DocsConfig = {
       title: "Home",
       href: "/",
     },
+    { 
+      title: "DeFi ONE",
+      href: "/defione",
+    },
+    { 
+      title: "Profile",
+      href: "/profile",
+    },
+    { 
+      title: "About",
+      href: "/about",
+    },
     {
       title: "Contact",
       href: "/contact",
@@ -18,11 +30,11 @@ export const docsConfig: DocsConfig = {
   ],
   sidebarNav: [
     {
-      title: "Why?",
+      title: "Tools",
       items: [
         {
-          title: "Mission",
-          href: "/about",
+          title: "OpenAI",
+          href: "/playground",
           items: [],
         },
       ],
