@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 
 export default function ContactForm() {
   return (
-    <div className="m-2 px-2 py-2 space-y-8">
+    <div className="mt-4 px-2 py-2 space-y-8">
       <div className="space-y-2">
         <h2 className="text-3xl font-bold">Get in touch</h2>
         <p className="text-gray-500 dark:text-gray-400">
