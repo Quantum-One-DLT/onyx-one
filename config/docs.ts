@@ -33,8 +33,8 @@ export const docsConfig: DocsConfig = {
       title: "Tools",
       items: [
         {
-          title: "OpenAI",
-          href: "/playground",
+          title: "Coming soon!",
+          href: "#",
           items: [],
         },
       ],
