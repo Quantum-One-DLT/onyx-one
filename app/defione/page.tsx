@@ -26,7 +26,7 @@ return (
          Swap tokens and NFTs on every chain,  including BitCoin. 
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-       DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. </p> 
+       DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient our randomized airdrop. The next 2814 new users will automatically receive an airdrop in a random amount. </p> 
 
 <p className="max-w-[700px] text-lg text-muted-foreground">In the near term, our token lock campaign milestones include: </p>
           <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
