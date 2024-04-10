@@ -1,3 +1,5 @@
+"use client"
+
 import { logout } from "@/app/auth/actions";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
