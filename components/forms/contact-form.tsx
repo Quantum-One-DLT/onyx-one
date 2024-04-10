@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 export default function ContactForm() {
   return (
     <div className="space-y-8">
-      <div className="space-y-8">
+      <div className="space-y-2">
         <h2 className="text-3xl font-bold">Get in touch</h2>
         <p className="text-gray-500 dark:text-gray-400">
           Feel free to leave any enquiries below, or give us a call to speak with our helpful sales team.
