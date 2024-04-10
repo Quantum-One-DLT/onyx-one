@@ -26,8 +26,11 @@ return (
          Swap tokens and NFTs on every chain,  including BitCoin. 
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-       DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. In the near term, our token lock campaign milestones include upgrading and changing the name of our existing DAO governance ERC20 'Da-Fi Token', deploying our optimized Uniswap v3 smart contracts on several chains, and launching DeFi ONE browser and mobile DApps and mobile wallet. The current and maximum supply of 50,000 Da-Fi tokens will remain the same. Existing holders will automatically receive the new token that's symbol will be announced along with the planned campaign PR. DeFi ONE'S browser interface is live and ready to plug in our smart contract ABI's upon deployment. Presently, users can connect their wallet and see their balance on DeFi One. 
-        </p>
+       DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. </p> 
+
+<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, our token lock campaign milestones include upgrading and changing the name of our existing DAO governance ERC20 'Da-Fi Token', deploying our optimized Uniswap v3 smart contracts on several chains, and launching DeFi ONE browser and mobile DApps and mobile wallet. The current and maximum supply of 50,000 Da-Fi tokens will remain the same. Existing holders will automatically receive the new token that's symbol will be announced along with the planned campaign PR. </p>
+
+<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S browser interface is live and ready to plug in our smart contract ABI's immediately after deployment. Presently, users can connect their wallet and access their balance on DeFi ONE. </p>
       
          <Link
           target="_blank"
