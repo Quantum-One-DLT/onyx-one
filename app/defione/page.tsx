@@ -28,9 +28,20 @@ return (
         <p className="max-w-[700px] text-lg text-muted-foreground">
        DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. </p> 
 
-<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, our token lock campaign milestones include upgrading and changing the name of our existing DAO governance ERC20 'Da-Fi Token', deploying our optimized Uniswap v3 smart contracts on several chains, and launching DeFi ONE browser and mobile DApps and mobile wallet. The current and maximum supply of 50,000 Da-Fi tokens will remain the same. Existing holders will automatically receive the new token that's symbol will be announced along with the planned campaign PR. </p>
+<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, our token lock campaign milestones include: </p>
+          <ol className="list-decimal list-inside space-y-2">
 
-<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S browser interface is live and ready to plug in our smart contract ABI's immediately after deployment. Presently, users can connect their wallet and access their balance on DeFi ONE. </p>
+<li> Upgrading and changing the name of our existing DAO governance ERC20 'Da-Fi Token'</li>
+
+<li> Deploying our optimized Uniswap v3 smart contracts on several chains. </li> 
+
+<li> Launching DeFi ONE browser and mobile DApps and mobile wallet.</li>
+</ol>
+
+<p className="max-w-[700px] text-lg text-muted-foreground">
+The total and maximum supply of the upgraded token will remain the same as Da-Fi Token at 50,000 tokens. Existing Da-Fi Token holders will automatically receive the new token that's symbol will be announced along with the planned campaign PR. The upgraded token will afford holders separate governance rights for DeFi ONE and Quantum One DA0 and the right to claim ownership of the coin associated with our planned native blockchain. The claim amount of our native coin will be directly correlated to the ratio of maximum token/native coin supply. Addditional details will be provided in our whitepaper and roadmap</p>
+
+<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S browser interface is live and ready to plug in our smart contract ABI's immediately after deployment. Head over to DeFi ONE, connect your wallet and view your balance. </p>
       
          <Link
           target="_blank"
