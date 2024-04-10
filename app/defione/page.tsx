@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import { Metadata } from 'next' 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
