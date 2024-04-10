@@ -108,7 +108,6 @@ export function MobileNav() {
                   ))}
               </div>
             ))}
-          <AuthButton />
           </div>
         </ScrollArea>
       </SheetContent>
