@@ -6,15 +6,18 @@ import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 
-
+export const metadata: Metadata = {
+  title: "DeFi ONE Preview",
+  description: "Coming to Zetachain!",
+}
 export default async function DefionePage() {
   
 const { data: userSession } = await readUserSession();
 
-if (!userSession.session) {
+ if (!userSession.session) {
    return redirect("/auth");
-        }   
-  
+ }   
+
 return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
