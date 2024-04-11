@@ -20,7 +20,7 @@ export default async function IndexPage() {
          Engineered. 
 	</h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        Sign up to learn how our token sale will help bring DeFi ONE to Zetachain! More detail to follow as we roll out our new website.
+        Sign up to learn how our token sale will help bring DeFi ONE to Zetachain! Airdrop recipient? Connect your wallet to find out! Details to follow.
         </p>
       </div>
       <div className="flex gap-4">
