@@ -66,7 +66,7 @@ export default function AuthForm() {
 			<Form {...form}>
 				<form
 					onSubmit={form.handleSubmit(onSubmit)}
-					className="w-full px-4 space-y-6"
+					className="w-full px-2 space-y-6"
 				>
 					<FormField
 						control={form.control}
