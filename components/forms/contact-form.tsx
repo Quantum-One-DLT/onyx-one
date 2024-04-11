@@ -27,7 +27,7 @@ export default function ContactForm() {
                 <Avatar className="w-4 h-4" />
                 <span>Quantum One DAO LLC</span>
               </div>
-            <div className="space-y-2">
+            
               <div className="flex items-center space-x-2">
                 <Avatar className="w-4 h-4" />
                 <span>30 N Gould St STE R WY, USA 82801</span>
