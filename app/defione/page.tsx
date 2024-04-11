@@ -7,8 +7,17 @@ import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 
 export const metadata: Metadata = {
-  title: "DeFi ONE Preview",
-  description: "Swap tokens and NFTs on every chain, including BitCoin!",
+  title: {
+    default: siteConfig.name,
+    template: `%s - ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 }
 export default async function DefionePage() {
   
