@@ -13,7 +13,7 @@ export async function loginWithEmailAndPassword(data: {
 	return JSON.stringify(result);
 }
 
-export async function signInWithGithub() {
+export async function signInWithGoogle() {
   
      const supabase = await createSupbaseServerClient();  
 
@@ -32,7 +32,7 @@ supabase.auth.onAuthStateChange((event, session) => {
   }
 })
     const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: 'github',
+    provider: 'google',
     options: {
        redirectTo: '/auth/callback',
     },
