@@ -9,8 +9,22 @@ import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 
 export const metadata: Metadata = {
-  title: "Quantum One Onboarding",
-  description: "Create an account or login to a preexisting account",
+  title: {
+    default: siteConfig.name,
+    template: `%s - ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+
+  openGraph: {
+    images: 'https://quantumone.b-cdn.net/onyx/og-image.jpg',
+  },
+ }
 }
 
 export default function OnboardingPage() {
@@ -45,7 +59,7 @@ export default function OnboardingPage() {
         <div className="relative hidden h-full flex-col bg-inherit p-10 text-white md:flex dark:border-r">
                     <div className="absolute inset-0 bg-inherit">
           <Image
-          src="https://quantumone.b-cdn.net/onyx/20240404_130314.jpg"
+          src="https://quantumone.b-cdn.net/onyx/og-image.jpg"
           width={2048}
           height={1946}
           alt="Onboarding-two"
