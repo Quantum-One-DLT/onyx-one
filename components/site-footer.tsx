@@ -14,15 +14,6 @@ export function SiteFooter() {
           >
             Quantum One DAO LLC 2024
           </a>
-          . Source code available on{" "}
-          <a
-            href={siteConfig.links.github}
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
-            GitHub
-          </a>
           .
         </p>
       </div>
