@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button"
 import { useForm } from 'react-hook-form'
 
 
-interface FormData = {
+interface FormData {
   name: string;
   email: string;
   message: string;
