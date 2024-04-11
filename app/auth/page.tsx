@@ -15,7 +15,7 @@ export default async function page() {
 		return redirect("/defione");
 	}
 	return (
-        <div className="m-1 my-2 lg:p-8">
+        <div className="mt-8 lg:p-8">
           <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
             <div className="flex flex-col space-y-2 text-center items-center">
       <Link href="/" className="flex items-center space-x-2 mb-8">
@@ -23,10 +23,10 @@ export default async function page() {
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
               <h1 className="text-2xl font-semibold tracking-tight">
-                Join our presale list!
+                Sign up for updates and an airdrop!
               </h1>
               <p className="text-sm text-muted-foreground">
-                Limited to the 1st 3K users.
+                Airdrop limited to the 1st 3K users. 
               </p>
             </div>
             <AuthForm />
