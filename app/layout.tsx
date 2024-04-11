@@ -11,6 +11,7 @@ import { config } from '@/config'
 import Web3ModalProvider from '@/context'
 import { Toaster } from "@/components/ui/toaster"
 import { SiteHeader } from "@/components/site-header"
+import { SiteFooter } from "@/components/site-footer"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { cn } from "@/lib/utils"
 const inter = Inter({ subsets: ['latin'] })
