@@ -10,7 +10,7 @@ export function SiteFooter() {
             href={siteConfig.links.github}
             target="_blank"
             rel="noreferrer"
-            className="font-medium underline underline-offset-4"
+            className="font-medium"
           >
             Quantum One DAO LLC 2024
           </a>
