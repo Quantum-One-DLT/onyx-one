@@ -20,8 +20,8 @@ import { listenNowAlbums, madeForYouAlbums } from "./data/albums"
 import { playlists } from "./data/playlists"
 
 export const metadata: Metadata = {
-  title: "Music App",
-  description: "Example music app using the components.",
+  title: "Quantum One",
+  description: "Swap on any chain including BitCoin with DeFi ONE.",
 }
 
 export default function MusicPage() {
