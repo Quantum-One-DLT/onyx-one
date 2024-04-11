@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+  openGraph: {
+    images: 'https://quantumone.b-cdn.net/onyx/og-image.jpg',
 }
 export const viewport: Viewport =  {
   themeColor: [
