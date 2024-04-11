@@ -13,8 +13,11 @@ interface YouTubeID {
   youtubeID : string;
 }
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "Quantum One is engineering a new opportunity paradigm",
+  title: {
+    default: siteConfig.name,
+    template: `%s - ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
 }
 
 const youtubeID = "HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf" as unknown as string;
@@ -62,10 +65,9 @@ export default function AboutPage() {
 <li>Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.</li>
           </ol>
         </div>
-        <div className="mx-auto max-w-3xl space-y-6 text-center">
-<p className="max-w-[800px] text-center md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"> Why
-are Gemini and ChatGPT Bullish On DAO Owned Data Centers? 
-          </p>
+        <div className="space-y-3">
+            <h5 className="text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
+</div>
           <div className="aspect-video overflow-hidden rounded-lg shadow-lg text-center">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
