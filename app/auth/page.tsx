@@ -1,4 +1,4 @@
-⁰import React from "react";
+import React from "react";
 import AuthForm from "./components/AuthForm";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
