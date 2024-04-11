@@ -31,7 +31,7 @@ export const siteConfig = {
     github: "https://github.com/quantum-one-dlt/onyx-one",
     defione:
 "https://defione.io",
-    login:"https://app.quantumone.io/auth",
-    signup:"https://app.quantumone.io/onboarding",
+    login:"https://quantumone.io/auth",
+    signup:"https://quantumone.io/onboarding",
   },
 }
