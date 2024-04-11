@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Quantum One",
   description:
-    "The new opportunity paradigm",
+    "Engineering a new opportunity paradigm",
   mainNav: [
     {
       title: "Home",
