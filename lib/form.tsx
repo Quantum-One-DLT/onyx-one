@@ -27,5 +27,6 @@ export type FormValues = {
     last_name: string,
     full_name: string,
     password: string,
+    message: string,
   
   }
