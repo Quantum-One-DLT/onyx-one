@@ -24,7 +24,6 @@ export const metadata: Metadata = {
   openGraph: {
     images: 'https://quantumone.b-cdn.net/onyx/og-image.jpg',
   },
- }
 }
 
 export default function OnboardingPage() {
