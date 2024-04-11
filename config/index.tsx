@@ -10,9 +10,9 @@ if (!projectId) throw new Error('Project ID is not defined')
 
 const metadata = {
   name: 'Quantum One',
-  description: 'The new opportunity paradigm.',
-  url: 'https://app.quantumone.io', // origin must match your domain & subdomain
-  icons: ['https://quantumone.b-cdn.net/onyx/qlogo.svg']
+  description: 'Swap tokens and NFTs on any chain, including BitCoin with DeFi ONE. Created by Quantum One DAO - the new opportunity paradigm.',
+  url: 'https://quantumone.io', // origin must match your domain & subdomain
+  icons: ['https://quantumone.b-cdn.net/onyx/qlogo.svg', 'https://quantumone.b-cdn.net/onyx/opengraph-image.png', 'https://quantumone.b-cdn.net/onyx/twitter-image.png', 'https://quantumone.b-cdn.net/onyx/apple-touch-icon.jpg' ]
 }
 declare module 'wagmi' { 
   interface Register { 
