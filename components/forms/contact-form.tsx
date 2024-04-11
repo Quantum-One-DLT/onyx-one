@@ -13,7 +13,7 @@ export default function ContactForm() {
       <div className="space-y-2">
         <h2 className="text-3xl font-bold">Get in touch</h2>
         <p className="text-gray-500 dark:text-gray-400">
-          Feel free to leave any enquiries below, or give us a call to speak with our helpful sales team.
+          We are in the process of rolling out this website. This form is not yet enabled for submissions. Send us an email by clicking or tapping our email address listed below. Thanks for your patience! 
         </p>
       </div>
       <div className="space-y-4">
@@ -22,14 +22,19 @@ export default function ContactForm() {
             <h3 className="text-2xl font-bold">Contact Details</h3>
           </CardHeader>
           <CardContent>
+ <div className="space-y-2">
+              <div className="flex items-center space-x-2">
+                <Avatar className="w-4 h-4" />
+                <span>Quantum One DAO LLC</span>
+              </div>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Avatar className="w-4 h-4" />
-                <span>Quantum One DAO LLC 30 N Gould St STE R WY, USA 82801</span>
+                <span>30 N Gould St STE R WY, USA 82801</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Avatar className="w-4 h-4" />
-                <span>(307) 200-8918</span>
+                <span>+1(307)200-8918</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Avatar className="w-4 h-4" />
