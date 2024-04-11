@@ -1,4 +1,6 @@
 
+"use client" 
+
 import { CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
@@ -6,6 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { useForm } from 'react-hook-form'
 
 
 interface FormData = {
@@ -14,17 +17,14 @@ interface FormData = {
   message: string;
 };
 
-const Contact: FC = () => {
-  const { register, handleSubmit } = useForm<FormData>();
+export default function ContactForm() {
+const { register, handleSubmit } = useForm<FormData>();
 
   function onSubmit(data: FormData) {
     {/* sendEmail */}
 
     (data);
   }
-
-
-export default function ContactForm() {
   return (
     <div className="space-y-8">
       <div className="space-y-2">
