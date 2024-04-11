@@ -29,8 +29,10 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    images: 'https://quantumone.b-cdn.net/onyx/og-image.jpg',
+    images:    'https://quantumone.b-cdn.net/onyx/og-image.jpg',
+ }
 }
+
 export const viewport: Viewport =  {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
