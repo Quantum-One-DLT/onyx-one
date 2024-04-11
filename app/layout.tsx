@@ -58,6 +58,7 @@ export default function RootLayout({
              <SiteHeader/>
              <div className="flex-1">
         <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider></div>
+<SiteFooter/>
 </div>
 </ThemeProvider>
       </body>
