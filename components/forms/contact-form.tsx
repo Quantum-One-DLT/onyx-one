@@ -7,6 +7,22 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 
+export type FormData = {
+  name: string;
+  email: string;
+  message: string;
+};
+
+const Contact: FC = () => {
+  const { register, handleSubmit } = useForm<FormData>();
+
+  function onSubmit(data: FormData) {
+    {/* sendEmail */}
+
+    (data);
+  }
+
+
 export default function ContactForm() {
   return (
     <div className="space-y-8">
@@ -50,11 +66,14 @@ export default function ContactForm() {
           <CardContent>
             <div className="space-y-2">
               <Label htmlFor="name">Name</Label>
-              <Input id="name" placeholder="Enter your name" />
+              <Input type="text" id="name" placeholder="Enter your name" {...register('name', { required: true })} />
+
               <Label htmlFor="email">Email</Label>
-              <Input id="email" placeholder="Enter your email" type="email" />
+              <Input id="email" placeholder="Enter your email" type="email" {...register('email', { required: true })} />
               <Label htmlFor="message">Message</Label>
-              <Textarea className="min-h-[100px]" id="message" placeholder="Enter your message" />
+              <Textarea className="min-h-[100px]" id="message" placeholder="Enter your message" 
+{...register('message', { required: true })}
+/>
               <Button>Send message</Button>
             </div>
           </CardContent>
