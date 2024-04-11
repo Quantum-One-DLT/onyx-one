@@ -7,7 +7,7 @@ import { Icons } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { loginWithEmailAndPassword, signInWithGithub } from "../actions"
+import { loginWithEmailAndPassword, signInWithGoogle } from "../actions"
 import { toast } from "@/components/ui/use-toast"
 import { AuthTokenResponse } from "@supabase/supabase-js"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -108,9 +108,9 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
         {isLoading ? (
           <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
         ) : (
-          <Icons.gitHub className="mr-2 h-4 w-4" />
+          <Icons.google className="mr-2 h-4 w-4" />
         )}{" "}
-        GitHub
+        Google
       </Button>
     </div>
    
