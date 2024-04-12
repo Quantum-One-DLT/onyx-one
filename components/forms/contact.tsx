@@ -43,7 +43,7 @@ export function Contact({ className, ...props }: ContactProps) {
            await sendEmail(data)
                             
 
-                            if (error) {
+                            if (Error) {
                                   toast({
                                            title: "Send failed!",
                                            description: (
