@@ -115,7 +115,7 @@ const [email, setEmail] = useState<string | ''>('')
       <div>
         <button
           className="button primary block"
-          onClick={() => updateProfile({ fullname, username, website, avatar_url })}
+          onClick={() => updateProfile({ fullname, username, website, email, avatar_url })}
           disabled={loading}
         >
           {loading ? 'Loading ...' : 'Update'}
