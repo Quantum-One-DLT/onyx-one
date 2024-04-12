@@ -39,9 +39,9 @@ export function Contact({ className, ...props }: ContactProps) {
 
     setIsLoading(true)
     startTransition(async () => {
-                            const { error } = JSON.parse(
+                            const { error } = 
                                    await sendEmail(data)
-                            );
+                            
 
                             if (error) {
                                   toast({
