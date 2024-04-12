@@ -9,7 +9,7 @@ export default async function ContactPage() {
 
         if (userSession.session) {
          return (
-                <div className="flex items-center mt-10 px-2 py-6 h-screen">
+                <div className="flex items-center mt-8 px-2 py-6 h-screen">
                         <ContactForm />
                 </div>
         );
