@@ -2,6 +2,7 @@ import React from "react";
 import ContactForm from "@/components/forms/contact-form";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 export default async function ContactPage() {
         const { data: userSession } = await readUserSession();
