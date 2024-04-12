@@ -43,7 +43,7 @@ export default function Contact() {
         function onSubmit(data: z.infer<typeof ContactSchema>) {
                 startTransition(async () => {
                       
-const { error } = await updateInqueries(data)
+await updateInqueries(data)
 
                         if (error) {
                                 toast({
