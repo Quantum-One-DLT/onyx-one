@@ -19,8 +19,4 @@ export async function updateInqueries(data:formData) {
     { name: 'data.name', email: 'data.email', message: 'data.message'},
   ])
   .select()
-
-
-    const result = await updateInqueries(data);
-        return JSON.stringify(result);
 }
