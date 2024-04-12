@@ -18,7 +18,7 @@ const { data: inqueries, error } = await supabase
   .insert(
     { name: 'data.name', email: 'data.email', message: 'data.message'})
   .select()
-}
+
 if (error) throw error
       alert('Profile updated!')
     } catch (error) {
