@@ -10,6 +10,7 @@ export default function AccountForm({ user }: { user: User | null }) {
   const [username, setUsername] = useState<string | null>(null)
   const [website, setWebsite] = useState<string | null>(null)
   const [avatar_url, setAvatarUrl] = useState<string | null>(null)
+const [email, setEmail] = useState<string | ''>('')
 
   const getProfile = useCallback(async () => {
     try {
@@ -17,7 +18,7 @@ export default function AccountForm({ user }: { user: User | null }) {
 
       const { data, error, status } = await supabase
         .from('profiles')
-        .select(`full_name, username, website, avatar_url`)
+        .select(`full_name, username, website, avatar_url, email`)
         .eq('id', user?.id as string)
         .single()
 
@@ -31,6 +32,7 @@ export default function AccountForm({ user }: { user: User | null }) {
         setUsername(data.username)
         setWebsite(data.website)
         setAvatarUrl(data.avatar_url)
+        setEmail(data.email)
       }
     } catch (error) {
       alert('Error loading user data!')
@@ -47,11 +49,13 @@ export default function AccountForm({ user }: { user: User | null }) {
     username,
     website,
     avatar_url,
+    email,
   }: {
     username: string | null
     fullname: string | null
     website: string | null
     avatar_url: string | null
+    email: string | ''
   }) {
     try {
       setLoading(true)
@@ -62,6 +66,7 @@ export default function AccountForm({ user }: { user: User | null }) {
         username,
         website,
         avatar_url,
+        email,
         updated_at: new Date().toISOString(),
       })
       if (error) throw error
