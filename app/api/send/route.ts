@@ -7,8 +7,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST() {
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Quantum One <team@updates.quantumone.io>',
-      to: ['support@quantumone.io'],
+      from: 'Q <onboarding@resend.dev>',
+      to: ['delivered@resend.dev'],
       subject: "Hello world",
       react: EmailTemplate({ firstName: "John" }) as React.ReactElement,
     });
