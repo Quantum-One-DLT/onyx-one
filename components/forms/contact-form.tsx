@@ -73,7 +73,15 @@ const { register, handleSubmit } = useForm<FormData>();
               <Textarea className="min-h-[100px]" id="message" placeholder="Enter your message" 
 {...register('message', { required: true })}
 />
-              <Button>Send message</Button>
+                        <Button
+                                className="w-full flex items-center gap-2"
+                                variant="outline"
+                        >
+                                Send Message{" "}
+                                <AiOutlineLoading3Quarters
+                                        className={cn(" animate-spin", { hidden: !isPending })}
+                                />
+        </Button>
             </div>
           </CardContent>
         </Card>
