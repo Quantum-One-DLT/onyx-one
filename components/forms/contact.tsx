@@ -103,7 +103,7 @@ FormField
                                                         <FormItem>
                                                                 <FormLabel>Message</FormLabel>
                                                                 <FormControl>
-                                                                        <Input
+                                                                        <Textarea
                                                                                 placeholder="message"
                                                                                 {...field}
                                                                                 type="text"
