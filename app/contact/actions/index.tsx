@@ -3,15 +3,10 @@
 import { createSupbaseServerClient } from "@/utils/supaone";
 import { redirect } from "next/navigation";
 
-export async function updateInqueries(data: {
-        name: string;
-        email: string;
-        message: string;
-}) {
-        const supabase = await createSupbaseServerClient();
+export async function updateInqueries() {
+      const supabase = await.createSupbaseServerClient();
 
-
-const { data, error } = await supabase
+     const { data: inqueries, error } = await supabase
   .from('inqueries')
   .insert([
     { name: 'data.name', email: 'data.email', message: 'data.message'},
@@ -19,6 +14,6 @@ const { data, error } = await supabase
   .select()
 
 
-        const result = await supabase.updateInqueries(data);
+    const result = await supabase.updateInqueries(data);
         return JSON.stringify(result);
 }
