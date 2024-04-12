@@ -44,7 +44,7 @@ export default function Contact() {
                 startTransition(async () => {
                       await updateInqueries(data)
 
-                        if (error) {
+                        if (Error) {
                                 toast({
                                         title: "Send failed!",
                                         description: (
