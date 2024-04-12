@@ -114,6 +114,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       </Button>
     </div>
    */}
+</div>
    
   )
 }
