@@ -83,7 +83,7 @@ const [isLoading, setIsLoading] = React.useState<boolean>(false)
                         >
                                 Send Message{" "}
                                 <AiOutlineLoading3Quarters
-                                        className={cn(" animate-spin", { hidden: !isPending })}
+                                        className={cn(" animate-spin", { hidden: !isLoading })}
                                 />
         </Button>
             </div>
