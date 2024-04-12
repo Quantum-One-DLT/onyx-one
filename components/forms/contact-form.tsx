@@ -28,7 +28,7 @@ const [isLoading, setIsLoading] = React.useState<boolean>(false)
     sendEmail(data);
   }
   return (
-    <div className="space-y-8">
+    <div className="space-y-6">
       <div className="space-y-1">
         <h2 className="text-3xl font-bold">Get in touch</h2>
         <p className="text-gray-500 dark:text-gray-400">
