@@ -11,6 +11,10 @@ export default async function ContactPage() {
     data: { user },
   } = await supabase.auth.getUser()   
 
+  if (!user) {
+    return redirect("/auth");  
+  }
+
 
          return (
                 <div className="flex items-center mt-8 px-2 py-6 h-screen">
@@ -19,6 +23,5 @@ export default async function ContactPage() {
         );
 
  
-        }
-  return redirect("/auth");      
-}
+     
+  }
