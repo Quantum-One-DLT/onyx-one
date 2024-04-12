@@ -9,7 +9,7 @@ export const updateInqueries = async (formData: FormData, user_id: string) => {
     
     'use server'
   try {
-    const id = formData.get('id')
+    const id = data.user_id
     const name = formData.get('name')
     const email = formData.get('email')
 
