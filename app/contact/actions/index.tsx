@@ -3,7 +3,14 @@
 import { createSupbaseServerClient } from "@/utils/supaone";
 import { redirect } from "next/navigation";
 
-export async function updateInqueries() {
+type formData = {
+    name: string;
+    email: string;
+    message: string;
+}
+    
+
+export async function updateInqueries(data:formData) {
       const supabase = await createSupbaseServerClient();
 
      const { data: inqueries, error } = await supabase
