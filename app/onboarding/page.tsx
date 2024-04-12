@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site"
 import { Icons } from "@/components/icons"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
-import { UserAuthForm } from "@/app/auth/components/user-auth-form"
+import AuthForm from "@/app/auth/components/AuthForm"
 
 export const metadata: Metadata = {
   title: {
@@ -98,7 +98,7 @@ export default function OnboardingPage() {
                 Limited to the 1st 3K users.
               </p>
             </div>
-            <UserAuthForm />
+            <AuthForm />
             <p className="px-8 text-center text-sm text-muted-foreground">
               By clicking continue, you agree to our{" "}
               <Link
