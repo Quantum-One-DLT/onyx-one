@@ -9,7 +9,7 @@ export default async function ContactPage() {
      const supabase = useSupabaseBrowser()
 
   const {
-    data: { user: { User } },
+    data: { user: User},
   } = await supabase.auth.getUser()   
 
   if (!user) {
