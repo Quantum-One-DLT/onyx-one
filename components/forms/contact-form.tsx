@@ -78,7 +78,7 @@ const [isLoading, setIsLoading] = useState<boolean>(false)
               <Textarea className="min-h-[100px]" id="message" placeholder="Enter your message" 
 {...register('message', { required: true })}
 />
-                              <Button variant="outline" type="button" disabled={isLoading}>
+                              <Button variant="outline" type="submit" disabled={isLoading}>
         {isLoading ? (
           <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
         ) : (
