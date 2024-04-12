@@ -19,7 +19,7 @@ export default async function ContactPage() {
 
          return (
                 <div className="flex items-center mt-8 px-2 py-6 h-screen">
-                        <ContactForm user={user}/>
+                        <ContactForm/>
                 </div>
         );
 
