@@ -12,7 +12,7 @@ export default async function ContactPage() {
     data: { user: User},
   } = await supabase.auth.getUser()   
 
-  if (!user) {
+  if (!User) {
     return redirect("/auth");  
   }
 
