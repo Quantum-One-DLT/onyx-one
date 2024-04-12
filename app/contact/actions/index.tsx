@@ -14,6 +14,6 @@ export async function updateInqueries() {
   .select()
 
 
-    const result = await supabase.updateInqueries(data);
+    const result = await updateInqueries(data);
         return JSON.stringify(result);
 }
