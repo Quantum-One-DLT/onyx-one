@@ -23,7 +23,7 @@ export type FormData = {
 export default function ContactForm() {
 const { register, handleSubmit } = useForm<FormData>();
 
-const [isLoading, setIsLoading] = React.useState<boolean>(false)
+const [isLoading, setIsLoading] = useState<boolean>(false)
   function onSubmit(data: FormData) {
     sendEmail(data);
   }
