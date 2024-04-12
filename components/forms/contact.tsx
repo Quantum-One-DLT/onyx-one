@@ -19,7 +19,7 @@ interface ContactProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export function Contact({ className, ...props }: ContactProps) {
   const ContactSchema = z.object({
-    name: z.string().name(),
+    name: z.string().min(1, { message: "Name can not be empty" }),
     email: z.string().email(),
     message: z.string().min(1, { message: "Message can not be empty" }),
   });
