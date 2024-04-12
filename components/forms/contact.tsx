@@ -15,12 +15,12 @@ import {
         FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Textarea} from "@/components/ui/textarea";
+import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/components/ui/use-toast";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { cn } from "@/lib/utils";
 import { useTransition } from "react";
-import { logout } from '@/app/auth/actions'
+import { updateInqueries } from './actions'
 
 const ContactSchema = z.object({
         name: z.string().min(1, { message: "Name can not be empty" }),
@@ -42,7 +42,7 @@ export default function Contact() {
 
         function onSubmit(data: z.infer<typeof ContactSchema>) {
                 startTransition(async () => {
-                      await logout()
+                      await updateInqueries(data)
 
                         if (error) {
                                 toast({
