@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button"
 import { useForm } from 'react-hook-form'
 import { sendEmail } from '@/utils/send-email'
 
-interface FormData {
+export type FormData {
   name: string;
   email: string;
   message: string;
