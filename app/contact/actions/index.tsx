@@ -21,7 +21,7 @@ const { data: inqueries, error } = await supabase
     { name: 'data.name', email: 'data.email', message: 'data.message'})
   .select()
 
-const result = JSON.stringify.response(data)
+const result = JSON.stringify(data)
   return result;
 
 
