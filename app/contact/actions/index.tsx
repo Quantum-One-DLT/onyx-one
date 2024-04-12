@@ -9,7 +9,6 @@ export const updateInqueries = async (formData: FormData, user_id: string) => {
     
     'use server'
   try {
-    const id = user_id
     const name = formData.get('name')
     const email = formData.get('email')
 
@@ -36,10 +35,10 @@ export const updateInqueries = async (formData: FormData, user_id: string) => {
     )
 
     await supabaseAction.from('inqueries').upsert({
-      id: user_id as string,
       name,
       email,
       message,
+      user_id,
       updated_at: new Date().toISOString(),
     })
 
