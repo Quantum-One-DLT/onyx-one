@@ -40,7 +40,7 @@ export function Contact({ className, ...props }: ContactProps) {
     setIsLoading(true)
     startTransition(async () => {
                             const { error } = 
-                                   await sendEmail(data)
+                                   await sendEmail()
                             
 
                             if (error) {
