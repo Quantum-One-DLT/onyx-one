@@ -25,7 +25,7 @@ const { register, handleSubmit } = useForm<FormData>();
   }
   return (
     <div className="space-y-8">
-      <div className="space-y-2">
+      <div className="space-y-1">
         <h2 className="text-3xl font-bold">Get in touch</h2>
         <p className="text-gray-500 dark:text-gray-400">
           We are in the process of rolling out this website. This form is not yet enabled for submissions. Send us an email by clicking or tapping our email address listed below. Thanks for your patience! 
