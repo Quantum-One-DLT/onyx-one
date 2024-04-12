@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { useForm } from 'react-hook-form'
-
+import { sendEmail } from '@/utils/send-email'
 
 interface FormData {
   name: string;
@@ -21,9 +21,7 @@ export default function ContactForm() {
 const { register, handleSubmit } = useForm<FormData>();
 
   function onSubmit(data: FormData) {
-    {/* sendEmail */}
-
-    (data);
+    sendEmail(data);
   }
   return (
     <div className="space-y-8">
