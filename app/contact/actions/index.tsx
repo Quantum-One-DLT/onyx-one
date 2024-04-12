@@ -13,10 +13,16 @@ type formData = {
 export async function updateInqueries(data:formData) {
       const supabase = await createSupbaseServerClient();
 
-     const { data: inqueries, error } = await supabase
+const { data: inqueries, error } = await supabase
   .from('inqueries')
-  .insert([
-    { name: 'data.name', email: 'data.email', message: 'data.message'},
-  ])
+  .insert(
+    { name: 'data.name', email: 'data.email', message: 'data.message'})
   .select()
+}
+if (error) throw error
+      alert('Profile updated!')
+    } catch (error) {
+      alert('Error updating the data!')
+
+return ({data})
 }
