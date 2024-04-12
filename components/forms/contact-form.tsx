@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button"
 import { useForm } from 'react-hook-form'
 import { sendEmail } from '@/utils/send-email'
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
-
+import { cn } from "@/lib/utils"
 
 export type FormData = {
   name: string;
