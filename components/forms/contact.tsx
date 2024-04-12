@@ -42,9 +42,10 @@ export default function Contact() {
 
         function onSubmit(data: z.infer<typeof ContactSchema>) {
                 startTransition(async () => {
-                      await updateInqueries(data)
+                      
+const { error } = await updateInqueries(data)
 
-                        if (Error) {
+                        if (error) {
                                 toast({
                                         title: "Send failed!",
                                         description: (
