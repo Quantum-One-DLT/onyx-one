@@ -45,7 +45,7 @@ export default function Contact() {
                       
                         await updateInqueries(data)
 
-        }
+        })
 
         return (
 
@@ -54,7 +54,7 @@ export default function Contact() {
                                         onSubmit={form.handleSubmit(onSubmit)}
                                         className="w-full px-2 space-y-6"
                                 >
-FormField
+<FormField
                                                 control={form.control}
                                                 name="name"
                                                 render={({ field }) => (
@@ -92,7 +92,7 @@ FormField
                                                                         <Textarea
                                                                                 placeholder="message"
                                                                                 {...field}
-                                                                                type="text"
+                                                                        
                                                                         />
                                                                 </FormControl>
                                                                 <FormDescription>
@@ -116,4 +116,4 @@ FormField
                                 </form>
                         </Form>
         );
-}
+        }}
