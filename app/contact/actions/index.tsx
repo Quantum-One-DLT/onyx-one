@@ -20,7 +20,7 @@ const { data: inqueries, error } = await supabase
   .select()
 
 if (error) throw error
-      alert('Profile updated!')
+      alert('Message Sent!')
     } catch (error) {
       alert('Error updating the data!')
 
