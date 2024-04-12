@@ -63,6 +63,41 @@ export type Database = {
         }
         Relationships: []
       }
+      inqueries: {
+        Row: {
+          created_at: string
+          email: string
+          id: number
+          message: string
+          name: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          email?: string
+          id?: number
+          message: string
+          name?: string
+          user_id?: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: number
+          message?: string
+          name?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "public_inqueries_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       members_table: {
         Row: {
           created_at: string
@@ -81,6 +116,27 @@ export type Database = {
           id?: number
           member_id?: string
           name?: string | null
+        }
+        Relationships: []
+      }
+      moralis_users: {
+        Row: {
+          created_at: string
+          id: number
+          metadata: Json | null
+          moralis_provider_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          metadata?: Json | null
+          moralis_provider_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          metadata?: Json | null
+          moralis_provider_id?: string | null
         }
         Relationships: []
       }
@@ -196,9 +252,9 @@ export type Database = {
         }
         Insert: {
           avatar_url?: string | null
-          email?: string
+          email: string
           full_name?: string | null
-          id: string
+          id?: string
           updated_at?: string | null
           username?: string | null
           website?: string | null
@@ -266,27 +322,6 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
-      }
-      users: {
-        Row: {
-          created_at: string
-          id: number
-          metadata: Json | null
-          moralis_provider_id: string | null
-        }
-        Insert: {
-          created_at?: string
-          id?: number
-          metadata?: Json | null
-          moralis_provider_id?: string | null
-        }
-        Update: {
-          created_at?: string
-          id?: number
-          metadata?: Json | null
-          moralis_provider_id?: string | null
-        }
-        Relationships: []
       }
     }
     Views: {
