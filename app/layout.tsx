@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { fontSans } from "@/lib/font"
 import { siteConfig } from '@/config/site'
 import { cookieToInitialState } from 'wagmi'
-
+import Script from 'next/script,
 import { config } from '@/config'
 import Web3ModalProvider from '@/context'
 import { Toaster } from "@/components/ui/toaster"
@@ -66,6 +66,7 @@ export default function RootLayout({
 <SiteFooter/>
 </div>
 </ThemeProvider>
+<Script src="//code.tidio.co/xo43hcuz5tjj76ocq9qe0cbesbmkuvhy.js"/>
       </body>
     </html>
   )
