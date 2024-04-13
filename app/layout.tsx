@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { fontSans } from "@/lib/font"
 import { siteConfig } from '@/config/site'
 import { cookieToInitialState } from 'wagmi'
-import Script from 'next/script,
+import Script from 'next/script'
 import { config } from '@/config'
 import Web3ModalProvider from '@/context'
 import { Toaster } from "@/components/ui/toaster"
