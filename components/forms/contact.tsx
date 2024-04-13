@@ -42,7 +42,7 @@ export function Contact() {
         });
 
         function onSubmit(data: ContactValues) {
-         
+     setIsLoading(true)   
      updateInqueries(data)
 
      }
