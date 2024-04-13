@@ -1,6 +1,7 @@
 "use server";
 
 import { createSupbaseServerClient } from "@/utils/supaone";
+
 import { redirect } from "next/navigation";
 
 type formData = {
@@ -18,7 +19,7 @@ try {
 const { data: inqueries, error } = await supabase
   .from('inqueries')
   .insert(
-    { name: 'data.name', email: 'data.email', message: 'data.message'})
+    { name: data.name, email: data.email, message: data.message})
   .select()
 
 const result = JSON.stringify(data)
