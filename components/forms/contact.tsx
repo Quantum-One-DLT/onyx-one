@@ -28,7 +28,7 @@ const ContactSchema = z.object({
         message: z.string().min(1, { message: "Message can not be empty" }),
 });
 
-export default function Contact() {
+export function Contact() {
         const [isPending, startTransition] = useTransition();
 
         const form = useForm<z.infer<typeof ContactSchema>>({
