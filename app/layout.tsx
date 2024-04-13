@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    images: "/opengraph-image.jpg"
- }
+    images: "/opengraph-image.jpg",
+ },
 }
 
 export const viewport: Viewport =  {
