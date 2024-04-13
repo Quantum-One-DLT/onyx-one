@@ -1,6 +1,6 @@
 import React from "react";
 import { cookies } from 'next/headers'
-import ContactForm from "@/components/forms/contact-form";
+import { ContactForm } from "@/components/forms/contact-form";
 import { createClient } from "@/utils/supa-server-actions";
 import { redirect } from "next/navigation";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
