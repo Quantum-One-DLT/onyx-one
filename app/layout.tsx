@@ -66,7 +66,6 @@ export default function RootLayout({
 <SiteFooter/>
 </div>
 </ThemeProvider>
-<Script src="//code.tidio.co/xo43hcuz5tjj76ocq9qe0cbesbmkuvhy.js"/>
       </body>
     </html>
   )
