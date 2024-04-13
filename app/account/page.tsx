@@ -11,9 +11,7 @@ export default async function SettingsAccountPage() {
 
   const { 
 data: { user },} = await supabase.auth.getUser()
-  if (!data?.user) {
-    redirect('/auth')
-  }
+ 
   return (
     <div className="mt-10 px-4 py-8 space-y-6">
       <div>
