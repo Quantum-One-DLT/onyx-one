@@ -13,8 +13,8 @@ export async function signUpWithEmailAndPassword(data: {
 
         const result = await supabase.auth.signUp(data);
         return JSON.stringify(result);
-        revalidatePath('/', 'layout')
-        redirect('/defione')
+        
+        
 }
 
 export async function loginWithEmailAndPassword(data: {
