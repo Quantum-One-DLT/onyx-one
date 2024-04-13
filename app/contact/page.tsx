@@ -8,12 +8,9 @@ import { type User } from '@supabase/supabase-js'
 export default async function ContactPage() {
      const supabase = useSupabaseBrowser()
 
-  const {
-    data: { user: User},
-  } = await supabase.auth.getUser()   
-
-  if (!User) {
-    return redirect("/auth");  
+  const { data, error } = await supabase.auth.getUser()
+  if (error || !data?.user) {
+    redirect('/auth')
   }
 
 
