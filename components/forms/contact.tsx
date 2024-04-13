@@ -116,6 +116,7 @@ export function Contact() {
                                 <AiOutlineLoading3Quarters
                                         className={cn(" animate-spin", { hidden: !isLoading })}
                                 />
+   </Button>
                                 </form>
                         </Form>
         );
