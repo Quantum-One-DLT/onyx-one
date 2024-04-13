@@ -45,7 +45,7 @@ export function Contact() {
                       
                         await updateInqueries(data)
 
-        })
+        })}
 
         return (
 
