@@ -1,7 +1,17 @@
 import { Separator } from "@/components/ui/separator"
 import AccountForm from "./supa-account-form"
+import { cookies } from 'next/headers'
+import { createClient } from '@/lib/supa-server-actions'
 
 export default function SettingsAccountPage() {
+  const cookieStore = cookies()
+  const supabase = createClient(cookieStore)  
+
+
+  const { data, error } = await supabase.auth.getUser()
+  if (error || !data?.user) {
+    redirect('/auth')
+  }
   return (
     <div className="mt-10 px-4 py-8 space-y-6">
       <div>
