@@ -122,21 +122,21 @@ export type Database = {
       moralis_users: {
         Row: {
           created_at: string
-          id: number
+          id: string
           metadata: Json | null
-          moralis_provider_id: string | null
+          moralis_provider: string | null
         }
         Insert: {
           created_at?: string
-          id?: number
+          id?: string
           metadata?: Json | null
-          moralis_provider_id?: string | null
+          moralis_provider?: string | null
         }
         Update: {
           created_at?: string
-          id?: number
+          id?: string
           metadata?: Json | null
-          moralis_provider_id?: string | null
+          moralis_provider?: string | null
         }
         Relationships: []
       }
@@ -243,7 +243,7 @@ export type Database = {
       profiles: {
         Row: {
           avatar_url: string | null
-          email: string
+          email: string | null
           full_name: string | null
           id: string
           updated_at: string | null
@@ -252,7 +252,7 @@ export type Database = {
         }
         Insert: {
           avatar_url?: string | null
-          email: string
+          email?: string | null
           full_name?: string | null
           id?: string
           updated_at?: string | null
@@ -261,7 +261,7 @@ export type Database = {
         }
         Update: {
           avatar_url?: string | null
-          email?: string
+          email?: string | null
           full_name?: string | null
           id?: string
           updated_at?: string | null
