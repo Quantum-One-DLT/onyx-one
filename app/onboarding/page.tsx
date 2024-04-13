@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { siteConfig } from "@/config/site"
-
+import { AuthFormLegacy } from '@/app/auth-server-action/components/AuthFormLegacy'
 import { Icons } from "@/components/icons"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
@@ -98,7 +98,7 @@ export default function OnboardingPage() {
                 Limited to the 1st 3K users.
               </p>
             </div>
-            <AuthForm />
+            <AuthFormLegacy />
             <p className="px-8 text-center text-sm text-muted-foreground">
               By clicking continue, you agree to our{" "}
               <Link
