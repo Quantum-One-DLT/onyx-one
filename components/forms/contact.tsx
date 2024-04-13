@@ -106,14 +106,16 @@ export function Contact() {
                                                         </FormItem>
                                                 )}
                                         />
-         <Button variant="outline" type="submit" disabled={isLoading}>
-        {isLoading ? (
-          <AiOutlineLoading3Quarters                                         className={cn(" animate-spin", { hidden: !isLoading })} />
-        ) : (
-          <Icons.quantum className="mr-2 h-4 w-4" />
-        )}{" "}
-        Send
-      </Button>
+           <Button
+            type="submit"
+            disabled={isLoading}
+                                className="w-full flex items-center gap-2"
+                                variant="outline"
+                        >
+                                Send{" "}
+                                <AiOutlineLoading3Quarters
+                                        className={cn(" animate-spin", { hidden: !isLoading })}
+                                />
                                 </form>
                         </Form>
         );
