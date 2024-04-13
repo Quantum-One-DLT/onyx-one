@@ -1,6 +1,6 @@
 import React from "react";
 import { cookies } from 'next/headers'
-import { ContactForm } from "@/components/forms/contact-form";
+import Contact from "@/components/forms/contact";
 import { createClient } from "@/utils/supa-server-actions";
 import { redirect } from "next/navigation";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
@@ -19,7 +19,7 @@ export default async function ContactPage() {
 
          return (
                 <div className="flex items-center mt-8 px-2 py-6 h-screen">
-                        <ContactForm/>
+                        <Contact/>
                 </div>
         );
 
