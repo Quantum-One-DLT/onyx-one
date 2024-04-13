@@ -9,8 +9,9 @@ export default async function SettingsAccountPage() {
   const supabase = createClient(cookieStore)  
 
 
-  const { data, error } = await supabase.auth.getUser()
-  if (error || !data?.user) {
+  const { 
+data: { user },} = await supabase.auth.getUser()
+  if (!data?.user) {
     redirect('/auth')
   }
   return (
