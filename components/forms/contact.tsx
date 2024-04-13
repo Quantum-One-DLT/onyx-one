@@ -108,7 +108,7 @@ export function Contact() {
                                         />
          <Button variant="outline" type="submit" disabled={isLoading}>
         {isLoading ? (
-          <AiOutlineLoading3Quarters className="mr-2 h-4 w-4 animate-spin" />
+          <AiOutlineLoading3Quarters                                         className={cn(" animate-spin", { hidden: !isLoading })} />
         ) : (
           <Icons.quantum className="mr-2 h-4 w-4" />
         )}{" "}
