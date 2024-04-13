@@ -21,7 +21,7 @@ export type FormData = {
   message: string;
 };
 
-export default function ContactForm() {
+export function ContactForm() {
 const { register, handleSubmit } = useForm<FormData>();
 
 const [isLoading, setIsLoading] = useState<boolean>(false)
