@@ -41,7 +41,7 @@ export function Contact() {
         });
 
         function onSubmit(data: ContactValues) {
-         startTransition =>
+         startTransition() =>
          updateInqueries(data)
 
 }
