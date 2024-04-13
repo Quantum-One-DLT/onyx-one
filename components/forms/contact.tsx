@@ -41,11 +41,10 @@ export function Contact() {
         });
 
         function onSubmit(data: ContactValues) {
-                startTransition(async () =>
-                      
-                        await updateInqueries(data)
+                startTransition(updateInqueries(data))
+}
 
-        )}
+       
 
         return (
 
