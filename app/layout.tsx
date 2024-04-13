@@ -19,7 +19,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
   
@@ -29,7 +28,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    images:    'https://quantumone.b-cdn.net/onyx/og-image.jpg',
+    images: "/opengraph-image.jpg"
  }
 }
 
