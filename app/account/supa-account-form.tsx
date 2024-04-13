@@ -10,7 +10,7 @@ export default function AccountForm({ user }: { user: User | null }) {
   const [username, setUsername] = useState<string | null>(null)
   const [website, setWebsite] = useState<string | null>(null)
   const [avatar_url, setAvatarUrl] = useState<string | null>(null)
-const [email, setEmail] = useState<string | ''>('')
+const [email, setEmail] = useState<string | null>(null)
 
   const getProfile = useCallback(async () => {
     try {
@@ -55,7 +55,7 @@ const [email, setEmail] = useState<string | ''>('')
     fullname: string | null
     website: string | null
     avatar_url: string | null
-    email: string | ''
+    email: string | null
   }) {
     try {
       setLoading(true)
