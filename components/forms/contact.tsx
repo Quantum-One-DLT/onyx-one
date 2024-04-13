@@ -40,7 +40,7 @@ export function Contact() {
                 },
         });
 
-        function onSubmit(data: z.infer<typeof ContactSchema>) {
+        function onSubmit(data: ContactValues) {
                 startTransition(async () => {
                       
                         await updateInqueries(data)
