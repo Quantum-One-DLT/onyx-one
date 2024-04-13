@@ -2,6 +2,7 @@ import { Separator } from "@/components/ui/separator"
 import AccountForm from "./supa-account-form"
 import { cookies } from 'next/headers'
 import { createClient } from '@/utils/supa-server-actions'
+import { redirect } from 'next/navigation'
 
 export default async function SettingsAccountPage() {
   const cookieStore = cookies()
