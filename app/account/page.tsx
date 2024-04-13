@@ -3,7 +3,7 @@ import AccountForm from "./supa-account-form"
 import { cookies } from 'next/headers'
 import { createClient } from '@/lib/supa-server-actions'
 
-export default function SettingsAccountPage() {
+export default async function SettingsAccountPage() {
   const cookieStore = cookies()
   const supabase = createClient(cookieStore)  
 
