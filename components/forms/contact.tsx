@@ -19,8 +19,11 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/components/ui/use-toast";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { cn } from "@/lib/utils";
-import { useTransition } from "react";
+import { useState, useTransition } from "react";
 import { updateInqueries } from '@/app/contact/actions'
+import { Card, CardContent, CardHeader } from "../ui/card";
+import { Avatar } from "../ui/avatar";
+import Link from "next/link";
 
 const ContactSchema = z.object({
         name: z.string().min(1, { message: "Name can not be empty" }),
@@ -30,6 +33,7 @@ const ContactSchema = z.object({
 type ContactValues = z.infer<typeof ContactSchema>
 export function Contact() {
         const [isPending, startTransition] = useTransition();
+        const [isLoading, setIsLoading] = useState<boolean>(false)
 
         const form = useForm<z.infer<typeof ContactSchema>>({
                 resolver: zodResolver(ContactSchema),
@@ -48,7 +52,45 @@ export function Contact() {
 
        
 
-        return (
+        return (<div className="space-y-6">
+        <div className="space-y-1">
+          <h2 className="text-3xl font-bold">Get in touch</h2>
+          <p className="text-gray-500 dark:text-gray-400">
+            We are in the process of rolling out this website and enabling this form. Send us an email by clicking or tapping our email address listed below. Thanks for your patience! 
+          </p>
+        </div>
+        <div className="space-y-4">
+          <Card>
+            <CardHeader>
+              <h3 className="text-2xl font-bold">Contact Details</h3>
+            </CardHeader>
+            <CardContent>
+   <div className="space-y-2">
+                <div className="flex items-center space-x-2">
+                  <Avatar className="w-4 h-4" />
+                  <span>Quantum One DAO LLC</span>
+                </div>
+              
+                <div className="flex items-center space-x-2">
+                  <Avatar className="w-4 h-4" />
+                  <span>30 N Gould St STE R WY, USA 82801</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Avatar className="w-4 h-4" />
+                  <span>+1(307)200-8918</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Avatar className="w-4 h-4" />
+                  <Link href="mailto:support@quantumone.io">support@quantumone.io</Link>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <h3 className="text-2xl font-bold">Leave a Message</h3>
+            </CardHeader>
+            <CardContent>
 
                         <Form {...form}>
                                 <form
@@ -105,15 +147,19 @@ export function Contact() {
                                                         </FormItem>
                                                 )}
                                         />
-    <Button
-type="submit"
-                                className="w-full flex items-center gap-2"
-                                variant="outline"
-                        >
-                                Send{" "}
-   
-                        </Button>
+    <Button variant="outline" type="submit" disabled={isLoading}>
+        {isLoading ? (
+          <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+        ) : (
+          <Icons.quantum className="mr-2 h-4 w-4" />
+        )}{" "}
+        Send Message
+      </Button>
                                 </form>
                         </Form>
+                        </CardContent>
+                        </Card>
+                        </div>
+                        </div>
         );
         }
