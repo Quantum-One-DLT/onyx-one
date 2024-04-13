@@ -1,12 +1,12 @@
 import React from "react";
 import ContactForm from "@/components/forms/contact-form";
-import useSupabaseBrowser from '@/utils/supabase-browser'
+import { createSupbaseServerClient } from "@/utils/supaone";
 import { redirect } from "next/navigation";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { type User } from '@supabase/supabase-js'
 
 export default async function ContactPage() {
-     const supabase = useSupabaseBrowser()
+     const supabase = createSupbaseServerClient()
 
   const { data, error } = await supabase.auth.getUser()
   if (error || !data?.user) {
