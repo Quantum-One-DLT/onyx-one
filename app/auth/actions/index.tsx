@@ -2,6 +2,7 @@
 
 import { createSupbaseServerClient } from "@/utils/supaone";
 import { redirect } from "next/navigation";
+import { revalidatePath } from 'next/cache'
 
 export async function signUpWithEmailAndPassword(data: {
         email: string;
@@ -12,6 +13,8 @@ export async function signUpWithEmailAndPassword(data: {
 
         const result = await supabase.auth.signUp(data);
         return JSON.stringify(result);
+        revalidatePath('/', 'layout')
+        redirect('/defione')
 }
 
 export async function loginWithEmailAndPassword(data: {
