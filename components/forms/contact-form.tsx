@@ -14,6 +14,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { cn } from "@/lib/utils"
 import { useState } from 'react'
 import { Icons } from '@/components/icons'
+import { updateInqueries } from "@/app/contact/actions"
 
 export type FormData = {
   name: string;
@@ -26,7 +27,7 @@ const { register, handleSubmit } = useForm<FormData>();
 
 const [isLoading, setIsLoading] = useState<boolean>(false)
   function onSubmit(data: FormData) {
-    sendEmail(data);
+    updateInqueries(data);
   }
   return (
     <div className="space-y-6">
