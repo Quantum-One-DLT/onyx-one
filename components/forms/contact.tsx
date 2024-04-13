@@ -19,7 +19,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/components/ui/use-toast";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { cn } from "@/lib/utils";
-import { useTransition } from "react";
+import { useTransition, useState } from "react";
 import { updateInqueries } from '@/app/contact/actions'
 
 const ContactSchema = z.object({
@@ -30,6 +30,7 @@ const ContactSchema = z.object({
 type ContactValues = z.infer<typeof ContactSchema>
 export function Contact() {
         const [isPending, startTransition] = useTransition();
+  const [isLoading, setIsLoading] = React.useState<boolean>(false)
 
         const form = useForm<z.infer<typeof ContactSchema>>({
                 resolver: zodResolver(ContactSchema),
@@ -76,7 +77,7 @@ export function Contact() {
                                                         <FormItem>
                                                                 <FormLabel>Email</FormLabel>
                                                                 <FormControl>
-                                                                        <Input placeholder="email@example.com" {...field} />
+                                                                        <Input placeholder="email@example.com" {...field} disabled={isLoading}/>
                                                                 </FormControl>
 
                                                                 <FormMessage />
@@ -105,14 +106,14 @@ export function Contact() {
                                                         </FormItem>
                                                 )}
                                         />
-    <Button
-type="submit"
-                                className="w-full flex items-center gap-2"
-                                variant="outline"
-                        >
-                                Send{" "}
-   
-                        </Button>
+         <Button variant="outline" type="submit" disabled={isLoading}>
+        {isLoading ? (
+          <AiOutlineLoading3Quarters className="mr-2 h-4 w-4 animate-spin" />
+        ) : (
+          <Icons.quantum className="mr-2 h-4 w-4" />
+        )}{" "}
+        Send
+      </Button>
                                 </form>
                         </Form>
         );
