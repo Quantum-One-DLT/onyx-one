@@ -27,7 +27,7 @@ const ContactSchema = z.object({
         email: z.string().email(),
         message: z.string().min(1, { message: "Message can not be empty" }),
 });
-
+type ContactValues = z.infer<typeof ContactSchema>
 export function Contact() {
         const [isPending, startTransition] = useTransition();
 
