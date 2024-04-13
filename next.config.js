@@ -30,6 +30,13 @@ const nextConfig = {
         port: '',
         pathname: '/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP',
       },
+
+      {
+        protocol: 'https',
+        hostname: 'code.tidio.co',
+        port: '',
+        pathname: '/xo43hcuz5tjj76ocq9qe0cbesbmkuvhy.js',
+      },
     ],
   },
 }
