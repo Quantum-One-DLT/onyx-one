@@ -106,13 +106,12 @@ export function Contact() {
                                                 )}
                                         />
     <Button
+type="submit"
                                 className="w-full flex items-center gap-2"
                                 variant="outline"
                         >
                                 Send{" "}
-                                <AiOutlineLoading3Quarters
-                                        className={cn(" animate-spin", { hidden: !isPending })}
-                                />
+   
                         </Button>
                                 </form>
                         </Form>
