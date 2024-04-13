@@ -18,9 +18,23 @@ export default async function ContactPage() {
 
 
          return (
-                <div className="flex items-center mt-8 px-2 py-6 h-screen">
+                        <div className="mt-10 px-2 lg:p-8">
+          <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
+            <div className="flex flex-col space-y-2 text-center items-center">
+      <Link href="/" className="flex items-center space-x-2 mb-8">
+        <Icons.quantum className="h-4 w-4" />
+        <span className="inline-block font-bold">{siteConfig.name}</span>
+      </Link>
+              <h1 className="text-2xl font-semibold tracking-tight">
+                Contact Us
+              </h1>
+              <p className="text-sm text-muted-foreground">
+                Rather talk? Call us at +1-307-200-8918.
+              </p>
+            </div>
                         <Contact/>
                 </div>
+               </div>
         );
 
  
