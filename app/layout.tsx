@@ -32,6 +32,7 @@ export const metadata: Metadata = {
     images: "/opengraph-image.jpg",
     title: siteConfig.name,
     description: siteConfig.description,
+    url: "https://quantumone.io",
  },
 }
 
