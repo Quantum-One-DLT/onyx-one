@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  
+  url: "https://quantumone.io",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
