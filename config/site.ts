@@ -33,5 +33,6 @@ export const siteConfig = {
 "https://defione.io",
     login:"https://quantumone.io/auth",
     signup:"https://quantumone.io/onboarding",
+    signout:"https://quantumone.io/signout",
   },
 }
