@@ -107,7 +107,7 @@ export function Contact() {
                                                                 </FormControl>
                                                                 <FormDescription>
                                                                         {
-                                                                                "We'll respond in the next 24 hours."
+                                                                                ""
                                                                         }
                                                                 </FormDescription>
                                                                 <FormMessage />
