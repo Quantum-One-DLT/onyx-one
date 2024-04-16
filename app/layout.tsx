@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    images: "/opengraph-image.jpg",
+    images: 'https://quantumone.b-cdn.net/onyx/opengraph-image.jpg',
     title: siteConfig.name,
     description: siteConfig.description,
     url: "https://quantumone.io",
