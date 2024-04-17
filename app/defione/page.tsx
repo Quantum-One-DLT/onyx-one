@@ -53,11 +53,17 @@ return (
 <li> Additional details will be posted here and accompany several formal AP PR's planned over the next two quarters.</li>
 </ol>
 
-<p className="max-w-[700px] text-lg text-muted-foreground"> Da-Fi Token is designated as an open blockchain network registered token and a digital consumer asset in the State of Wyoming, USA. Our SEC issued CIK number is 0001912440. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO's to operate with full, partial, or zero autonomy and, thus, great flexibility. </p>
+<div className="flex flex-col items-center justify-center space-y-6 text-center">
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What is Da-Fi Token?</h1>
+</div>
+</div>
 
-<p className="max-w-[700px] text-lg text-muted-foreground"> The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. </p>
+<p className="max-w-[700px] text-lg text-muted-foreground"> Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility. For those curious, our Securities and Exchange Commision (SEC) issued CIK number is 0001912440.</p>
 
-<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment.</p>
+<p className="max-w-[700px] text-lg text-muted-foreground"> Upon upgrading Da-Fi Token, we plan on changing the token name and symbol to better align with our vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. </p>
+
+<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment. Presently, wallet connection and balance display are enabled. </p>
       
          <Link
           target="_blank"
