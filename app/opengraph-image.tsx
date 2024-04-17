@@ -1,4 +1,5 @@
 import { ImageResponse } from 'next/og'
+import { fontSans } from '@/lib/font'
  
 // Route segment config
 export const runtime = 'edge'
@@ -15,23 +16,14 @@ export const contentType = 'image/jpg'
 // Image generation
 export default async function Image() {
   // Font
-  const interSemiBold = fetch(
-    new URL('./Inter-SemiBold.ttf', import.meta.url)
-  ).then((res) => res.arrayBuffer())
+  
  
   return new ImageResponse(
     (
       // ImageResponse JSX element
-      <div
-        style={{
-          fontSize: 128,
-          background: 'white',
-          width: '100%',
-          height: '100%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
+      <div className="flex text-lg text -justified font-sans items-center"
+        
+        
       >
         About Quantum One
       </div>
