@@ -7,17 +7,7 @@ import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 
 export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
-  
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
+  title: 'DeFi ONE',
 }
 export default async function DefionePage() {
   
