@@ -44,7 +44,7 @@ return (
 
 <li> Deployment of optimized Uniswap v3 smart contracts on mainnet and Zetachain. </li> 
 
-<li> Live launch of DeFi ONE PWA & mobile DApps.</li>
+<li> Live launch of DeFi ONE PWA and mobile DApps.</li>
 
 <li> Launch of DeFi ONE mobile wallet.</li>
 
