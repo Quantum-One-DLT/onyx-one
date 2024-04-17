@@ -58,8 +58,7 @@ return (
 Upon upgrading Da-Fi Token, we plan on changing the token name and symbol to better align with our vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. 
 </p>
 
-<p className="max-w-[700px] text-lg text-muted-foreground">
-DeFi ONE's interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment. Presently, wallet connection and balance display are enabled. 
+<p className="max-w-[700px] text-lg text-muted-foreground"> Access the live interface using the button below! 
 </p>
       
          <Link
