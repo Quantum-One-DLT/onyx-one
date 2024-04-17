@@ -34,6 +34,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
+<Separator/>
 <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Values</h1>
@@ -62,6 +63,7 @@ export default function AboutPage() {
 <li>Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.</li>
           </ol>
         </div>
+<Separator/>
         <div className="space-y-3">
             <h5 className="text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
@@ -80,7 +82,17 @@ export default function AboutPage() {
           height={500}
           alt="Robert Mourey profile picture"
           className="rounded-full border border-gray-100 shadow-sm"
+        /> 
+<p className="text-xs text-center font-muted">Robert Mourey Jr</p>
+
+<Image
+          src="https://quantumone.b-cdn.net/Cody_Clark.jpeg"
+          width={500}
+          height={500}
+          alt="Cody Clark profile picture"
+          className="rounded-full border border-gray-100 shadow-sm"
         />
+<p className="text-xs text-center font-muted">Cody Clark</p>
         </div>
       </div>
     </div>
