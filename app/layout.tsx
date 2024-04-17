@@ -1,4 +1,5 @@
 import './globals.css'
+import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import type { Metadata,Viewport } from 'next'
 import { headers } from 'next/headers'
@@ -19,8 +20,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    template: `%s | ${siteConfig.name}`,
   },
+  metadataBase: new URL('https://quantumone.io'),
   description: siteConfig.description,
   referrer: 'origin-when-cross-origin',
   keywords: ['DAO', 'Quantum One DAO', 'Quantum One', 'DEX', 'BitCoin', 'DeFi ONE', 'DAO owned data centers', 'quantum blockchain', 'Ethereum', 'DeFi', 'omni-chain defi','BitCoin smart contracts', 'ERC20', 'governance token', 'DEX governance token', 'open blockchain network', 'digital consumer assets', 'Wyoming DAO', 'Ethereum', 'DeFi Llama', 'swap token and nfts', 'swap on any chain', 'BitCoin DeFi', 'engineering opportunity', 'token lock campaign', 'Zetachain', 'SAFE', 'quantum based blockchain networks', 'decentralized opportunity', 'Da-Fi Token', 'wallet connect', 'github', 'Uniswap v3 smart contracts', 'TVL', 'post quantum cryptography', 'post quantum cryptocurrency', 'decentralized ai', 'blockchain ai', 'ai', 'decentralized compliance protocols'],
