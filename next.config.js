@@ -33,9 +33,9 @@ const nextConfig = {
 
       {
         protocol: 'https',
-        hostname: 'code.tidio.co',
+        hostname: 'quantumone.b-cdn.net,
         port: '',
-        pathname: '/xo43hcuz5tjj76ocq9qe0cbesbmkuvhy.js',
+        pathname: '/**',
       },
     ],
   },
