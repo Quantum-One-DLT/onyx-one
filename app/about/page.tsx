@@ -8,6 +8,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 import { PromoVideo } from '@/components/ui/promo-video'
 import { useState } from 'react'
+import { separator } from '@/components/ui'
 
 interface YouTubeID {
   youtubeID : string;
@@ -68,7 +69,12 @@ export default function AboutPage() {
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
 
-       
+<div className="flex flex-col items-center justify-center space-y-6 text-center">
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Team</h2>
+</div>
+</div>
+    
         </div>
       </div>
     </div>
