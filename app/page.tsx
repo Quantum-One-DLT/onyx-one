@@ -20,7 +20,7 @@ export default async function IndexPage() {
          Engineered. 
 	</h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        Sign up to receive an airdrop and notification of our upcoming DeFi ONE governance token sale! Connect your wallet to find out if you already received one of our randomized airdrops. 
+        Sign up to receive our DAO governance token airdrop and learn how our upcoming token sale will help launch DeFi ONE on Zetachain! Connect your wallet now to view your 'Da-Fi' balance to find out if you received one of our random airdrops!  
         </p>
       </div>
       <div className="flex gap-4">
