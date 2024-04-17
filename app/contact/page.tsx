@@ -1,4 +1,5 @@
 import React from "react";
+import { Metadata } from 'next';
 import Link from 'next/link'
 import { siteConfig } from '@/config/site'
 import { Icons } from '@/components/icons'
@@ -8,6 +9,10 @@ import { createClient } from "@/utils/supa-server-actions";
 import { redirect } from "next/navigation";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { type User } from '@supabase/supabase-js'
+
+export const metadata: Metadata = {
+  title: 'Contact',
+}
 
 export default async function ContactPage() {
   const cookieStore = cookies()
