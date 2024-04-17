@@ -81,7 +81,7 @@ export default function AboutPage() {
           width={500}
           height={500}
           alt="Robert Mourey profile picture"
-          className="rounded-full border border-gray-100 shadow-sm"
+          className="rounded-full border shadow-sm"
         /> 
 <p className="text-xs text-center font-muted">Robert Mourey Jr</p>
 
@@ -90,7 +90,7 @@ export default function AboutPage() {
           width={500}
           height={500}
           alt="Cody Clark profile picture"
-          className="rounded-full border border-gray-100 shadow-sm"
+          className="rounded-full border shadow-sm"
         />
 <p className="text-xs text-center font-muted">Cody Clark</p>
         </div>
