@@ -33,7 +33,7 @@ const nextConfig = {
 
       {
         protocol: 'https',
-        hostname: 'quantumone.b-cdn.net,
+        hostname: 'quantumone.b-cdn.net',
         port: '',
         pathname: '/**',
       },
