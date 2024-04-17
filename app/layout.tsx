@@ -82,6 +82,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
 }
+}
+
 
 export const viewport: Viewport =  {
   themeColor: [
