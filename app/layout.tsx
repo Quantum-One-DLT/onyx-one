@@ -75,7 +75,7 @@ export const metadata: Metadata = {
         url: 'https://quantumone.b-cdn.net/onyx/opengraph-image.jpg', // Must be an absolute URL
         width: 1800,
         height: 1600,
-        alt: 'blockchain business,
+        alt: 'blockchain business',
       },
     ],
     locale: 'en_US',
