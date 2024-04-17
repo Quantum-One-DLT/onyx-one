@@ -59,6 +59,7 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,
