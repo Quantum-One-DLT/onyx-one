@@ -37,23 +37,27 @@ return (
         <p className="max-w-[700px] text-lg text-muted-foreground">
        DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3k users will automatically receive an airdrop in a random amount. </p> 
 
-<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, our token lock campaign milestones include: </p>
+<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DeFi ONE. The final details will be formally announced via press release in the next few weeks. DeFi ONEs user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: </p>
           <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
 
-<li> Mainnet ERC20 token upgrade deployment and Zetachain deployment. Existing DAO governance 'Da-Fi Token' name and symbol will be changed for branding and marketing purposes. </li>
+<li> Upgrade smart contracts for our existing ERC20 DAO governance token and deployment of upgraded ERC20 token on ZetaChain. </li>
 
 <li> Deployment of optimized Uniswap v3 smart contracts on mainnet and Zetachain. </li> 
 
-<li> Live launch of DeFi ONE DApps and mobile wallet.</li>
+<li> Live launch of DeFi ONE PWA & mobile DApps.</li>
 
-<li> Additional details will be posted here as we roll out our new website and accompany several formal AP PR's planned over the next two quarters.</li>
+<li> Launch of DeFi ONE mobile wallet.</li>
+
+<li> Continued rollout of new Quantum One website and general refinements to pre-existing roadmap, whitepaper, and DAO governance framework. </li>
+
+<li> Additional details will be posted here and accompany several formal AP PR's planned over the next two quarters.</li>
 </ol>
 
 <p className="max-w-[700px] text-lg text-muted-foreground"> Da-Fi Token is designated as an open blockchain network registered token and a digital consumer asset in the State of Wyoming, USA. Our SEC issued CIK number is 0001912440. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO's to operate with full, partial, or zero autonomy and, thus, great flexibility. </p>
 
 <p className="max-w-[700px] text-lg text-muted-foreground"> The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. </p>
 
-<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S browser interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment. Connect your wallet to DeFi ONE for a preview!</p>
+<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment.</p>
       
          <Link
           target="_blank"
