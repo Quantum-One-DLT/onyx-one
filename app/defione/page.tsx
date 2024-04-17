@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Metadata } from 'next' 
+import { Metadata } from 'next'; 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
@@ -8,7 +8,8 @@ import ConnectButton from "@/components/connect-button";
 
 export const metadata: Metadata = {
   title: 'DeFi ONE',
-}
+};
+
 export default async function DefionePage() {
   
 const { data: userSession } = await readUserSession();
@@ -27,8 +28,9 @@ return (
         <p className="max-w-[700px] text-lg text-muted-foreground">
        DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3k users will automatically receive an airdrop in a random amount. </p> 
 
-<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DeFi ONE. The final details will be formally announced via press release in the next few weeks. DeFi ONEs user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: </p>
-          <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
+<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DeFi ONE. The final details will be formally announced via press release in the next few weeks. DeFi ONEs user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
+</p>
+      <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
 
 <li> Upgrade smart contracts for our existing ERC20 DAO governance token and deployment of upgraded ERC20 token on ZetaChain. </li>
 
@@ -45,15 +47,20 @@ return (
 
 <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What is Da-Fi Token?</h1>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What is Da-Fi Token?</h2>
 </div>
 </div>
 
-<p className="max-w-[700px] text-lg text-muted-foreground"> Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility. For those curious, our Securities and Exchange Commision (SEC) issued CIK number is 0001912440.</p>
+<p className="max-w-[700px] text-lg text-muted-foreground"> Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility. For those curious, our Securities and Exchange Commision (SEC) issued CIK number is 0001912440.
+</p>
 
-<p className="max-w-[700px] text-lg text-muted-foreground"> Upon upgrading Da-Fi Token, we plan on changing the token name and symbol to better align with our vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. </p>
+<p className="max-w-[700px] text-lg text-muted-foreground"> 
+Upon upgrading Da-Fi Token, we plan on changing the token name and symbol to better align with our vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. 
+</p>
 
-<p className="max-w-[700px] text-lg text-muted-foreground">DeFi ONE'S interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment. Presently, wallet connection and balance display are enabled. </p>
+<p className="max-w-[700px] text-lg text-muted-foreground">
+DeFi ONE's interface is live and ready to plug in our smart contracts to enable swaps immediately after deployment. Presently, wallet connection and balance display are enabled. 
+</p>
       
          <Link
           target="_blank"
