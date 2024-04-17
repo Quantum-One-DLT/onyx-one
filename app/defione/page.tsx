@@ -6,7 +6,7 @@ import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: 'DeFi ONE',
 };
 
