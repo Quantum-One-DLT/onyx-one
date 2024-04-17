@@ -23,19 +23,64 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   metadataBase: new URL('https://quantumone.io'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
   description: siteConfig.description,
   referrer: 'origin-when-cross-origin',
   keywords: ['DAO', 'Quantum One DAO', 'Quantum One', 'DEX', 'BitCoin', 'DeFi ONE', 'DAO owned data centers', 'quantum blockchain', 'Ethereum', 'DeFi', 'omni-chain defi','BitCoin smart contracts', 'ERC20', 'governance token', 'DEX governance token', 'open blockchain network', 'digital consumer assets', 'Wyoming DAO', 'Ethereum', 'DeFi Llama', 'swap token and nfts', 'swap on any chain', 'BitCoin DeFi', 'engineering opportunity', 'token lock campaign', 'Zetachain', 'SAFE', 'quantum based blockchain networks', 'decentralized opportunity', 'Da-Fi Token', 'wallet connect', 'github', 'Uniswap v3 smart contracts', 'TVL', 'post quantum cryptography', 'post quantum cryptocurrency', 'decentralized ai', 'blockchain ai', 'ai', 'decentralized compliance protocols'],
+  authors: [{ name: 'Robert Mourey Jr' },
+  applicationName: 'Quantum One', 
+  creator: 'Robert Mourey Jr',
+  publisher: 'Quantum One DAO', 
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  generator: 'NextJS',
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   openGraph: {
-    images: "/opengraph-image.jpg",
     title: siteConfig.name,
     description: siteConfig.description,
-    url: "https://www.quantumone.io",
+    siteName: siteConfig.name,
+    url: "https://quantumone.io",
+    images: [
+      {
+        url: 'https://quantumone.io/opengraph-image.jpg', // Must be an absolute URL
+        width: 1230,
+        height: 640,
+      },
+      {
+        url: 'https://quantumone.b-cdn.net/onyx/opengraph-image.jpg', // Must be an absolute URL
+        width: 1800,
+        height: 1600,
+        alt: 'blockchain business,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
  },
 }
 
