@@ -8,7 +8,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/app/auth/components/user-auth-form"
 import { PromoVideo } from '@/components/ui/promo-video'
 import { useState } from 'react'
-import { Separator } from '@/components/ui'
+import { Separator } from '@/components/ui/separator'
 
 interface YouTubeID {
   youtubeID : string;
