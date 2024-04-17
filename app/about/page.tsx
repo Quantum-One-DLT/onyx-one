@@ -79,7 +79,7 @@ export default function AboutPage() {
           width={500}
           height={500}
           alt="Robert Mourey profile picture"
-          className="w-full"
+          className="rounded-full border border-gray-100 shadow-sm"
         />
         </div>
       </div>
