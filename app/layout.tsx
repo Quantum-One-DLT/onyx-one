@@ -81,6 +81,19 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+    twitter: {
+         title: siteConfig.name,
+         description: siteConfig.description,
+         site: '@quantumonedlt',
+         creator: '@quantumonedlt',
+         images: [
+      {
+        url: 'https://quantumone.io/twitter-image.jpg', // Must be an absolute URL
+        width: 1800,
+        height: 900,
+      },
+      ],
+   },
 }
 
 
