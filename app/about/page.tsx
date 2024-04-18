@@ -83,7 +83,8 @@ export default function AboutPage() {
           alt="Robert Mourey profile picture"
           className="rounded-full border-none shadow-sm"
         /> 
-<p className="text-xs text-center font-muted">Robert Mourey Jr</p>
+<p className="text-sm text-center font-muted">Robert Mourey Jr</p>
+<p className="text-xs text-center font-muted">Founder/CEO</p>
 
 <Image
           src="https://quantumone.b-cdn.net/CodyClark-prof.png"
@@ -92,7 +93,8 @@ export default function AboutPage() {
           alt="Cody Clark profile picture"
           className="rounded-full border-none shadow-sm"
         />
-<p className="text-xs text-center font-muted">Cody Clark</p>
+<p className="text-sm text-center font-muted">Cody Clark</p>
+<p className="text-xs text-center font-muted">Co-Founder/COO</p>
         </div>
       </div>
     </div>
