@@ -77,7 +77,7 @@ export default function AboutPage() {
 </div>
 </div>
 
-<div class="grid grid-cols-1 justify-items-center">
+<div className="grid grid-cols-1 justify-items-center">
         <div><Image
           src="https://quantumone.b-cdn.net/rmourey-profile-pic.png"
           width={500}
@@ -90,7 +90,7 @@ export default function AboutPage() {
 <div className="text-xs text-center font-muted">Founder/CEO</div>
 </div>
 
-<div class="grid grid-cols-1 justify-items-center">
+<div className="grid grid-cols-1 justify-items-center">
 <div><Image
           src="https://quantumone.b-cdn.net/CodyClark-prof.png"
           width={500}
