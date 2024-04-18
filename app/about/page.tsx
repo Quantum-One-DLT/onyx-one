@@ -81,16 +81,16 @@ export default function AboutPage() {
           width={500}
           height={500}
           alt="Robert Mourey profile picture"
-          className="rounded-full border shadow-sm"
+          className="rounded-full border-none shadow-sm"
         /> 
 <p className="text-xs text-center font-muted">Robert Mourey Jr</p>
 
 <Image
-          src="https://quantumone.b-cdn.net/CodyClark_square.png"
-          width={500}
-          height={500}
+          src="https://quantumone.b-cdn.net/Cody_Clark.jpeg"
+          width={420}
+          height={420}
           alt="Cody Clark profile picture"
-          className="rounded-full border shadow-sm"
+          className="rounded-full border-none shadow-sm"
         />
 <p className="text-xs text-center font-muted">Cody Clark</p>
         </div>
