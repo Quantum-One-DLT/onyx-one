@@ -86,9 +86,9 @@ export default function AboutPage() {
 <p className="text-xs text-center font-muted">Robert Mourey Jr</p>
 
 <Image
-          src="https://quantumone.b-cdn.net/Cody_Clark.jpeg"
-          width={420}
-          height={420}
+          src="https://quantumone.b-cdn.net/CodyClark-profile.jpg"
+          width={248}
+          height={330}
           alt="Cody Clark profile picture"
           className="rounded-full border-none shadow-sm"
         />
