@@ -92,7 +92,7 @@ export default function AboutPage() {
 
 <div className="grid grid-cols-1 justify-items-center">
 <div><Image
-          src="https://quantumone.b-cdn.net/CodyClark-prof.png"
+          src="https://quantumone.b-cdn.net/onyx/CodyClark-prof.png"
           width={500}
           height={500}
           alt="Cody Clark profile picture"
