@@ -76,25 +76,31 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Team</h2>
 </div>
 </div>
-        <Image
+
+<div class="grid grid-cols-1 justify-items-center">
+        <div><Image
           src="https://quantumone.b-cdn.net/rmourey-profile-pic.png"
           width={500}
           height={500}
           alt="Robert Mourey profile picture"
           className="rounded-full border-none shadow-sm"
         /> 
-<p className="text-sm text-center font-muted">Robert Mourey Jr</p>
-<p className="text-xs text-center font-muted">Founder/CEO</p>
+        </div>
+<div className="text-sm text-center font-muted">Robert Mourey Jr</div>
+<div className="text-xs text-center font-muted">Founder/CEO</div>
+</div>
 
-<Image
+<div class="grid grid-cols-1 justify-items-center">
+<div><Image
           src="https://quantumone.b-cdn.net/CodyClark-prof.png"
           width={500}
           height={500}
           alt="Cody Clark profile picture"
           className="rounded-full border-none shadow-sm"
-        />
-<p className="text-sm text-center font-muted">Cody Clark</p>
-<p className="text-xs text-center font-muted">Co-Founder/COO</p>
+        /></div>
+<div className="text-sm text-center font-muted">Cody Clark</div>
+<div className="text-xs text-center font-muted">Co-Founder/COO</div>
+        </div>
         </div>
       </div>
     </div>
