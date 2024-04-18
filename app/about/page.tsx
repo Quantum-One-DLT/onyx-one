@@ -87,8 +87,8 @@ export default function AboutPage() {
 
 <Image
           src="https://quantumone.b-cdn.net/CodyClark-profile.jpg"
-          width={248}
-          height={330}
+          width={500}
+          height={500}
           alt="Cody Clark profile picture"
           className="rounded-full border-none shadow-sm"
         />
