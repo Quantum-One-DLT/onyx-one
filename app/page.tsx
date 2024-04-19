@@ -48,11 +48,11 @@ export default async function IndexPage() {
             >
               <div
                 className={buttonVariants({
-                  size: "sm",
+                  size: "icon",
                   variant: "outline",
                 })}
               >
-                <Icons.defione className="     h-8 rounded-md px-3 text-xs" />
+                <Icons.defione className="  h-4 w-6" />
                 <span className="sr-only"></span>
               </div>
             </Link>
