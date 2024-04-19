@@ -53,7 +53,7 @@ export default async function IndexPage() {
                 })}
               >
                 <Icons.defione className="" />
-                <span className="sr-only">DeFi ONE</span>
+                <span className="sr-only"></span>
               </div>
             </Link>
       </div>
