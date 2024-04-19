@@ -52,7 +52,7 @@ export default async function IndexPage() {
                   variant: "outline",
                 })}
               >
-                <Icons.defione className="" />
+                <Icons.defione className="     h-8 rounded-md px-3 text-xs" />
                 <span className="sr-only"></span>
               </div>
             </Link>
