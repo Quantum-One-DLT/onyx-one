@@ -48,8 +48,8 @@ export default async function IndexPage() {
             >
               <div
                 className={buttonVariants({
-                  size: "default",
-                  variant: "ghost",
+                  size: "sm",
+                  variant: "outline",
                 })}
               >
                 <Icons.defione className="" />
