@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
-import { Icons } from '@/components/ui/icons'
+import { Icons } from '@/components/icons'
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
