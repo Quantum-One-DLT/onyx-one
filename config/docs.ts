@@ -33,8 +33,8 @@ export const docsConfig: DocsConfig = {
       title: "Tools",
       items: [
         {
-          title: "Coming soon!",
-          href: "#",
+          title: "Sign Out",
+          href: "/signout",
           items: [],
         },
       ],
