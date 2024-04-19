@@ -48,11 +48,11 @@ export default async function IndexPage() {
             >
               <div
                 className={buttonVariants({
-                  size: "icon",
+                  size: "default",
                   variant: "ghost",
                 })}
               >
-                <Icons.defione className="h-5 w-5" />
+                <Icons.defione className="" />
                 <span className="sr-only">DeFi ONE</span>
               </div>
             </Link>
