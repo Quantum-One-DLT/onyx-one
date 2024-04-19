@@ -1,6 +1,6 @@
 **Quantum One DAO LLC Website Terms and Conditions**
 
-*Last Updated: [Date]*
+*Last Updated: [April 19, 2024]*
 
 Welcome to the Quantum One Ecosystem! These terms and conditions ("Terms") outline your rights and responsibilities when interacting with the websites owned and operated by Quantum One DAO LLC, of Wyoming, doing business as "DBA" Quantum One, a decentralized autonomous organization (DAO) committed to advancing innovation within the decentralized finance (DeFi) sector. By engaging with the Quantum One Ecosystem, you agree to comply with the following terms and conditions, overseen by Quantum One and its subsidiary, DeFi One (collectively referred to as "Quantum One," "we," "us," or "our").
 
