@@ -87,7 +87,7 @@ const [email, setEmail] = useState<string | null>(null)
       size={150}
       onUpload={(url) => {
         setAvatarUrl(url)
-        updateProfile({ fullname, username, website, avatar_url: url })
+        updateProfile({ fullname, username, website, email, avatar_url: url })
       }}
     />
       <div>
