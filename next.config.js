@@ -1,8 +1,13 @@
+const withMDX = require('@next/mdx')()
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: config => {
     config.externals.push('pino-pretty', 'lokijs', 'encoding')
     return config
+  },
+  experimental: {
+    mdxRs: true,
   },
     images : {
       remotePatterns: [
@@ -39,6 +44,8 @@ const nextConfig = {
       },
     ],
   },
+
+   pageExtensions: ['ts', 'tsx', 'mdx', 'js', 'jsx'],
 }
 
 module.exports = nextConfig
