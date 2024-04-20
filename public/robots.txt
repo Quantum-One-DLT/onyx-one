@@ -2,8 +2,14 @@
 # Block all crawlers for /accounts
 User-agent: *
 Disallow: /accounts
+
+User-agent: *
 Disallow: /profiles
+
+User-agent: *
 Disallow: /private
+
+User-agent: *
 Allow: /
 
 Sitemap: https://quantumone.io/sitemap.xml
