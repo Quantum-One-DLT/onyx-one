@@ -94,7 +94,7 @@ const [email, setEmail] = useState<string | null>(null)
         <label htmlFor="email">Email</label>
         <input id="email" type="text" value={user?.email} disabled />
       </div>
-      <div>
+      <div className="flex flex-col">
         <label htmlFor="fullName">Full Name</label>
         <input
           id="fullName"
@@ -103,7 +103,7 @@ const [email, setEmail] = useState<string | null>(null)
           onChange={(e) => setFullname(e.target.value)}
         />
       </div>
-      <div>
+      <div className="flex flex-col">
         <label htmlFor="username">Username</label>
         <input
           id="username"
@@ -112,7 +112,7 @@ const [email, setEmail] = useState<string | null>(null)
           onChange={(e) => setUsername(e.target.value)}
         />
       </div>
-      <div>
+      <div className="flex flex-col">
         <label htmlFor="website">Website</label>
         <input
           id="website"
@@ -122,7 +122,7 @@ const [email, setEmail] = useState<string | null>(null)
         />
       </div>
 
-      <div>
+      <div className="flex flex-col">
         <button
           className="button primary block"
           onClick={() => updateProfile({ fullname, username, website, email, avatar_url })}
