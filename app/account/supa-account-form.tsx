@@ -90,7 +90,7 @@ const [email, setEmail] = useState<string | null>(null)
         updateProfile({ fullname, username, website, email, avatar_url: url })
       }}
     />
-      <div>
+      <div className="flex flex-col">
         <label htmlFor="email">Email</label>
         <input id="email" type="text" value={user?.email} disabled />
       </div>
