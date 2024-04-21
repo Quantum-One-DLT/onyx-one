@@ -1,4 +1,5 @@
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google'
 import type { Metadata,Viewport } from 'next'
 import { headers } from 'next/headers'
@@ -126,7 +127,7 @@ export default function RootLayout({
              <div className="relative flex min-h-screen flex-col">
              <SiteHeader/>
              <div className="flex-1">
-        <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider></div>
+        <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider><Analytics/></div>
 </div>
 <SiteFooter/>
 </ThemeProvider>
