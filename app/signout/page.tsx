@@ -10,6 +10,7 @@ export default function page() {
     return (
           <div className="container px-4 py-8 items-centered">
           <div className="mt-6">
+            <h1 className="font-medium text-center"> Click to Sign Out </h1>
             <SignOut/>
 </div>
 </div>
