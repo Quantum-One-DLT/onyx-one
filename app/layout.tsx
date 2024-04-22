@@ -28,6 +28,12 @@ export const metadata: Metadata = {
     languages: {
       'en-US': '/en-US',
       'de-DE': '/de-DE',
+      'es-ES': '/es-ES',
+      'fr-FR': '/fr-FR',
+      'jp-JP': '/jp-JP',
+      'ko-KO': '/ko-KP',
+      'zh-ZH': '/zh-ZH',
+      'pt-PT': '/pt-PT',
     },
   },
   description: siteConfig.description,
