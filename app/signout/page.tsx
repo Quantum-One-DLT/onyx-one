@@ -9,7 +9,7 @@ export default function page() {
 
     return (
           <div className="container px-4 py-8 items-centered">
-          <div className="mt-6"
+          <div className="mt-6">
             <SignOut/>
 </div>
 </div>
