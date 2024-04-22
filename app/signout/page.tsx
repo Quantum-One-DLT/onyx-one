@@ -8,8 +8,11 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 export default function page() {
 
     return (
-          
+          <div className="container px-4 py-8 items-centered">
+          <div className="mt-6"
             <SignOut/>
+</div>
+</div>
     )
         
 }
