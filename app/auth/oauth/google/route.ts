@@ -18,4 +18,8 @@ await supabase.auth.signInWithOAuth({
     redirectTo: 'https://quantumone.io/defione'
   }
 })
+  revalidatePath('/', 'layout')
+  return NextResponse.redirect(new URL('/auth', req.url), {
+    status: 302,
+  })
 }
