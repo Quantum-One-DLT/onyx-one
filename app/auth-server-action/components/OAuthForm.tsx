@@ -5,5 +5,8 @@ export default function OAuthForm() {
 	return 
       <div>
         <form action="/auth/oauth/google" method="post">
-<Button variant="outline">Login With Google</Button>;
+<Button className="w-full items-centered gap-2" variant="outline">Login With Google</Button>
+</form>
+</div>
+;
 }
