@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
 import Avatar from './avatar'
+import { Input } from '@/components/ui/input'
 
 export default function AccountForm({ user }: { user: User | null }) {
   const supabase = useSupabaseBrowser()
@@ -135,7 +136,7 @@ const languages = [
 
       <div className="flex flex-col">
         <button
-          className="button primary block"
+          className="rounded-md"
           onClick={() => updateProfile({ fullname, username, website, email, avatar_url })}
           disabled={loading}
         >
