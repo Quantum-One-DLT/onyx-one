@@ -78,7 +78,7 @@ export default function OnboardingPage() {
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
               <h1 className="text-2xl font-semibold tracking-tight">
-                Join our presale list!
+                Sign up to receive an airdrop!
               </h1>
               <p className="text-sm text-muted-foreground">
                 Limited to the 1st 3K users.
