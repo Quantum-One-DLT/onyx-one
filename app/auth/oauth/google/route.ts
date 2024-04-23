@@ -23,3 +23,4 @@ await supabase.auth.signInWithOAuth({
     status: 302,
   })
 }
+}
