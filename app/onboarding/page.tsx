@@ -32,6 +32,7 @@ export default function OnboardingPage() {
         />
       </div>
       <div className="container relative h-[640px] grid grid-cols-1 flex-col items-center justify-center mx-auto md:grid-cols-2 lg:max-w-none lg:px-0">
+        {/*
         <Link
           href="/auth"
           className={cn(
@@ -41,6 +42,7 @@ export default function OnboardingPage() {
         >
           Login
         </Link>
+        */}
         <div className="relative hidden h-full flex-col bg-inherit p-10 text-white md:flex dark:border-r">
                     <div className="absolute inset-0 bg-inherit">
           <Image

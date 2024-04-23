@@ -45,9 +45,7 @@ export default async function IndexPage() {
               href={siteConfig.links.defione}
               target="_blank"
               rel="noreferrer"
-              className={buttonVariants({
-                  variant: "outline",
-                })}
+              className={buttonVariants()}
               >
              DeFi ONE
             </Link>
