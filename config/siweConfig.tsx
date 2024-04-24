@@ -18,11 +18,11 @@ function createMessage({ nonce, address, chainId }: SIWECreateMessageArgs){
 }
 
 /* Function that returns the user's session */
-async function getSession({ address, chainId }: SIWECreatMessageArgs){
+async function getSession(){
   const session = await getSession()
   if (!session) throw new Error('Failed to get session!')
 
-  const { address, chainId } = session
+  const ({ address, chainId }:SIWECreateMessageArgs) = session
 
   return { address, chainId }
 }
