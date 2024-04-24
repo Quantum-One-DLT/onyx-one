@@ -42,13 +42,14 @@ const defaultValues: Partial<Web3AccountValues> = {
 }
 
 
-const form = useForm<Web3AccountValues>({
-    resolver: zodResolver(web3AccountSchema),
-    defaultValues,
-  })
+
 
 export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
+  const form = useForm<Web3AccountValues>({
+    resolver: zodResolver(web3AccountSchema),
+    defaultValues,
+  })
  
 
 	if (userSession.session) {
