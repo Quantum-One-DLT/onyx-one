@@ -6,17 +6,50 @@ import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 import { useState } from "react";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
 
 export interface AccountType {
   address?: string;
   balance?: string;
   chainId?: string;
-  network?: string;
+  networkType?: string;
 }
+const web3AccountSchema = z.object({
+  address: z
+    .string()
+    .min(2, {
+      message: "Address is too short",
+    })
+    .max(30, {
+      message: "Address is not valid",
+    }),
+  balance: z.string({
+    required_error: "Account balance.",
+  }),
+  chain: z.string({
+    required_error: "Shouldn't populate",
+  }),
+})
+
+type Web3AccountValues = z.infer<typeof web3AccountSchema>
+
+// This can come from your database or API.
+const defaultValues: Partial<Web3AccountValues> = {
+  // name: "Your name",
+  // dob: new Date("2023-01-23"),
+}
+
+
+const form = useForm<Web3AccountValues>({
+    resolver: zodResolver(web3AccountSchema),
+    defaultValues,
+  })
 
 export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
-  const [accountData, setAccountData] = useState<AccountType>({});
+ 
 
 	if (userSession.session) {
 		return redirect("/dashboard");
