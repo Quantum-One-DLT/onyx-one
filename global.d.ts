@@ -3,3 +3,5 @@ declare global {
       ethereum: any
     }
   }
+
+export default global;
