@@ -6,7 +6,7 @@ import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
 import { useState } from "react";
-import { z } from "zod";
+import * as z from "zod"
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
