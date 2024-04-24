@@ -152,9 +152,6 @@ dependencies:
   '@vercel/analytics':
     specifier: ^1.2.2
     version: 1.2.2(next@14.0.4)(react@18.2.0)
-  '@web3modal/siwe':
-    specifier: ^4.1.11
-    version: 4.1.11(@types/react@18.2.46)(react@18.2.0)
   '@web3modal/wagmi':
     specifier: ^4.1.1
     version: 4.1.1(@types/react@18.2.46)(@wagmi/connectors@4.1.18)(@wagmi/core@2.6.9)(@web3modal/wallet@4.1.1)(typescript@5.3.3)(viem@2.9.0)
@@ -245,9 +242,6 @@ dependencies:
   sharp:
     specifier: ^0.31.3
     version: 0.31.3
-  siwe:
-    specifier: ^2.3.2
-    version: 2.3.2(ethers@5.4.7)
   tailwind-merge:
     specifier: ^2.2.0
     version: 2.2.0
@@ -6582,15 +6576,6 @@ packages:
     resolution: {integrity: sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==}
     dev: false
 
-  /@spruceid/siwe-parser@2.1.2:
-    resolution: {integrity: sha512-d/r3S1LwJyMaRAKQ0awmo9whfXeE88Qt00vRj91q5uv5ATtWIQEGJ67Yr5eSZw5zp1/fZCXZYuEckt8lSkereQ==}
-    dependencies:
-      '@noble/hashes': 1.4.0
-      apg-js: 4.3.0
-      uri-js: 4.4.1
-      valid-url: 1.0.9
-    dev: false
-
   /@stablelib/aead@1.0.1:
     resolution: {integrity: sha512-q39ik6sxGHewqtO0nP4BuSe3db5G1fEJE8ukvngS2gLkBXyy6E7pLubhbYgnkDFv6V8cWaxcE4Xn0t6LWcJkyg==}
     dev: false
@@ -7923,13 +7908,6 @@ packages:
       dayjs: 1.11.10
     dev: false
 
-  /@web3modal/common@4.1.11:
-    resolution: {integrity: sha512-zcoaixcI3dLC/D0QlhpT8MNCd717O1/3r1AemC5/9Wbk2F+YKXkzJZHmWlXoTvlTw9DH07rJzs9YTPxFyn855w==}
-    dependencies:
-      bignumber.js: 9.1.2
-      dayjs: 1.11.10
-    dev: false
-
   /@web3modal/core@4.1.1(@types/react@18.2.46)(react@18.2.0):
     resolution: {integrity: sha512-+FT73nYHKqF0VlkB9lo6mvfR/WjB4dz24JPwKb2Vq05JVyOcnbt5S06IeTtjI7zgKv3MyKzDzxh6z1ScgbTaRA==}
     dependencies:
@@ -7941,25 +7919,8 @@ packages:
       - react
     dev: false
 
-  /@web3modal/core@4.1.11(@types/react@18.2.46)(react@18.2.0):
-    resolution: {integrity: sha512-e475IIWywEtgH1CCB2Pl1C/wgPu0NzAvtTMOPSGNoHsw1ID2n6j/o4CURQb2HJjOoYQjTKKVkzXa44vFh2p9xw==}
-    dependencies:
-      '@web3modal/common': 4.1.11
-      '@web3modal/wallet': 4.1.11
-      valtio: 1.11.2(@types/react@18.2.46)(react@18.2.0)
-    transitivePeerDependencies:
-      - '@types/react'
-      - react
-    dev: false
-
   /@web3modal/polyfills@4.1.1:
     resolution: {integrity: sha512-HQ90relyjjLfTj5XJhhDV9l3Mp10Rvv/MN+GCvzEx/xY7Tz4yhmKZUX3c519pz2BeVYjea+xwwu6OoOwd3GAXQ==}
-    dependencies:
-      buffer: 6.0.3
-    dev: false
-
-  /@web3modal/polyfills@4.1.11:
-    resolution: {integrity: sha512-+aMmjGrLCKLo4gVAdWgFdOX2ZjExciSLw/YlZ01wLO8Yj3bZbCZ7sjBc9xndHOVMK0QyUzBtpCOpYMJzi+59jg==}
     dependencies:
       buffer: 6.0.3
     dev: false
@@ -7983,17 +7944,6 @@ packages:
     dependencies:
       '@web3modal/core': 4.1.1(@types/react@18.2.46)(react@18.2.0)
       '@web3modal/polyfills': 4.1.1
-      valtio: 1.11.2(@types/react@18.2.46)(react@18.2.0)
-    transitivePeerDependencies:
-      - '@types/react'
-      - react
-    dev: false
-
-  /@web3modal/scaffold-utils@4.1.11(@types/react@18.2.46)(react@18.2.0):
-    resolution: {integrity: sha512-nsS9yK5tp1N/VfecLLPc8H/dGJCzn0jElWjRS92VfGPhOSiEh5PIrPyCl9o6wUZsp4fH1YUsoSY2EFpPsuCWgw==}
-    dependencies:
-      '@web3modal/core': 4.1.11(@types/react@18.2.46)(react@18.2.0)
-      '@web3modal/polyfills': 4.1.11
       valtio: 1.11.2(@types/react@18.2.46)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
@@ -8044,18 +7994,6 @@ packages:
     dev: false
     optional: true
 
-  /@web3modal/siwe@4.1.11(@types/react@18.2.46)(react@18.2.0):
-    resolution: {integrity: sha512-gndcNA351mkAR0wUsO4dLS9CbpcFo+AQ2CUXF0Jx83DwaBStCVsX3yllfnYKh/gpVetF3B48mRUt9TTTJJ79dA==}
-    dependencies:
-      '@web3modal/core': 4.1.11(@types/react@18.2.46)(react@18.2.0)
-      '@web3modal/scaffold-utils': 4.1.11(@types/react@18.2.46)(react@18.2.0)
-      lit: 3.1.0
-      valtio: 1.11.2(@types/react@18.2.46)(react@18.2.0)
-    transitivePeerDependencies:
-      - '@types/react'
-      - react
-    dev: false
-
   /@web3modal/ui@4.1.1:
     resolution: {integrity: sha512-6ntwIdi3VHR1HLIiyoannOAcckDs3XYrxxIu8cflba6UyuASJ6AH/AY3ULE88fvE55jM/Lra3uuOYj8yE5QjUw==}
     dependencies:
@@ -8092,13 +8030,6 @@ packages:
   /@web3modal/wallet@4.1.1:
     resolution: {integrity: sha512-KgITukYJXDete4MeH95jditHtQ1gvB+q97td0cjxA+xwzLCgihDfHZEq1kuVg5Fj40ECUV4O6IBc++cNeL9EXQ==}
     dependencies:
-      zod: 3.22.4
-    dev: false
-
-  /@web3modal/wallet@4.1.11:
-    resolution: {integrity: sha512-6eJSpNcrBxufJFEQu9+ZOMUZxPqa8438RvfYKCU9nLXwoBtweo6ecpQw2yhXDlrfG+uJZhFabtPxROabn2M8Kg==}
-    dependencies:
-      '@web3modal/polyfills': 4.1.11
       zod: 3.22.4
     dev: false
 
@@ -8483,10 +8414,6 @@ packages:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  /apg-js@4.3.0:
-    resolution: {integrity: sha512-8U8MULS+JocCnm11bfrVS4zxtAcE3uOiCAI21SnjDrV9LNhMSGwTGGeko3QfyK1JLWwT7KebFqJMB2puzfdFMQ==}
-    dev: false
-
   /appdirsjs@1.2.7:
     resolution: {integrity: sha512-Quji6+8kLBC3NnBeo14nPDq0+2jUs5s3/xEye+udFHumHhRk4M7aAMXp/PBJqkKYGuuyR9M/6Dq7d2AViiGmhw==}
     dev: false
@@ -8814,10 +8741,6 @@ packages:
   /bigint-crypto-utils@3.3.0:
     resolution: {integrity: sha512-jOTSb+drvEDxEq6OuUybOAv/xxoh3cuYRUIPyu8sSHQNKM303UQ2R1DAo45o1AkcIXw6fzbaFI1+xGGdaXs2lg==}
     engines: {node: '>=14.0.0'}
-    dev: false
-
-  /bignumber.js@9.1.2:
-    resolution: {integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==}
     dev: false
 
   /binary-extensions@2.2.0:
@@ -15863,18 +15786,6 @@ packages:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: false
 
-  /siwe@2.3.2(ethers@5.4.7):
-    resolution: {integrity: sha512-aSf+6+Latyttbj5nMu6GF3doMfv2UYj83hhwZgUF20ky6fTS83uVhkQABdIVnEuS8y1bBdk7p6ltb9SmlhTTlA==}
-    peerDependencies:
-      ethers: ^5.6.8 || ^6.0.8
-    dependencies:
-      '@spruceid/siwe-parser': 2.1.2
-      '@stablelib/random': 1.0.2
-      ethers: 5.4.7
-      uri-js: 4.4.1
-      valid-url: 1.0.9
-    dev: false
-
   /slash@3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
@@ -17016,10 +16927,6 @@ packages:
   /uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
-    dev: false
-
-  /valid-url@1.0.9:
-    resolution: {integrity: sha512-QQDsV8OnSf5Uc30CKSwG9lnhMPe6exHtTXLRYX8uMwKENy640pU+2BgBL0LRbDh/eYRahNCS7aewCx0wf3NYVA==}
     dev: false
 
   /valtio@1.11.2(@types/react@18.2.46)(react@18.2.0):
