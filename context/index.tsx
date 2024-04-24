@@ -31,7 +31,7 @@ createWeb3Modal({
   },
 
  themeVariables: {
-     '--w3m-color-mix': '#ffffff',
+     '--w3m-accent': '#121212',
 
   },
 
