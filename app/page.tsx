@@ -1,4 +1,3 @@
-"use client"
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
@@ -47,10 +46,7 @@ const defaultValues: Partial<Web3AccountValues> = {
 
 export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
-  const form = useForm<Web3AccountValues>({
-    resolver: zodResolver(web3AccountSchema),
-    defaultValues,
-  })
+  
  
 
 	if (userSession.session) {
