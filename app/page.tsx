@@ -5,9 +5,18 @@ import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
+import { useState } from "react";
+
+export interface AccountType {
+  address?: string;
+  balance?: string;
+  chainId?: string;
+  network?: string;
+}
 
 export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
+  const [accountData, setAccountData] = useState<AccountType>({});
 
 	if (userSession.session) {
 		return redirect("/dashboard");
