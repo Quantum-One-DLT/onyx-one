@@ -147,7 +147,7 @@ const { address } = useAccount()
 
 <div className="flex flex-col items-centered">
         <label htmlFor="wadress">Wallet Address</label>
-<input id="waddress" type="text" value={address} disabled />
+<input id="waddress" type="text" value={address} onChange={(e) => setWaddress(e.target.value)}/>
       <div>{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
       <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect</button>
