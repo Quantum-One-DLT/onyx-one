@@ -15,5 +15,6 @@ export default function Daccount () {
       <button onClick={() => disconnect()}>Disconnect</button>
    </div>
     </div>
+    </div>
   )
 }
