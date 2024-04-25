@@ -1,7 +1,7 @@
 
 import { useAccount, useDisconnect, useEnsAvatar, useEnsName } from 'wagmi'
 
-export function Account() {
+export default function Daccount () {
   const { address } = useAccount()
   const { disconnect } = useDisconnect()
   const { data: ensName } = useEnsName({ address })
