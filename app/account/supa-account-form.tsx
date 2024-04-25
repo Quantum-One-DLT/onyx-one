@@ -157,8 +157,8 @@ const { address } = useAccount()
 
       <div className="flex flex-col">
         <button
-          className="rounded-md"
-          onClick={() => updateProfile({ fullname, username, website, email, avatar_url })}
+          className={buttonVariants({ variant: "outline" })}
+          onClick={() => updateProfile({ fullname, username, website, email, waddress, avatar_url })}
           disabled={loading}
         >
           {loading ? 'Loading ...' : 'Update'}
