@@ -15,6 +15,7 @@ export default function AccountForm({ user }: { user: User | null }) {
   const [website, setWebsite] = useState<string | null>(null)
   const [avatar_url, setAvatarUrl] = useState<string | null>(null)
 const [email, setEmail] = useState<string | null>(null)
+const [waddress, setWaddress] = useState<string | null>(null)
 const languages = [
   { label: "English", value: "en" },
   { label: "French", value: "fr" },
@@ -33,7 +34,7 @@ const languages = [
 
       const { data, error, status } = await supabase
         .from('profiles')
-        .select(`full_name, username, website, avatar_url, email`)
+        .select(`full_name, username, website, avatar_url, email, waddress`)
         .eq('id', user?.id as string)
         .single()
 
@@ -48,6 +49,7 @@ const languages = [
         setWebsite(data.website)
         setAvatarUrl(data.avatar_url)
         setEmail(data.email)
+        setWaddress(data.waddress)
       }
     } catch (error) {
       alert('Error loading user data!')
@@ -65,12 +67,14 @@ const languages = [
     website,
     avatar_url,
     email,
+    waddress,
   }: {
     username: string | null
     fullname: string | null
     website: string | null
     avatar_url: string | null
     email: string | null
+    waddress: string | null
   }) {
     try {
       setLoading(true)
@@ -82,6 +86,7 @@ const languages = [
         website,
         avatar_url,
         email,
+        waddress,
         updated_at: new Date().toISOString(),
       })
       if (error) throw error
@@ -105,7 +110,7 @@ const { address } = useAccount()
       size={150}
       onUpload={(url) => {
         setAvatarUrl(url)
-        updateProfile({ fullname, username, website, email, avatar_url: url })
+        updateProfile({ fullname, username, website, email, waddress, avatar_url: url })
       }}
     />
       <div className="flex flex-col">
