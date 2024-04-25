@@ -10,7 +10,7 @@ export default function Daccount () {
   return (
     <div className="container items-centered">
 <div className="flex flex-col items-centered">
-      <div {ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
+      <div>{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
       <button onClick={() => disconnect()}>Disconnect</button>
    </div>
