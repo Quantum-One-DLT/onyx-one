@@ -13,7 +13,7 @@ export default function Daccount () {
 <div className="flex flex-col items-centered">
       <div>{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
-      <button onClick={() => disconnect()}>Disconnect</button>
+      <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect</button>
    </div>
     </div>
     </div>
