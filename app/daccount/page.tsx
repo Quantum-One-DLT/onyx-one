@@ -8,10 +8,12 @@ export default function Daccount () {
   const { data: ensAvatar } = useEnsAvatar({ name: ensName! })
 
   return (
-    <div>
+    <div className="container items-centered">
+<div className="flex flex-col items-centered"
       {ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
       <button onClick={() => disconnect()}>Disconnect</button>
+   </div>
     </div>
   )
 }
