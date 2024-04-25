@@ -1,5 +1,6 @@
 "use client"
 import { useAccount, useDisconnect, useEnsAvatar, useEnsName } from 'wagmi'
+import { buttonVariants } from "@/components/ui/button"
 
 export default function Daccount () {
   const { address } = useAccount()
