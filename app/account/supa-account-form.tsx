@@ -1,4 +1,6 @@
 'use client'
+import { useAccount, useDisconnect, useEnsAvatar, useEnsName } from 'wagmi'
+import { buttonVariants } from "@/components/ui/button"    
 import { useCallback, useEffect, useState } from 'react'
 import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
@@ -90,6 +92,10 @@ const languages = [
       setLoading(false)
     }
   }
+const { address } = useAccount()
+  const { disconnect } = useDisconnect()
+  const { data: ensName } = useEnsName({ address })
+  const { data: ensAvatar } = useEnsAvatar({ name: ensName! })
 
   return (
     <div className="form-widget container items-center">
@@ -133,6 +139,14 @@ const languages = [
           onChange={(e) => setWebsite(e.target.value)}
         />
       </div>
+
+<div className="flex flex-col items-centered">
+      <div>{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
+      {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
+      <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect</button>
+   </div>
+    </div>
+    
 
       <div className="flex flex-col">
         <button
