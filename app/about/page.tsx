@@ -24,10 +24,10 @@ const youtubeID = "HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf" as unknown as string;
 
 export default function AboutPage() {
   return (
-    <div className="container flex space-y-8">
-      <div className="flex px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-8 text-center">
-          <div className="space-y-8">
+      <div className="w-full py-6 space-y-8">
+      <div className="container space-y-2 px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-6 text-center">
+          <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
             <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               We're passionately committed to enabling greater socioeconomic opportunity for everyone through technology. We're not here to make billions, we're here to do what we love, live comfortably, and create opportunities for people to do the same.
@@ -35,13 +35,13 @@ export default function AboutPage() {
           </div>
         </div>
 <Separator/>
-<div className="flex flex-col items-center justify-center space-y-8 text-center">
-          <div className="space-y-8">
+<div className="flex flex-col items-center justify-center space-y-3 text-center">
+          <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Values</h1>
 </div>
 </div>
-        <div className="mx-auto max-w-3xl space-y-8">
-          <ol className="list-decimal list-inside space-y-8">
+        <div className="mx-auto max-w-3xl space-y-3">
+          <ol className="list-decimal list-inside space-y-3">
             
              <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
 
@@ -64,20 +64,20 @@ export default function AboutPage() {
           </ol>
         </div>
 <Separator/>
-        <div className="space-y-8">
+        <div className="space-y-3">
             <h5 className="text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
           <div className="aspect-video overflow-hidden rounded-lg shadow-lg text-center">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
 <Separator/>
-<div className="flex flex-col items-center justify-center space-y-8 text-center">
+<div className="flex flex-col items-center justify-center space-y-3 text-center">
           <div className="space-y-8">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Team</h2>
 </div>
 </div>
 
-<div className="grid grid-cols-1 justify-items-center space-y-8">
+<div className="grid grid-cols-1 justify-items-center space-y-3">
         <div><Image
           src="https://quantumone.b-cdn.net/rmourey-profile-pic.png"
           width={500}
