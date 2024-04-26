@@ -161,7 +161,7 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
 <div className="flex flex-col">    
 <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect Wallet</button>
    </div>
-    </div>
+    
     
 
       <div className="flex flex-col">
