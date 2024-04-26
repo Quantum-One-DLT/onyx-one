@@ -11,7 +11,7 @@ export default async function IndexPage() {
   const { data: userSession } = await readUserSession();
 
 	if (userSession.session) {
-		return redirect("/defione");
+		return redirect("/account");
 	}
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
