@@ -17,7 +17,7 @@ data: { user },} = await supabase.auth.getUser()
       <div>
         <h1 className="text-lg font-medium text-center">Account Details</h1>
         <p className="text-sm text-center text-muted-foreground">
-          AirDrops are sent to your profile wallet address. 
+          AirDrops are sent to your airdrop wallet address. 
         </p>
       </div>
       <Separator />
