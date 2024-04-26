@@ -47,7 +47,14 @@ return (
 
 <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What is Da-Fi Token?</h2>
+       <Link
+          href={siteConfig.links.dafietherscan}
+          target="_blank"
+          rel="noreferrer"
+          className="text-3xl font-bold tracking-tighter sm:text-5xl"
+        >
+          What is Da-Fi Token?
+        </Link>
 </div>
 </div>
 
