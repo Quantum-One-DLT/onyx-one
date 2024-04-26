@@ -168,7 +168,7 @@ const { address } = useAccount()
 
       <div>
         <form action="/auth/signout" method="post">
-          <button className="button block" type="submit">
+          <button           className={buttonVariants({ variant: "outline" })} type="submit">
             Sign out
           </button>
         </form>
