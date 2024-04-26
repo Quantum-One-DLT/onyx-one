@@ -1,6 +1,7 @@
 import React from "react";
 import { AuthFormLegacy } from '@/app/auth-server-action/components/AuthFormLegacy'
 import { readUserSession } from "@/utils/actions";
+import { redirect } from "next/navigation";
 
 export default function page() {
         const { data: userSession } = await readUserSession();
