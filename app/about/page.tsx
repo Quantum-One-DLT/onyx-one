@@ -86,7 +86,14 @@ export default function AboutPage() {
           className="rounded-full border-none shadow-sm"
         /> 
         </div>
-<div className="text-sm text-center font-muted">Robert Mourey Jr</div>
+        <Link
+          href={siteConfig.links.linkedinRM}
+          target="_blank"
+          rel="noreferrer"
+          className=text-sm text-center.  font-muted"
+        >
+          Robert Mourey Jr
+        </Link>
 <div className="text-xs text-center font-muted">Founder/CEO</div>
 </div>
 
