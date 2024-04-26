@@ -13,11 +13,11 @@ export default async function SettingsAccountPage() {
 data: { user },} = await supabase.auth.getUser()
  
   return (
-    <div className="mt-10 px-4 py-8 space-y-6">
+    <div className="mt-4 px-2 py-8 space-y-6">
       <div>
-        <h3 className="text-lg font-medium">Account</h3>
-        <p className="text-sm text-muted-foreground">
-          Update your Quantum One account.
+        <h1 className="text-lg font-medium text-center">Account Details</h1>
+        <p className="text-sm text-center text-muted-foreground">
+          AirDrops are sent to your profile wallet address. 
         </p>
       </div>
       <Separator />
