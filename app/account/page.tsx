@@ -26,7 +26,7 @@ data: { user },} = await supabase.auth.getUser()
           rel="noreferrer"
           className="text-1xl font-bold tracking-tighter sm:text-3xl"
         >
-         Learn about DeFi ONE 
+         Learn about DeFi ONE!
         </Link>
      
       </div>
