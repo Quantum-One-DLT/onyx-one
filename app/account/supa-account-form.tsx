@@ -146,10 +146,11 @@ const { address } = useAccount()
       </div>
 
 <div className="flex flex-col items-centered">
-        <label htmlFor="waddress">Wallet Address</label>
+        <label htmlFor="waddress">AirDrop Wallet Address</label>
 <input id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.target.value)}/>
-      <div>{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
-      {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
+<label htmlFor="connectedAddress">Connected Wallet Address</label>
+      <div className="flex flex-col">{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
+      {address && <div className="flex flex-col">{ensName ? `${ensName} (${address})` : address}</div>}
       <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect</button>
    </div>
     </div>
