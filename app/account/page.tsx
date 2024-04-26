@@ -3,6 +3,7 @@ import AccountForm from "./supa-account-form"
 import { cookies } from 'next/headers'
 import { createClient } from '@/utils/supa-server-actions'
 import { redirect } from 'next/navigation'
+import Link from 'next/link'
 
 export default async function SettingsAccountPage() {
   const cookieStore = cookies()
