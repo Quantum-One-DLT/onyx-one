@@ -174,7 +174,7 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
         </button>
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <form action="/auth/signout" method="post">
           <button           className={buttonVariants({ variant: "outline" })} type="submit">
             Sign out
