@@ -86,7 +86,7 @@ const languages = [
         website,
         avatar_url,
         email,
-        waddress,
+        waddress: address, 
         updated_at: new Date().toISOString(),
       })
       if (error) throw error
@@ -146,7 +146,7 @@ const { address } = useAccount()
       </div>
 
 <div className="flex flex-col items-centered">
-        <label htmlFor="wadress">Wallet Address</label>
+        <label htmlFor="waddress">Wallet Address</label>
 <input id="waddress" type="text" value={address} onChange={(e) => setWaddress(e.target.value)}/>
       <div>{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div>{ensName ? `${ensName} (${address})` : address}</div>}
