@@ -49,6 +49,11 @@ const profileFormSchema = z.object({
       })
     )
     .optional(),
+  address_1: z.string().max(50).min(4),
+  address_2: z.string().max(50).min(4),
+  state_province_abbr: z.string().max(2).min(2),
+  country: z.string().max(2).min(2),
+  zipcode: z.number().max(8).min(5),
 })
 
 type ProfileFormValues = z.infer<typeof profileFormSchema>
