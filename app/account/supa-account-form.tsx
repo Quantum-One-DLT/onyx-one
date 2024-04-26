@@ -91,7 +91,7 @@ const languages = [
         updated_at: new Date().toISOString(),
       })
       if (error) throw error
-      alert('Profile updated!')
+      alert('Account updated!')
     } catch (error) {
       alert('Error updating the data!')
     } finally {
