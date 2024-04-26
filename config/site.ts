@@ -34,5 +34,10 @@ export const siteConfig = {
     login:"https://quantumone.io/auth",
     signup:"https://quantumone.io/onboarding",
     signout:"https://quantumone.io/signout",
-  },
+
+linkedinRM: "https://linkedin.com/in/robertmoureyjr",
+linkedinCC: "https://linkedin.com/in/codyclark",
+
+}
+
 }
