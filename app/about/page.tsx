@@ -97,6 +97,7 @@ export default function AboutPage() {
         </Link>
 <div className="text-xs text-center font-muted">Founder/CEO</div>
 </div>
+</div>
 <div className="grid grid-cols-1 justify-items-center">
 <div><Image
           src="https://quantumone.b-cdn.net/onyx/CodyClark-prof.png"
