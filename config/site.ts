@@ -38,6 +38,7 @@ export const siteConfig = {
 linkedinRM: "https://linkedin.com/in/robertmoureyjr",
 linkedinCC: "https://linkedin.com/in/codyclark",
 
+dafietherscan:"https://etherscan.io/token/0xeaad65885fea47a3b1258935f4ce83aab06fdd3a"
 }
 
 }
