@@ -106,10 +106,10 @@ const { address } = useAccount()
   return (
     <div className="form-widget container items-center space-y-4">
 <Avatar
-      className="rounded-full border-none  shadow-sm"
+      
       uid={user?.id ?? null}
       url={avatar_url}
-      size={150}
+      size={144}
       onUpload={(url) => {
         setAvatarUrl(url)
         updateProfile({ fullname, username, website, email, waddress, avatar_url: url })
