@@ -86,6 +86,7 @@ export default function AboutPage() {
           className="rounded-full border-none shadow-sm"
         /> 
         </div>
+        <div className="flex flex-col space-y-0">
         <Link
           href={siteConfig.links.linkedinRM}
           target="_blank"
@@ -96,7 +97,6 @@ export default function AboutPage() {
         </Link>
 <div className="text-xs text-center font-muted">Founder/CEO</div>
 </div>
-
 <div className="grid grid-cols-1 justify-items-center">
 <div><Image
           src="https://quantumone.b-cdn.net/onyx/CodyClark-prof.png"
