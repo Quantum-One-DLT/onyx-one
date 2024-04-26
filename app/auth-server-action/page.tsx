@@ -3,7 +3,7 @@ import { AuthFormLegacy } from '@/app/auth-server-action/components/AuthFormLega
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 
-export default function page() {
+export default async function page() {
         const { data: userSession } = await readUserSession();
 
         if (userSession.session) {
