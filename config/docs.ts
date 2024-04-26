@@ -16,8 +16,8 @@ export const docsConfig: DocsConfig = {
       href: "/defione",
     },
     { 
-      title: "Profile",
-      href: "/profile",
+      title: "Account",
+      href: "/account",
     },
     { 
       title: "About",
