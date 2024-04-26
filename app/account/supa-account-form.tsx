@@ -1,6 +1,7 @@
 'use client'
 import { useAccount, useDisconnect, useEnsAvatar, useEnsName } from 'wagmi'
-import { buttonVariants } from "@/components/ui/button"    
+import { buttonVariants } from "@/components/ui/button" 
+import { cn } from '@/lib/utils'   
 import { useCallback, useEffect, useState } from 'react'
 import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
@@ -115,11 +116,14 @@ const { address } = useAccount()
     />
       <div className="flex flex-col">
         <label htmlFor="email">Email</label>
-        <input id="email" type="text" value={user?.email} disabled />
+        <input className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50" id="email" type="text" value={user?.email} disabled />
       </div>
       <div className="flex flex-col">
         <label htmlFor="fullName">Full Name</label>
         <input
+           className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
           id="fullName"
           type="text"
           value={fullname || ''}
@@ -129,6 +133,8 @@ const { address } = useAccount()
       <div className="flex flex-col">
         <label htmlFor="username">Username</label>
         <input
+           className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
           id="username"
           type="text"
           value={username || ''}
@@ -138,6 +144,8 @@ const { address } = useAccount()
       <div className="flex flex-col">
         <label htmlFor="website">Website</label>
         <input
+           className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
           id="website"
           type="url"
           value={website || ''}
@@ -147,7 +155,10 @@ const { address } = useAccount()
 
 <div className="flex flex-col items-centered">
         <label htmlFor="waddress">AirDrop Wallet Address</label>
-<input id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.target.value)}/>
+<input 
+className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
+id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.target.value)}/>
 <label htmlFor="connectedAddress">Connected Wallet Address</label>
       <div className="flex flex-col">{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div className="flex flex-col">{ensName ? `${ensName} (${address})` : address}</div>}
