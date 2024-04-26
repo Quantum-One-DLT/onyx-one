@@ -104,7 +104,7 @@ const { address } = useAccount()
   const { data: ensAvatar } = useEnsAvatar({ name: ensName! })
 
   return (
-    <div className="form-widget container items-center space-y-8">
+    <div className="form-widget container items-center space-y-4">
 <Avatar
       uid={user?.id ?? null}
       url={avatar_url}
