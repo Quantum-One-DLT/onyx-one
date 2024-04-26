@@ -100,7 +100,7 @@ export function AccountForm() {
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <FormField
           control={form.control}
-          name="name"
+          name="fullname"
           render={({ field }) => (
             <FormItem>
               <FormLabel>Name</FormLabel>
