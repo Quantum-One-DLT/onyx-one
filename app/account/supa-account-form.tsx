@@ -151,7 +151,7 @@ const { address } = useAccount()
 <label htmlFor="connectedAddress">Connected Wallet Address</label>
       <div className="flex flex-col">{ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
       {address && <div className="flex flex-col">{ensName ? `${ensName} (${address})` : address}</div>}
-      <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect</button>
+      <button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect Wallet</button>
    </div>
     </div>
     
@@ -162,7 +162,7 @@ const { address } = useAccount()
           onClick={() => updateProfile({ fullname, username, website, email, waddress, avatar_url })}
           disabled={loading}
         >
-          {loading ? 'Loading ...' : 'Update'}
+          {loading ? 'Loading ...' : 'Update Account'}
         </button>
       </div>
 
