@@ -99,7 +99,12 @@ export const metadata: Metadata = {
         width: 1800,
         height: 900,
       },
-      ],
+      {
+        url: 'https://quantumone.b-cdn.net/onyx/twitter-image.jpg',
+        width: 1800,
+        height: 900,
+      },
+     ],
    },
 }
 
