@@ -46,7 +46,15 @@ const languages = [
 ] as const
 
 const accountFormSchema = z.object({
-  name: z
+  fullname: z
+    .string()
+    .min(2, {
+      message: "Name must be at least 2 characters.",
+    })
+    .max(30, {
+      message: "Name must not be longer than 30 characters.",
+    }),
+username: z
     .string()
     .min(2, {
       message: "Name must be at least 2 characters.",
@@ -61,7 +69,7 @@ const accountFormSchema = z.object({
     required_error: "Please select a language.",
   }),
 })
-
+        
 type AccountFormValues = z.infer<typeof accountFormSchema>
 
 // This can come from your database or API.
