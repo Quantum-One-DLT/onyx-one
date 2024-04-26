@@ -91,7 +91,7 @@ export default function AboutPage() {
           href={siteConfig.links.linkedinRM}
           target="_blank"
           rel="noreferrer"
-          className=text-sm text-center.  font-muted"
+          className="text-sm text-center font-muted"
         >
           Robert Mourey Jr
         </Link>
