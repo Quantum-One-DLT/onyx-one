@@ -14,8 +14,8 @@ export const siteConfig = {
       href: "/defione",
     },
     { 
-      title: "Profile",
-      href: "/profile",
+      title: "Account",
+      href: "/account",
     },
     { 
       title: "About",
