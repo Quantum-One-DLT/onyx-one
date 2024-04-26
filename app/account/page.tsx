@@ -17,7 +17,7 @@ data: { user },} = await supabase.auth.getUser()
       <div>
         <h1 className="text-lg font-medium text-center">Account Details</h1>
         <p className="text-sm text-center text-muted-foreground">
-          AirDrops are sent to your airdrop wallet address. 
+          AirDrops are sent to your Airdrop Wallet Address. To add or update this address, connect your wallet, copy and paste your Connected Wallet Address, and use the update button to save your changes. 
         </p>
       </div>
       <Separator />
