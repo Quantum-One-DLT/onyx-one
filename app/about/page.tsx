@@ -29,7 +29,7 @@ export default function AboutPage() {
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
-            <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               We're passionately committed to enabling greater socioeconomic opportunity for everyone through technology. We're not here to make billions, we're here to do what we love, live comfortably, and create opportunities for people to do the same.
             </p>
           </div>
