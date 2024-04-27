@@ -12,6 +12,9 @@ export default async function SettingsAccountPage() {
 
   const { 
 data: { user },} = await supabase.auth.getUser()
+  if (error || !data?.user) {
+    redirect('/auth')
+  }
  
   return (
     <div className="mt-4 px-4 py-8 space-y-8">
