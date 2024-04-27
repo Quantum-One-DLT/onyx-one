@@ -176,7 +176,7 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
         </button>
       </div>
       <div className="flex flex-col text-sm">
-       <a href="#" className="termly-display-preferences">Consent Preferences</a>
+       <a href="#" className={cn("termly-display-preferences")}>Consent Preferences</a>
      </div>
       <div className="flex flex-col w-full">
         <form action="/auth/signout" method="post">
