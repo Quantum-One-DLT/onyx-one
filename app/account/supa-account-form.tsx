@@ -115,6 +115,9 @@ const { address } = useAccount()
         updateProfile({ fullname, username, website, email, waddress, avatar_url: url })
       }}
     />
+  <div className="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+       <a href="#" className={cn("termly-display-preferences")}>Consent Preferences</a>
+     </div>
       <div className="flex flex-col">
         <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor="email">Email</label>
         <input className={cn("flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50")} id="email" type="text" value={user?.email} disabled />
@@ -175,9 +178,6 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
           {loading ? 'Loading ...' : 'Update Account'}
         </button>
       </div>
-      <div className="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-       <a href="#" className={cn("termly-display-preferences")}>Consent Preferences</a>
-     </div>
       <div className="flex flex-col w-full">
         <form action="/auth/signout" method="post">
           <button           className={buttonVariants({ variant: "outline" })} type="submit">
