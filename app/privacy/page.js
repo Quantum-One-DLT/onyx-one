@@ -10664,11 +10664,11 @@ const Privacy = () => {
                                                                       visiting{" "}
                                                                       <bdt className="question">
                                                                         <a
-                                                                          href="https://quantumone.io/support"
+                                                                          href="https://quantumone.io/contact"
                                                                           target="_blank"
                                                                           data-custom-class="link"
                                                                         >
-                                                                          https://quantumone.io/support
+                                                                          https://quantumone.io/contact
                                                                         </a>
                                                                       </bdt>
                                                                       ,{" "}
@@ -14141,11 +14141,11 @@ const Privacy = () => {
                                                                                         visiting{" "}
                                                                                         <bdt className="question">
                                                                                           <a
-                                                                                            href="https://quantumone.io/support"
+                                                                                            href="https://quantumone.io/contact"
                                                                                             target="_blank"
                                                                                             data-custom-class="link"
                                                                                           >
-                                                                                            https://quantumone.io/support
+                                                                                            https://quantumone.io/contact
                                                                                           </a>
                                                                                         </bdt>
                                                                                         ,{" "}
@@ -15456,7 +15456,7 @@ const Privacy = () => {
                                                                                   by
                                                                                   visiting{" "}
                                                                                   <bdt className="question">
-                                                                                    https://quantumone.io/support
+                                                                                    https://quantumone.io/contact
                                                                                   </bdt>
                                                                                   ,
                                                                                   <bdt className="statement-end-if-in-editor" />
