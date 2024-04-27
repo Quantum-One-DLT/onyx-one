@@ -11,7 +11,7 @@ export default async function SettingsAccountPage() {
 
 
   const { 
-data: { user },} = await supabase.auth.getUser()
+data: { user }, error} = await supabase.auth.getUser()
   if (error || !data?.user) {
     redirect('/auth')
   }
