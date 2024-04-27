@@ -175,7 +175,7 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
           {loading ? 'Loading ...' : 'Update Account'}
         </button>
       </div>
-      <div className="flex flex-col text-sm">
+      <div className="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
        <a href="#" className={cn("termly-display-preferences")}>Consent Preferences</a>
      </div>
       <div className="flex flex-col w-full">
