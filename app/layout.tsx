@@ -129,6 +129,7 @@ export default function RootLayout({
             fontSans.variable
           )}
         >
+
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -144,7 +145,7 @@ export default function RootLayout({
 </ThemeProvider>
 <Script
   type="text/javascript"
-  src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=on"/>
+  src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
       </body>
     </html>
   )
