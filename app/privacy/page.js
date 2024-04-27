@@ -100,11 +100,11 @@ const Privacy = () => {
               <bdt className="block-component" /> at{" "}
               <bdt className="question">
                 <a
-                  href="https://quantaverseid.io"
+                  href="https://quantumone.io"
                   target="_blank"
                   data-custom-class="link"
                 >
-                  https://quantaverseid.io
+                  https://quantumone.io
                 </a>
               </bdt>
               <span style={{ fontSize: 15 }}>
@@ -152,7 +152,7 @@ const Privacy = () => {
               <bdt className="block-component" /> our mobile application
               <bdt className="block-component" /> (
               <bdt className="question">
-                QuantaVerse ID)
+                Quantum One)
                 <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
                   <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
                     <span data-custom-class="body_text">
@@ -242,7 +242,7 @@ const Privacy = () => {
             not agree with our policies and practices, please do not use our
             Services. If you still have any questions or concerns, please
             contact us at{" "}
-            <bdt className="question">support@quantumone.network</bdt>.
+            <bdt className="question">support@quantumone.io</bdt>.
           </span>
         </span>
       </span>
@@ -7004,7 +7004,7 @@ const Privacy = () => {
                                                           privacy rights, you
                                                           may email us at{" "}
                                                           <bdt className="question">
-                                                            support@quantaverseid.io
+                                                            support@quantumone.io
                                                           </bdt>
                                                           .
                                                         </span>
@@ -10652,7 +10652,7 @@ const Privacy = () => {
                                                                   >
                                                                     <span data-custom-class="body_text">
                                                                       <bdt className="question">
-                                                                        support@quantaverseid.io
+                                                                        support@quantumone.io
                                                                       </bdt>
                                                                       ,{" "}
                                                                       <bdt className="statement-end-if-in-editor" />
@@ -10664,11 +10664,11 @@ const Privacy = () => {
                                                                       visiting{" "}
                                                                       <bdt className="question">
                                                                         <a
-                                                                          href="https://quantaverseid.io/support"
+                                                                          href="https://quantumone.io/support"
                                                                           target="_blank"
                                                                           data-custom-class="link"
                                                                         >
-                                                                          https://quantaverseid.io/support
+                                                                          https://quantumone.io/support
                                                                         </a>
                                                                       </bdt>
                                                                       ,{" "}
@@ -14129,7 +14129,7 @@ const Privacy = () => {
                                                                                         email
                                                                                         at{" "}
                                                                                         <bdt className="question">
-                                                                                          support@quantaverseid.io
+                                                                                          support@quantumone.io
                                                                                         </bdt>
                                                                                         ,{" "}
                                                                                         <bdt className="statement-end-if-in-editor" />
@@ -14141,11 +14141,11 @@ const Privacy = () => {
                                                                                         visiting{" "}
                                                                                         <bdt className="question">
                                                                                           <a
-                                                                                            href="https://quantaverseid.io/support"
+                                                                                            href="https://quantumone.io/support"
                                                                                             target="_blank"
                                                                                             data-custom-class="link"
                                                                                           >
-                                                                                            https://quantaverseid.io/support
+                                                                                            https://quantumone.io/support
                                                                                           </a>
                                                                                         </bdt>
                                                                                         ,{" "}
@@ -14679,7 +14679,7 @@ const Privacy = () => {
                                                                                   >
                                                                                     <span data-custom-class="body_text">
                                                                                       <bdt className="question">
-                                                                                        rderr@quantumone.network
+                                                                                        cclark@quantumone.io
                                                                                       </bdt>
                                                                                     </span>
                                                                                   </span>
@@ -15251,7 +15251,7 @@ const Privacy = () => {
                                                                                   email
                                                                                   at{" "}
                                                                                   <bdt className="question">
-                                                                                    rmourey_jr@quantumone.network
+                                                                                    rmourey_jr@quantumone.io
                                                                                   </bdt>
                                                                                   ,
                                                                                   <bdt className="statement-end-if-in-editor" />
@@ -15259,7 +15259,7 @@ const Privacy = () => {
                                                                                   by
                                                                                   visiting{" "}
                                                                                   <bdt className="question">
-                                                                                    https://quantumone.network
+                                                                                    https://quantumone.io
                                                                                   </bdt>
                                                                                   ,
                                                                                   <bdt className="statement-end-if-in-editor" />
@@ -15448,7 +15448,7 @@ const Privacy = () => {
                                                                                   email
                                                                                   at{" "}
                                                                                   <bdt className="question">
-                                                                                    Rderr@quantumone.network{" "}
+                                                                                    cclark@quantumone.io{" "}
                                                                                   </bdt>
                                                                                   ,
                                                                                   <bdt className="statement-end-if-in-editor" />
@@ -15456,7 +15456,7 @@ const Privacy = () => {
                                                                                   by
                                                                                   visiting{" "}
                                                                                   <bdt className="question">
-                                                                                    https://quantumone.network/support
+                                                                                    https://quantumone.io/support
                                                                                   </bdt>
                                                                                   ,
                                                                                   <bdt className="statement-end-if-in-editor" />
