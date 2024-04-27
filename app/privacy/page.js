@@ -7,7 +7,7 @@ const Privacy = () => {
   <style
     dangerouslySetInnerHTML={{
       __html:
-        "\n  [data-custom-class='body'], [data-custom-class='body'] * {\n          background: transparent !important;\n        }\n[data-custom-class='title'], [data-custom-class='title'] * {\n          font-family: Arial !important;\nfont-size: 26px !important;\ncolor: inherit !important;\n        }\n[data-custom-class='subtitle'], [data-custom-class='subtitle'] * {\n          font-family: Arial !important;\ncolor: #595959 !important;\nfont-size: 14px !important;\n        }\n[data-custom-class='heading_1'], [data-custom-class='heading_1'] * {\n          font-family: Arial !important;\nfont-size: 19px !important;\ncolor: inherit !important;\n        }\n[data-custom-class='heading_2'], [data-custom-class='heading_2'] * {\n          font-family: Arial !important;\nfont-size: 17px !important;\ncolor: inherit !important;\n        }\n[data-custom-class='body_text'], [data-custom-class='body_text'] * {\n          color: #595959 !important;\nfont-size: 14px !important;\nfont-family: Arial !important;\n        }\n[data-custom-class='link'], [data-custom-class='link'] * {\n          color: #3030F1 !important;\nfont-size: 14px !important;\nfont-family: Arial !important;\nword-break: break-word !important;\n        }\n"
+        "\n  [data-custom-class='body'], [data-custom-class='body'] * {\n          background: transparent !important;\n        }\n[data-custom-class='title'], [data-custom-class='title'] * {\n          font-family: Arial !important;\nfont-size: 26px !important;\ncolor: inherit !important;\n        }\n[data-custom-class='subtitle'], [data-custom-class='subtitle'] * {\n          font-family: Arial !important;\ncolor: inherit !important;\nfont-size: 14px !important;\n        }\n[data-custom-class='heading_1'], [data-custom-class='heading_1'] * {\n          font-family: Arial !important;\nfont-size: 19px !important;\ncolor: inherit !important;\n        }\n[data-custom-class='heading_2'], [data-custom-class='heading_2'] * {\n          font-family: Arial !important;\nfont-size: 17px !important;\ncolor: inherit !important;\n        }\n[data-custom-class='body_text'], [data-custom-class='body_text'] * {\n          color: inherit !important;\nfont-size: 14px !important;\nfont-family: Arial !important;\n        }\n[data-custom-class='link'], [data-custom-class='link'] * {\n          color: inherit !important;\nfont-size: 14px !important;\nfont-family: Arial !important;\nword-break: break-word !important;\n        }\n"
     }}
   />
   <div data-custom-class="body">
@@ -22,7 +22,7 @@ const Privacy = () => {
       <br />
     </div>
     <div>
-      <span style={{ color: "rgb(127, 127, 127)" }}>
+      <span style={{ color: "inherit" }}>
         <strong>
           <span style={{ fontSize: 15 }}>
             <span data-custom-class="subtitle">
@@ -42,18 +42,18 @@ const Privacy = () => {
       <br />
     </div>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ color: "rgb(127, 127, 127)" }}>
-        <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+      <span style={{ color: "inherit" }}>
+        <span style={{ color: "inherit", fontSize: 15 }}>
           <span data-custom-class="body_text">
             This privacy notice for{" "}
             <bdt className="question">Quantum One DAO LLC</bdt>
-            <span style={{ color: "rgb(89, 89, 89)" }}>
+            <span style={{ color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
               </span>
             </span>{" "}
             (doing business as{" "}
-            <span style={{ color: "rgb(89, 89, 89)" }}>
+            <span style={{ color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="question">Quantum One)</bdt>
                 <bdt className="statement-end-if-in-editor" />
@@ -80,9 +80,9 @@ const Privacy = () => {
         </span>
       </span>
       <span style={{ fontSize: 15 }}>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
+        <span style={{ color: "inherit" }}>
           <span data-custom-class="body_text">
-            <span style={{ color: "rgb(89, 89, 89)" }}>
+            <span style={{ color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
               </span>
@@ -93,8 +93,8 @@ const Privacy = () => {
     </div>
     <ul>
       <li style={{ lineHeight: "1.5" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
             <span data-custom-class="body_text">
               Visit our website
               <bdt className="block-component" /> at{" "}
@@ -108,10 +108,10 @@ const Privacy = () => {
                 </a>
               </bdt>
               <span style={{ fontSize: 15 }}>
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <span style={{ fontSize: 15 }}>
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
                         <bdt className="statement-end-if-in-editor">
                           , or any website of ours that links to this privacy
                           notice
@@ -130,9 +130,9 @@ const Privacy = () => {
       <bdt className="block-component">
         <span style={{ fontSize: 15 }}>
           <span style={{ fontSize: 15 }}>
-            <span style={{ color: "rgb(127, 127, 127)" }}>
+            <span style={{ color: "inherit" }}>
               <span data-custom-class="body_text">
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <bdt className="block-component" />
                   </span>
@@ -145,22 +145,22 @@ const Privacy = () => {
     </div>
     <ul>
       <li style={{ lineHeight: "1.5" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
             <span data-custom-class="body_text">
               Download and use
               <bdt className="block-component" /> our mobile application
               <bdt className="block-component" /> (
               <bdt className="question">
                 Quantum One)
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
                     <span data-custom-class="body_text">
                       <span style={{ fontSize: 15 }}>
-                        <span style={{ color: "rgb(89, 89, 89)" }}>
+                        <span style={{ color: "inherit" }}>
                           <span data-custom-class="body_text">
                             <span style={{ fontSize: 15 }}>
-                              <span style={{ color: "rgb(89, 89, 89)" }}>
+                              <span style={{ color: "inherit" }}>
                                 <bdt className="statement-end-if-in-editor">
                                   ,
                                 </bdt>
@@ -176,10 +176,10 @@ const Privacy = () => {
             </span>
             <span data-custom-class="body_text">
               <span style={{ fontSize: 15 }}>
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <span style={{ fontSize: 15 }}>
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
                         <bdt className="statement-end-if-in-editor">
                           <bdt className="block-component">
                             {" "}
@@ -199,9 +199,9 @@ const Privacy = () => {
     </ul>
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
+        <span style={{ color: "inherit" }}>
           <span data-custom-class="body_text">
-            <span style={{ color: "rgb(89, 89, 89)" }}>
+            <span style={{ color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
               </span>
@@ -212,16 +212,16 @@ const Privacy = () => {
     </div>
     <ul>
       <li style={{ lineHeight: "1.5" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
             <span data-custom-class="body_text">
               Engage with us in other related ways, including any sales,
               marketing, or events
               <span style={{ fontSize: 15 }}>
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <span style={{ fontSize: 15 }}>
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
                         <bdt className="statement-end-if-in-editor" />
                       </span>
                     </span>
@@ -235,7 +235,7 @@ const Privacy = () => {
     </ul>
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
+        <span style={{ color: "inherit" }}>
           <span data-custom-class="body_text">
             <strong>Questions or concerns? </strong>Reading this privacy notice
             will help you understand your privacy rights and choices. If you do
@@ -535,8 +535,8 @@ const Privacy = () => {
     </div>
     <div id="toc" style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(0, 0, 0)" }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit" }}>
             <strong>
               <span data-custom-class="heading_1">TABLE OF CONTENTS</span>
             </strong>
@@ -550,7 +550,7 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#infocollect">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             1. WHAT INFORMATION DO WE COLLECT?
           </span>
         </a>
@@ -559,7 +559,7 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#infouse">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             2. HOW DO WE PROCESS YOUR INFORMATION?
             <bdt className="block-component" />
           </span>
@@ -569,10 +569,10 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#legalbases">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             3.{" "}
             <span style={{ fontSize: 15 }}>
-              <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
                 WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL
                 INFORMATION?
               </span>
@@ -584,7 +584,7 @@ const Privacy = () => {
     </div>
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
-        <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
           <a data-custom-class="link" href="#whoshare">
             4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
           </a>
@@ -592,10 +592,10 @@ const Privacy = () => {
         <span data-custom-class="body_text">
           <bdt className="block-component" />
         </span>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit" }}>
             <span data-custom-class="body_text">
-              <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
                 <bdt className="block-component" />
               </span>
             </span>
@@ -606,21 +606,21 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#cookies">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
           </span>
         </a>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit" }}>
             <span data-custom-class="body_text">
-              <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
                 <bdt className="statement-end-if-in-editor" />
               </span>
             </span>
             <span data-custom-class="body_text">
-              <span style={{ color: "rgb(89, 89, 89)" }}>
-                <span style={{ color: "rgb(89, 89, 89)" }}>
-                  <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
+                <span style={{ color: "inherit" }}>
+                  <span style={{ color: "inherit" }}>
                     <bdt className="block-component" />
                   </span>
                 </span>
@@ -633,20 +633,20 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#sociallogins">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
-            <span style={{ color: "rgb(89, 89, 89)" }}>
-              <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
+            <span style={{ color: "inherit" }}>
+              <span style={{ color: "inherit" }}>
                 6. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
               </span>
             </span>
           </span>
         </a>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit" }}>
             <span data-custom-class="body_text">
-              <span style={{ color: "rgb(89, 89, 89)" }}>
-                <span style={{ color: "rgb(89, 89, 89)" }}>
-                  <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
+                <span style={{ color: "inherit" }}>
+                  <span style={{ color: "inherit" }}>
                     <bdt className="statement-end-if-in-editor" />
                   </span>
                 </span>
@@ -660,15 +660,15 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#inforetain">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             7. HOW LONG DO WE KEEP YOUR INFORMATION?
           </span>
         </a>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit" }}>
             <span data-custom-class="body_text">
-              <span style={{ color: "rgb(89, 89, 89)" }}>
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
+                <span style={{ color: "inherit" }}>
                   <bdt className="block-component" />
                 </span>
               </span>
@@ -680,14 +680,14 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#infosafe">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             8. HOW DO WE KEEP YOUR INFORMATION SAFE?
           </span>
         </a>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit" }}>
             <span data-custom-class="body_text">
-              <span style={{ color: "rgb(89, 89, 89)" }}>
+              <span style={{ color: "inherit" }}>
                 <bdt className="statement-end-if-in-editor" />
                 <bdt className="block-component" />
               </span>
@@ -698,7 +698,7 @@ const Privacy = () => {
     </div>
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
-        <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
           <a data-custom-class="link" href="#privacyrights">
             9. WHAT ARE YOUR PRIVACY RIGHTS?
           </a>
@@ -708,7 +708,7 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#DNT">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             10. CONTROLS FOR DO-NOT-TRACK FEATURES
           </span>
         </a>
@@ -717,7 +717,7 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#caresidents">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
           </span>
         </a>
@@ -726,7 +726,7 @@ const Privacy = () => {
     <div style={{ lineHeight: "1.5" }}>
       <span style={{ fontSize: 15 }}>
         <a data-custom-class="link" href="#policyupdates">
-          <span style={{ color: "rgb(89, 89, 89)" }}>
+          <span style={{ color: "inherit" }}>
             12. DO WE MAKE UPDATES TO THIS NOTICE?
           </span>
         </a>
@@ -734,14 +734,14 @@ const Privacy = () => {
     </div>
     <div style={{ lineHeight: "1.5" }}>
       <a data-custom-class="link" href="#contact">
-        <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+        <span style={{ color: "inherit", fontSize: 15 }}>
           13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
         </span>
       </a>
     </div>
     <div style={{ lineHeight: "1.5" }}>
       <a data-custom-class="link" href="#request">
-        <span style={{ color: "rgb(89, 89, 89)" }}>
+        <span style={{ color: "inherit" }}>
           14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
           YOU?
         </span>
@@ -751,11 +751,11 @@ const Privacy = () => {
       <br />
     </div>
     <div id="infocollect" style={{ lineHeight: "1.5" }}>
-      <span style={{ color: "rgb(127, 127, 127)" }}>
-        <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span id="control" style={{ color: "rgb(0, 0, 0)" }}>
+      <span style={{ color: "inherit" }}>
+        <span style={{ color: "inherit", fontSize: 15 }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span id="control" style={{ color: "inherit" }}>
                 <strong>
                   <span data-custom-class="heading_1">
                     1. WHAT INFORMATION DO WE COLLECT?
@@ -771,7 +771,7 @@ const Privacy = () => {
       <br />
     </div>
     <div id="personalinfo" style={{ lineHeight: "1.5" }}>
-      <span data-custom-class="heading_2" style={{ color: "rgb(0, 0, 0)" }}>
+      <span data-custom-class="heading_2" style={{ color: "inherit" }}>
         <span style={{ fontSize: 15 }}>
           <strong>Personal information you disclose to us</strong>
         </span>
@@ -782,11 +782,11 @@ const Privacy = () => {
         <br />
       </div>
       <div style={{ lineHeight: "1.5" }}>
-        <span style={{ color: "rgb(127, 127, 127)" }}>
-          <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+        <span style={{ color: "inherit" }}>
+          <span style={{ color: "inherit", fontSize: 15 }}>
             <span data-custom-class="body_text">
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <strong>
                       <em>In Short:</em>
@@ -796,8 +796,8 @@ const Privacy = () => {
               </span>
             </span>
             <span data-custom-class="body_text">
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <strong>
                       <em> </em>
@@ -817,8 +817,8 @@ const Privacy = () => {
       <br />
     </div>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             We collect personal information that you voluntarily provide to us
             when you{" "}
@@ -846,8 +846,8 @@ const Privacy = () => {
       <br />
     </div>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <bdt className="block-component" />
@@ -857,8 +857,8 @@ const Privacy = () => {
       </span>
     </div>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <strong>Personal Information Provided by You.</strong> The personal
             information that we collect depends on the context of your
@@ -876,8 +876,8 @@ const Privacy = () => {
     </div>
     <ul>
       <li style={{ lineHeight: "1.5" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
             <span data-custom-class="body_text">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
@@ -890,8 +890,8 @@ const Privacy = () => {
       </li>
     </ul>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
@@ -904,8 +904,8 @@ const Privacy = () => {
     </div>
     <ul>
       <li style={{ lineHeight: "1.5" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
             <span data-custom-class="body_text">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
@@ -918,8 +918,8 @@ const Privacy = () => {
       </li>
     </ul>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
@@ -932,8 +932,8 @@ const Privacy = () => {
     </div>
     <ul>
       <li style={{ lineHeight: "1.5" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
             <span data-custom-class="body_text">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
@@ -946,8 +946,8 @@ const Privacy = () => {
       </li>
     </ul>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
@@ -1025,8 +1025,8 @@ const Privacy = () => {
           <bdt className="statement-end-if-in-editor" />
         </span>
       </span>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
@@ -1040,8 +1040,8 @@ const Privacy = () => {
       </span>
     </div>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <strong>Social Media Login Data. </strong>We may provide you with
             the option to register with us using your existing social media
@@ -1053,7 +1053,7 @@ const Privacy = () => {
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
                 <span style={{ fontSize: 15 }}>
-                  <span style={{ color: "rgb(89, 89, 89)" }}>
+                  <span style={{ color: "inherit" }}>
                     <a data-custom-class="link" href="#sociallogins">
                       HOW DO WE HANDLE YOUR SOCIAL LOGINS?
                     </a>
@@ -1071,8 +1071,8 @@ const Privacy = () => {
       <br />
     </div>
     <div style={{ lineHeight: "1.5" }}>
-      <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-        <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+      <span style={{ fontSize: 15, color: "inherit" }}>
+        <span style={{ fontSize: 15, color: "inherit" }}>
           <span data-custom-class="body_text">
             <span style={{ fontSize: 15 }}>
               <bdt className="statement-end-if-in-editor">
@@ -1172,8 +1172,8 @@ const Privacy = () => {
           </bdt>
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 All personal information that you provide to us must be true,
                 complete, and accurate, and you must notify us of any changes to
@@ -1186,8 +1186,8 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
               </span>
@@ -1195,7 +1195,7 @@ const Privacy = () => {
           </span>
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span data-custom-class="heading_2" style={{ color: "rgb(0, 0, 0)" }}>
+          <span data-custom-class="heading_2" style={{ color: "inherit" }}>
             <span style={{ fontSize: 15 }}>
               <strong>Information automatically collected</strong>
             </span>
@@ -1206,11 +1206,11 @@ const Privacy = () => {
             <br />
           </div>
           <div style={{ lineHeight: "1.5" }}>
-            <span style={{ color: "rgb(127, 127, 127)" }}>
-              <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+            <span style={{ color: "inherit" }}>
+              <span style={{ color: "inherit", fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                    <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
+                    <span style={{ fontSize: 15, color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <strong>
                           <em>In Short:</em>
@@ -1220,8 +1220,8 @@ const Privacy = () => {
                   </span>
                 </span>
                 <span data-custom-class="body_text">
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                    <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
+                    <span style={{ fontSize: 15, color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <strong>
                           <em> </em>
@@ -1243,8 +1243,8 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 We automatically collect certain information when you visit,
                 use, or navigate the Services. This information does not reveal
@@ -1264,8 +1264,8 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
               </span>
@@ -1273,8 +1273,8 @@ const Privacy = () => {
           </span>
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 Like many businesses, we also collect information through
                 cookies and similar technologies.{" "}
@@ -1288,8 +1288,8 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="statement-end-if-in-editor">
                   <span data-custom-class="body_text" />
@@ -1302,8 +1302,8 @@ const Privacy = () => {
           </span>
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 The information we collect includes:
                 <bdt className="block-component" />
@@ -1313,8 +1313,8 @@ const Privacy = () => {
         </div>
         <ul>
           <li style={{ lineHeight: "1.5" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
                 <span data-custom-class="body_text">
                   <em>Log and Usage Data.</em> Log and usage data is
                   service-related, diagnostic, usage, and performance
@@ -1333,10 +1333,10 @@ const Privacy = () => {
                   <bdt className="statement-end-if-in-editor" />
                   ), and hardware settings).
                   <span style={{ fontSize: 15 }}>
-                    <span style={{ color: "rgb(89, 89, 89)" }}>
+                    <span style={{ color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <span style={{ fontSize: 15 }}>
-                          <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span style={{ color: "inherit" }}>
                             <bdt className="statement-end-if-in-editor" />
                           </span>
                         </span>
@@ -1357,8 +1357,8 @@ const Privacy = () => {
         </div>
         <ul>
           <li style={{ lineHeight: "1.5" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
                 <span data-custom-class="body_text">
                   <em>Device Data.</em> We collect device data such as
                   information about your computer, phone, tablet, or other
@@ -1369,10 +1369,10 @@ const Privacy = () => {
                   model, Internet service provider and/or mobile carrier,
                   operating system, and system configuration information.
                   <span style={{ fontSize: 15 }}>
-                    <span style={{ color: "rgb(89, 89, 89)" }}>
+                    <span style={{ color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <span style={{ fontSize: 15 }}>
-                          <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span style={{ color: "inherit" }}>
                             <bdt className="statement-end-if-in-editor" />
                           </span>
                         </span>
@@ -1393,8 +1393,8 @@ const Privacy = () => {
         </div>
         <ul>
           <li style={{ lineHeight: "1.5" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
                 <span data-custom-class="body_text">
                   <em>Location Data.</em> We collect location data such as
                   information about your device's location, which can be either
@@ -1408,10 +1408,10 @@ const Privacy = () => {
                   setting on your device. However, if you choose to opt out, you
                   may not be able to use certain aspects of the Services.
                   <span style={{ fontSize: 15 }}>
-                    <span style={{ color: "rgb(89, 89, 89)" }}>
+                    <span style={{ color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <span style={{ fontSize: 15 }}>
-                          <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span style={{ color: "inherit" }}>
                             <bdt className="statement-end-if-in-editor" />
                           </span>
                         </span>
@@ -1429,9 +1429,9 @@ const Privacy = () => {
           </bdt>
           <bdt className="statement-end-if-in-editor" />
           <span data-custom-class="body_text">
-            <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+            <span style={{ color: "inherit", fontSize: 15 }}>
               <span data-custom-class="body_text">
-                <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+                <span style={{ color: "inherit", fontSize: 15 }}>
                   <span data-custom-class="body_text">
                     <bdt className="statement-end-if-in-editor">
                       <bdt className="block-component" />
@@ -1443,7 +1443,7 @@ const Privacy = () => {
           </span>
         </div>
         <div id="othersources" style={{ lineHeight: "1.5" }}>
-          <span data-custom-class="heading_2" style={{ color: "rgb(0, 0, 0)" }}>
+          <span data-custom-class="heading_2" style={{ color: "inherit" }}>
             <span style={{ fontSize: 15 }}>
               <strong>Information collected from other sources</strong>
             </span>
@@ -1454,11 +1454,11 @@ const Privacy = () => {
             <br />
           </div>
           <div style={{ lineHeight: "1.5" }}>
-            <span style={{ color: "rgb(127, 127, 127)" }}>
-              <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+            <span style={{ color: "inherit" }}>
+              <span style={{ color: "inherit", fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                    <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
+                    <span style={{ fontSize: 15, color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <strong>
                           <em>In Short: </em>
@@ -1466,7 +1466,7 @@ const Privacy = () => {
                         <em>
                           We may collect limited data from public databases,
                           marketing partners,{" "}
-                          <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span style={{ color: "inherit" }}>
                             <span style={{ fontSize: 15 }}>
                               <em>
                                 <span data-custom-class="body_text">
@@ -1491,15 +1491,15 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 In order to enhance our ability to provide relevant marketing,
                 offers, and services to you and update our records, we may
                 obtain information about you from other sources, such as public
                 databases, joint marketing partners, affiliate programs, data
                 providers,
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span style={{ fontSize: 15 }}>
                     <span data-custom-class="body_text">
                       <bdt className="block-component" /> social media
@@ -1516,10 +1516,10 @@ const Privacy = () => {
                 Protocol (IP) addresses, social media profiles, social media
                 URLs, and custom profiles, for purposes of targeted advertising
                 and event promotion.
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span style={{ fontSize: 15 }}>
                     <span data-custom-class="body_text">
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
                         <span style={{ fontSize: 15 }}>
                           <span data-custom-class="body_text">
                             <bdt className="block-component" />
@@ -1539,13 +1539,13 @@ const Privacy = () => {
                 </span>
               </span>
               <span data-custom-class="body_text">
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span style={{ fontSize: 15 }}>
                     <span data-custom-class="body_text">
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
                         <span style={{ fontSize: 15 }}>
                           <span data-custom-class="body_text">
-                            <span style={{ color: "rgb(89, 89, 89)" }}>
+                            <span style={{ color: "inherit" }}>
                               <span style={{ fontSize: 15 }}>
                                 <span data-custom-class="body_text">
                                   <bdt className="statement-end-if-in-editor" />
@@ -1566,22 +1566,22 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
-                <span style={{ color: "rgb(89, 89, 89)" }}>
+                <span style={{ color: "inherit" }}>
                   <span style={{ fontSize: 15 }}>
                     <span data-custom-class="body_text">
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
-                        <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
+                        <span style={{ color: "inherit" }}>
                           <bdt className="block-component">
                             <span
-                              style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}
+                              style={{ color: "inherit", fontSize: 15 }}
                             >
                               <span data-custom-class="body_text">
                                 <span
                                   style={{
-                                    color: "rgb(89, 89, 89)",
+                                    color: "inherit",
                                     fontSize: 15
                                   }}
                                 >
@@ -1609,11 +1609,11 @@ const Privacy = () => {
           </span>
         </div>
         <div id="infouse" style={{ lineHeight: "1.5" }}>
-          <span style={{ color: "rgb(127, 127, 127)" }}>
-            <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                  <span id="control" style={{ color: "rgb(0, 0, 0)" }}>
+          <span style={{ color: "inherit" }}>
+            <span style={{ color: "inherit", fontSize: 15 }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
+                  <span id="control" style={{ color: "inherit" }}>
                     <strong>
                       <span data-custom-class="heading_1">
                         2. HOW DO WE PROCESS YOUR INFORMATION?
@@ -1630,11 +1630,11 @@ const Privacy = () => {
             <br />
           </div>
           <div style={{ lineHeight: "1.5" }}>
-            <span style={{ color: "rgb(127, 127, 127)" }}>
-              <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
+            <span style={{ color: "inherit" }}>
+              <span style={{ color: "inherit", fontSize: 15 }}>
                 <span data-custom-class="body_text">
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                    <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
+                    <span style={{ fontSize: 15, color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <strong>
                           <em>In Short: </em>
@@ -1658,8 +1658,8 @@ const Privacy = () => {
           <br />
         </div>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 <strong>
                   We process your personal information for a variety of reasons,
@@ -1672,8 +1672,8 @@ const Privacy = () => {
         </div>
         <ul>
           <li style={{ lineHeight: "1.5" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
                 <span data-custom-class="body_text">
                   <strong>
                     To facilitate account creation and authentication and
@@ -1682,14 +1682,14 @@ const Privacy = () => {
                   We may process your information so you can create and log in
                   to your account, as well as keep your account in working
                   order.
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                    <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
+                    <span style={{ fontSize: 15, color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <span style={{ fontSize: 15 }}>
-                          <span style={{ color: "rgb(89, 89, 89)" }}>
+                          <span style={{ color: "inherit" }}>
                             <span data-custom-class="body_text">
                               <span style={{ fontSize: 15 }}>
-                                <span style={{ color: "rgb(89, 89, 89)" }}>
+                                <span style={{ color: "inherit" }}>
                                   <span data-custom-class="body_text">
                                     <bdt className="statement-end-if-in-editor" />
                                   </span>
@@ -1707,16 +1707,16 @@ const Privacy = () => {
           </li>
         </ul>
         <div style={{ lineHeight: "1.5" }}>
-          <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+          <span style={{ fontSize: 15, color: "inherit" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
               </span>
             </span>
           </span>
           <div style={{ lineHeight: "1.5" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
                 <span data-custom-class="body_text">
                   <bdt className="block-component" />
                 </span>
@@ -1725,8 +1725,8 @@ const Privacy = () => {
           </div>
           <ul>
             <li style={{ lineHeight: "1.5" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <strong>
                       To deliver and facilitate delivery of services to the
@@ -1735,45 +1735,45 @@ const Privacy = () => {
                     We may process your information to provide you with the
                     requested service.
                     <span style={{ fontSize: 15 }}>
-                      <span style={{ color: "rgb(89, 89, 89)" }}>
+                      <span style={{ color: "inherit" }}>
                         <span data-custom-class="body_text">
                           <span
-                            style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}
+                            style={{ fontSize: 15, color: "inherit" }}
                           >
                             <span
-                              style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}
+                              style={{ fontSize: 15, color: "inherit" }}
                             >
                               <span data-custom-class="body_text">
                                 <span
                                   style={{
                                     fontSize: 15,
-                                    color: "rgb(89, 89, 89)"
+                                    color: "inherit"
                                   }}
                                 >
                                   <span
                                     style={{
                                       fontSize: 15,
-                                      color: "rgb(89, 89, 89)"
+                                      color: "inherit"
                                     }}
                                   >
                                     <span data-custom-class="body_text">
                                       <span
                                         style={{
                                           fontSize: 15,
-                                          color: "rgb(89, 89, 89)"
+                                          color: "inherit"
                                         }}
                                       >
                                         <span
                                           style={{
                                             fontSize: 15,
-                                            color: "rgb(89, 89, 89)"
+                                            color: "inherit"
                                           }}
                                         >
                                           <span data-custom-class="body_text">
                                             <span style={{ fontSize: 15 }}>
                                               <span
                                                 style={{
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span data-custom-class="body_text">
@@ -1782,7 +1782,7 @@ const Privacy = () => {
                                                   >
                                                     <span
                                                       style={{
-                                                        color: "rgb(89, 89, 89)"
+                                                        color: "inherit"
                                                       }}
                                                     >
                                                       <span data-custom-class="body_text">
@@ -1811,16 +1811,16 @@ const Privacy = () => {
             </li>
           </ul>
           <div style={{ lineHeight: "1.5" }}>
-            <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+            <span style={{ fontSize: 15, color: "inherit" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
                 <span data-custom-class="body_text">
                   <bdt className="block-component" />
                 </span>
               </span>
             </span>
             <div style={{ lineHeight: "1.5" }}>
-              <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+              <span style={{ fontSize: 15, color: "inherit" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
                   <span data-custom-class="body_text">
                     <bdt className="block-component" />
                   </span>
@@ -1829,8 +1829,8 @@ const Privacy = () => {
             </div>
             <ul>
               <li style={{ lineHeight: "1.5" }}>
-                <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                <span style={{ fontSize: 15, color: "inherit" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
                     <span data-custom-class="body_text">
                       <strong>
                         To respond to user inquiries/offer support to users.{" "}
@@ -1855,8 +1855,8 @@ const Privacy = () => {
               </div>
               <ul>
                 <li style={{ lineHeight: "1.5" }}>
-                  <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
-                    <span style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}>
+                  <span style={{ fontSize: 15, color: "inherit" }}>
+                    <span style={{ fontSize: 15, color: "inherit" }}>
                       <span data-custom-class="body_text">
                         <strong>
                           To send administrative information to you.{" "}
@@ -1865,22 +1865,22 @@ const Privacy = () => {
                         about our products and services, changes to our terms
                         and policies, and other similar information.
                         <span
-                          style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}
+                          style={{ fontSize: 15, color: "inherit" }}
                         >
                           <span
-                            style={{ fontSize: 15, color: "rgb(89, 89, 89)" }}
+                            style={{ fontSize: 15, color: "inherit" }}
                           >
                             <span data-custom-class="body_text">
                               <span
                                 style={{
                                   fontSize: 15,
-                                  color: "rgb(89, 89, 89)"
+                                  color: "inherit"
                                 }}
                               >
                                 <span
                                   style={{
                                     fontSize: 15,
-                                    color: "rgb(89, 89, 89)"
+                                    color: "inherit"
                                   }}
                                 >
                                   <span data-custom-class="body_text">
@@ -2757,31 +2757,31 @@ const Privacy = () => {
                                             >
                                               <span
                                                 style={{
-                                                  color: "rgb(127, 127, 127)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
-                                                    color: "rgb(89, 89, 89)",
+                                                    color: "inherit",
                                                     fontSize: 15
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span
                                                       style={{
                                                         fontSize: 15,
-                                                        color: "rgb(89, 89, 89)"
+                                                        color: "inherit"
                                                       }}
                                                     >
                                                       <span
                                                         id="control"
                                                         style={{
-                                                          color: "rgb(0, 0, 0)"
+                                                          color: "inherit"
                                                         }}
                                                       >
                                                         <strong>
@@ -2805,13 +2805,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -2835,13 +2835,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -2904,13 +2904,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -2929,13 +2929,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -2953,13 +2953,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -2969,7 +2969,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -2984,7 +2984,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -3005,7 +3005,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3018,7 +3018,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3039,7 +3039,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3052,7 +3052,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3073,7 +3073,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3086,7 +3086,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3107,7 +3107,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3120,7 +3120,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3141,7 +3141,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3154,7 +3154,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3175,7 +3175,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3188,7 +3188,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3209,7 +3209,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3222,7 +3222,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3243,7 +3243,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3256,7 +3256,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3277,7 +3277,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3293,7 +3293,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
@@ -3304,7 +3304,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -3325,13 +3325,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -3347,13 +3347,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -3363,7 +3363,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -3378,7 +3378,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -3400,7 +3400,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3413,7 +3413,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3435,7 +3435,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3451,7 +3451,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
@@ -3462,7 +3462,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -3483,13 +3483,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -3506,13 +3506,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -3522,7 +3522,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -3537,7 +3537,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -3562,13 +3562,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -3587,13 +3587,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -3603,7 +3603,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -3618,7 +3618,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -3639,7 +3639,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3652,7 +3652,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3674,7 +3674,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3691,7 +3691,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
@@ -3702,7 +3702,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -3723,13 +3723,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -3745,13 +3745,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -3761,7 +3761,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -3776,7 +3776,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -3801,13 +3801,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -3827,13 +3827,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -3843,7 +3843,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -3858,7 +3858,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -3880,7 +3880,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3893,7 +3893,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -3914,7 +3914,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -3930,7 +3930,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
@@ -3941,7 +3941,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -3962,13 +3962,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -3984,13 +3984,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -4000,7 +4000,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -4015,7 +4015,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -4042,13 +4042,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -4066,13 +4066,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -4082,7 +4082,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -4097,7 +4097,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -4118,7 +4118,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4131,7 +4131,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4152,7 +4152,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4165,7 +4165,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4187,7 +4187,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4200,7 +4200,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4221,7 +4221,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4234,7 +4234,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4255,7 +4255,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4268,7 +4268,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4289,7 +4289,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4302,7 +4302,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4323,7 +4323,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4336,7 +4336,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               {" "}
@@ -4358,7 +4358,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4374,7 +4374,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
@@ -4385,7 +4385,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -4408,13 +4408,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -4430,13 +4430,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -4446,7 +4446,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -4461,7 +4461,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -4482,7 +4482,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <bdt className="block-component" />
@@ -4498,7 +4498,7 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
@@ -4509,7 +4509,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -4531,13 +4531,13 @@ const Privacy = () => {
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span
                                                     style={{
                                                       fontSize: 15,
-                                                      color: "rgb(89, 89, 89)"
+                                                      color: "inherit"
                                                     }}
                                                   >
                                                     <span data-custom-class="body_text">
@@ -4553,13 +4553,13 @@ const Privacy = () => {
                                               <span
                                                 style={{
                                                   fontSize: 15,
-                                                  color: "rgb(89, 89, 89)"
+                                                  color: "inherit"
                                                 }}
                                               >
                                                 <span
                                                   style={{
                                                     fontSize: 15,
-                                                    color: "rgb(89, 89, 89)"
+                                                    color: "inherit"
                                                   }}
                                                 >
                                                   <span data-custom-class="body_text">
@@ -4569,7 +4569,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <bdt className="forloop-component">
@@ -4584,7 +4584,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -4752,7 +4752,7 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(89, 89, 89)",
+                                                            "inherit",
                                                           fontSize: 15
                                                         }}
                                                       >
@@ -4764,7 +4764,7 @@ const Privacy = () => {
                                                           <span
                                                             style={{
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
@@ -4775,7 +4775,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <bdt className="block-component">
@@ -4803,13 +4803,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -4817,21 +4817,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -4865,14 +4865,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -4907,14 +4907,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -4934,7 +4934,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
@@ -4945,7 +4945,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)",
+                                                                    "inherit",
                                                                   fontSize: 15
                                                                 }}
                                                               >
@@ -4957,7 +4957,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span
@@ -4968,7 +4968,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span data-custom-class="body_text">
@@ -4985,21 +4985,21 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)",
+                                                                    "inherit",
                                                                   fontSize: 15
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     color:
-                                                                      "rgb(89, 89, 89)",
+                                                                      "inherit",
                                                                     fontSize: 15
                                                                   }}
                                                                 >
@@ -5011,7 +5011,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span
@@ -5022,7 +5022,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)"
+                                                                              "inherit"
                                                                           }}
                                                                         >
                                                                           <span data-custom-class="body_text">
@@ -5055,13 +5055,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -5069,21 +5069,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -5116,14 +5116,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5163,14 +5163,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5213,7 +5213,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -5241,14 +5241,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5284,28 +5284,28 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)",
+                                                                    "inherit",
                                                                   fontSize: 15
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     color:
-                                                                      "rgb(89, 89, 89)",
+                                                                      "inherit",
                                                                     fontSize: 15
                                                                   }}
                                                                 >
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)",
+                                                                        "inherit",
                                                                       fontSize: 15
                                                                     }}
                                                                   >
@@ -5317,7 +5317,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span
@@ -5328,7 +5328,7 @@ const Privacy = () => {
                                                                           <span
                                                                             style={{
                                                                               color:
-                                                                                "rgb(89, 89, 89)"
+                                                                                "inherit"
                                                                             }}
                                                                           >
                                                                             <span data-custom-class="body_text">
@@ -5367,13 +5367,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -5381,21 +5381,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -5428,14 +5428,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5478,14 +5478,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5517,7 +5517,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -5542,7 +5542,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -5571,14 +5571,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5610,7 +5610,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="block-component" />
@@ -5635,13 +5635,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -5649,21 +5649,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -5696,14 +5696,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5744,14 +5744,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5808,7 +5808,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <bdt className="statement-end-if-in-editor" />
@@ -5816,7 +5816,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
@@ -5844,13 +5844,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -5858,21 +5858,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -5904,14 +5904,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -5923,7 +5923,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
@@ -5956,7 +5956,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
@@ -5980,7 +5980,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
@@ -6011,14 +6011,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6073,14 +6073,14 @@ const Privacy = () => {
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span data-custom-class="body_text">
@@ -6095,14 +6095,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6130,14 +6130,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6156,14 +6156,14 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span
@@ -6190,7 +6190,7 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         {" "}
@@ -6205,14 +6205,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6239,7 +6239,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -6290,14 +6290,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6315,7 +6315,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -6367,14 +6367,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6419,14 +6419,14 @@ const Privacy = () => {
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span data-custom-class="body_text">
@@ -6441,14 +6441,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6777,14 +6777,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6796,7 +6796,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
@@ -6807,7 +6807,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span data-custom-class="body_text">
@@ -6819,7 +6819,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)"
+                                                                              "inherit"
                                                                           }}
                                                                         >
                                                                           <bdt className="block-component" />
@@ -6850,14 +6850,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -6920,7 +6920,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -6933,7 +6933,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span
@@ -6944,7 +6944,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)"
+                                                                              "inherit"
                                                                           }}
                                                                         >
                                                                           <span
@@ -6955,7 +6955,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <bdt className="statement-end-if-in-editor" />
@@ -7035,13 +7035,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -7049,21 +7049,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -7096,14 +7096,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7173,13 +7173,13 @@ const Privacy = () => {
                                                       <span
                                                         style={{
                                                           color:
-                                                            "rgb(127, 127, 127)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(89, 89, 89)",
+                                                              "inherit",
                                                             fontSize: 15
                                                           }}
                                                         >
@@ -7187,21 +7187,21 @@ const Privacy = () => {
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 id="control"
                                                                 style={{
                                                                   color:
-                                                                    "rgb(0, 0, 0)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <strong>
@@ -7237,14 +7237,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7283,14 +7283,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7350,14 +7350,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7400,7 +7400,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
@@ -7427,7 +7427,7 @@ const Privacy = () => {
                                                       <span
                                                         data-custom-class="heading_2"
                                                         style={{
-                                                          color: "rgb(0, 0, 0)"
+                                                          color: "inherit"
                                                         }}
                                                       >
                                                         <span
@@ -7453,13 +7453,13 @@ const Privacy = () => {
                                                         <span
                                                           style={{
                                                             color:
-                                                              "rgb(127, 127, 127)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
                                                             style={{
                                                               color:
-                                                                "rgb(89, 89, 89)",
+                                                                "inherit",
                                                               fontSize: 15
                                                             }}
                                                           >
@@ -7468,14 +7468,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -7513,14 +7513,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7545,14 +7545,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7584,14 +7584,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7621,14 +7621,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7664,14 +7664,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7701,14 +7701,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -7721,7 +7721,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
@@ -7760,14 +7760,14 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -7791,14 +7791,14 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -7824,14 +7824,14 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -7865,14 +7865,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -7902,14 +7902,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8012,14 +8012,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8056,14 +8056,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8110,14 +8110,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8165,14 +8165,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8207,14 +8207,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8297,14 +8297,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8335,14 +8335,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8430,14 +8430,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8467,14 +8467,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8557,14 +8557,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8597,14 +8597,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8701,14 +8701,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8739,14 +8739,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8828,14 +8828,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8870,14 +8870,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -8963,14 +8963,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -9003,14 +9003,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -9103,14 +9103,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -9140,14 +9140,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -9227,14 +9227,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -9270,14 +9270,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -9337,21 +9337,21 @@ const Privacy = () => {
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span
                                                                     style={{
                                                                       fontSize: 15,
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span data-custom-class="body_text">
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span data-custom-class="body_text">
@@ -9384,14 +9384,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -9399,21 +9399,21 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)",
+                                                                        "inherit",
                                                                       fontSize: 15
                                                                     }}
                                                                   >
@@ -9421,7 +9421,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)",
+                                                                            "inherit",
                                                                           fontSize: 15
                                                                         }}
                                                                       >
@@ -9434,7 +9434,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span data-custom-class="body_text">
@@ -9469,14 +9469,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -9494,21 +9494,21 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)",
+                                                                        "inherit",
                                                                       fontSize: 15
                                                                     }}
                                                                   >
@@ -9533,14 +9533,14 @@ const Privacy = () => {
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span data-custom-class="body_text">
@@ -9554,21 +9554,21 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)",
+                                                                          "inherit",
                                                                         fontSize: 15
                                                                       }}
                                                                     >
@@ -9576,7 +9576,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)",
+                                                                              "inherit",
                                                                             fontSize: 15
                                                                           }}
                                                                         >
@@ -9589,7 +9589,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -9614,14 +9614,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -9629,21 +9629,21 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)",
+                                                                        "inherit",
                                                                       fontSize: 15
                                                                     }}
                                                                   >
@@ -9668,14 +9668,14 @@ const Privacy = () => {
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span data-custom-class="body_text">
@@ -9688,21 +9688,21 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)",
+                                                                          "inherit",
                                                                         fontSize: 15
                                                                       }}
                                                                     >
@@ -9710,7 +9710,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)",
+                                                                              "inherit",
                                                                             fontSize: 15
                                                                           }}
                                                                         >
@@ -9723,7 +9723,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -9748,14 +9748,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -9763,21 +9763,21 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)",
+                                                                        "inherit",
                                                                       fontSize: 15
                                                                     }}
                                                                   >
@@ -9802,14 +9802,14 @@ const Privacy = () => {
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span
                                                             style={{
                                                               fontSize: 15,
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span data-custom-class="body_text">
@@ -9824,21 +9824,21 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)",
+                                                                          "inherit",
                                                                         fontSize: 15
                                                                       }}
                                                                     >
@@ -9846,7 +9846,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)",
+                                                                              "inherit",
                                                                             fontSize: 15
                                                                           }}
                                                                         >
@@ -9859,7 +9859,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -9888,14 +9888,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -9925,21 +9925,21 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
@@ -9961,14 +9961,14 @@ const Privacy = () => {
                                                         style={{
                                                           fontSize: 15,
                                                           color:
-                                                            "rgb(89, 89, 89)"
+                                                            "inherit"
                                                         }}
                                                       >
                                                         <span
                                                           style={{
                                                             fontSize: 15,
                                                             color:
-                                                              "rgb(89, 89, 89)"
+                                                              "inherit"
                                                           }}
                                                         >
                                                           <span data-custom-class="body_text">
@@ -9982,7 +9982,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)",
+                                                                  "inherit",
                                                                 fontSize: 15
                                                               }}
                                                             >
@@ -10002,7 +10002,7 @@ const Privacy = () => {
                                                           <span
                                                             style={{
                                                               color:
-                                                                "rgb(89, 89, 89)"
+                                                                "inherit"
                                                             }}
                                                           >
                                                             <span
@@ -10013,7 +10013,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -10034,7 +10034,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
@@ -10045,7 +10045,7 @@ const Privacy = () => {
                                                                 <span
                                                                   style={{
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span
@@ -10056,7 +10056,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span data-custom-class="body_text">
@@ -10075,14 +10075,14 @@ const Privacy = () => {
                                                               style={{
                                                                 fontSize: 15,
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span data-custom-class="body_text">
@@ -10095,7 +10095,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span
@@ -10106,7 +10106,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)"
+                                                                              "inherit"
                                                                           }}
                                                                         >
                                                                           <span
@@ -10117,7 +10117,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
@@ -10128,7 +10128,7 @@ const Privacy = () => {
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -10156,7 +10156,7 @@ const Privacy = () => {
                                                             <span
                                                               style={{
                                                                 color:
-                                                                  "rgb(89, 89, 89)"
+                                                                  "inherit"
                                                               }}
                                                             >
                                                               <span
@@ -10167,7 +10167,7 @@ const Privacy = () => {
                                                                 <span
                                                                   style={{
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span
@@ -10178,7 +10178,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span
@@ -10189,7 +10189,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)"
+                                                                              "inherit"
                                                                           }}
                                                                         >
                                                                           <span data-custom-class="body_text">
@@ -10212,7 +10212,7 @@ const Privacy = () => {
                                                               <span
                                                                 style={{
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
@@ -10223,7 +10223,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span
@@ -10234,7 +10234,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span
@@ -10245,7 +10245,7 @@ const Privacy = () => {
                                                                           <span
                                                                             style={{
                                                                               color:
-                                                                                "rgb(89, 89, 89)"
+                                                                                "inherit"
                                                                             }}
                                                                           >
                                                                             <span
@@ -10256,7 +10256,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -10281,7 +10281,7 @@ const Privacy = () => {
                                                                 <span
                                                                   style={{
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span
@@ -10292,7 +10292,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span
@@ -10303,7 +10303,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)"
+                                                                              "inherit"
                                                                           }}
                                                                         >
                                                                           <span
@@ -10314,7 +10314,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
@@ -10325,7 +10325,7 @@ const Privacy = () => {
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span
@@ -10336,7 +10336,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -10365,7 +10365,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span
@@ -10376,7 +10376,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span
@@ -10387,7 +10387,7 @@ const Privacy = () => {
                                                                           <span
                                                                             style={{
                                                                               color:
-                                                                                "rgb(89, 89, 89)"
+                                                                                "inherit"
                                                                             }}
                                                                           >
                                                                             <span
@@ -10398,7 +10398,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
@@ -10409,7 +10409,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
@@ -10420,7 +10420,7 @@ const Privacy = () => {
                                                                                       <span
                                                                                         style={{
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
@@ -10448,7 +10448,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span
@@ -10459,7 +10459,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span
@@ -10470,7 +10470,7 @@ const Privacy = () => {
                                                                           <span
                                                                             style={{
                                                                               color:
-                                                                                "rgb(89, 89, 89)"
+                                                                                "inherit"
                                                                             }}
                                                                           >
                                                                             <span
@@ -10481,7 +10481,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
@@ -10492,7 +10492,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
@@ -10503,7 +10503,7 @@ const Privacy = () => {
                                                                                       <span
                                                                                         style={{
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
@@ -10526,14 +10526,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -10541,14 +10541,14 @@ const Privacy = () => {
                                                                       style={{
                                                                         fontSize: 15,
                                                                         color:
-                                                                          "rgb(89, 89, 89)"
+                                                                          "inherit"
                                                                       }}
                                                                     >
                                                                       <span
                                                                         style={{
                                                                           fontSize: 15,
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <span data-custom-class="body_text">
@@ -10577,7 +10577,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)",
+                                                                          "inherit",
                                                                         fontSize: 15
                                                                       }}
                                                                     >
@@ -10585,7 +10585,7 @@ const Privacy = () => {
                                                                         <span
                                                                           style={{
                                                                             color:
-                                                                              "rgb(89, 89, 89)",
+                                                                              "inherit",
                                                                             fontSize: 15
                                                                           }}
                                                                         >
@@ -10617,14 +10617,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -10633,7 +10633,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)",
+                                                                          "inherit",
                                                                         fontSize: 15
                                                                       }}
                                                                     >
@@ -10646,7 +10646,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)",
+                                                                        "inherit",
                                                                       fontSize: 15
                                                                     }}
                                                                   >
@@ -10706,14 +10706,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -10764,14 +10764,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -10805,14 +10805,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -10862,14 +10862,14 @@ const Privacy = () => {
                                                                 style={{
                                                                   fontSize: 15,
                                                                   color:
-                                                                    "rgb(89, 89, 89)"
+                                                                    "inherit"
                                                                 }}
                                                               >
                                                                 <span
                                                                   style={{
                                                                     fontSize: 15,
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
@@ -10900,7 +10900,7 @@ const Privacy = () => {
                                                                     <span
                                                                       style={{
                                                                         color:
-                                                                          "rgb(89, 89, 89)",
+                                                                          "inherit",
                                                                         fontSize: 15
                                                                       }}
                                                                     >
@@ -10975,13 +10975,13 @@ const Privacy = () => {
                                                                 <span
                                                                   style={{
                                                                     color:
-                                                                      "rgb(89, 89, 89)"
+                                                                      "inherit"
                                                                   }}
                                                                 >
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <span data-custom-class="body_text">
@@ -11035,7 +11035,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <bdt className="forloop-component" />
@@ -11100,7 +11100,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <bdt className="forloop-component" />
@@ -11137,7 +11137,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <bdt className="forloop-component" />
@@ -11174,7 +11174,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <bdt className="forloop-component" />
@@ -11218,7 +11218,7 @@ const Privacy = () => {
                                                                   <span
                                                                     style={{
                                                                       color:
-                                                                        "rgb(89, 89, 89)"
+                                                                        "inherit"
                                                                     }}
                                                                   >
                                                                     <bdt className="forloop-component" />
@@ -11247,7 +11247,7 @@ const Privacy = () => {
                                                                       <span
                                                                         style={{
                                                                           color:
-                                                                            "rgb(89, 89, 89)"
+                                                                            "inherit"
                                                                         }}
                                                                       >
                                                                         <bdt className="forloop-component" />
@@ -11331,14 +11331,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11374,7 +11374,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <a
@@ -11400,7 +11400,7 @@ const Privacy = () => {
                                                                                         <span
                                                                                           style={{
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
@@ -11411,7 +11411,7 @@ const Privacy = () => {
                                                                                             <span
                                                                                               style={{
                                                                                                 color:
-                                                                                                  "rgb(89, 89, 89)"
+                                                                                                  "inherit"
                                                                                               }}
                                                                                             >
                                                                                               <span
@@ -11422,14 +11422,14 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(89, 89, 89)"
+                                                                                                      "inherit"
                                                                                                   }}
                                                                                                 >
                                                                                                   <span data-custom-class="body_text">
                                                                                                     <span
                                                                                                       style={{
                                                                                                         color:
-                                                                                                          "rgb(89, 89, 89)"
+                                                                                                          "inherit"
                                                                                                       }}
                                                                                                     >
                                                                                                       <bdt className="block-component" />
@@ -11460,14 +11460,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11479,7 +11479,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -11490,7 +11490,7 @@ const Privacy = () => {
                                                                                         <span
                                                                                           style={{
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
@@ -11501,7 +11501,7 @@ const Privacy = () => {
                                                                                             <span
                                                                                               style={{
                                                                                                 color:
-                                                                                                  "rgb(89, 89, 89)"
+                                                                                                  "inherit"
                                                                                               }}
                                                                                             >
                                                                                               <span
@@ -11512,14 +11512,14 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(89, 89, 89)"
+                                                                                                      "inherit"
                                                                                                   }}
                                                                                                 >
                                                                                                   <span data-custom-class="body_text">
                                                                                                     <span
                                                                                                       style={{
                                                                                                         color:
-                                                                                                          "rgb(89, 89, 89)"
+                                                                                                          "inherit"
                                                                                                       }}
                                                                                                     >
                                                                                                       <span
@@ -11530,7 +11530,7 @@ const Privacy = () => {
                                                                                                         <span
                                                                                                           style={{
                                                                                                             color:
-                                                                                                              "rgb(89, 89, 89)"
+                                                                                                              "inherit"
                                                                                                           }}
                                                                                                         >
                                                                                                           <span
@@ -11541,7 +11541,7 @@ const Privacy = () => {
                                                                                                             <span
                                                                                                               style={{
                                                                                                                 color:
-                                                                                                                  "rgb(89, 89, 89)"
+                                                                                                                  "inherit"
                                                                                                               }}
                                                                                                             >
                                                                                                               <span
@@ -11552,7 +11552,7 @@ const Privacy = () => {
                                                                                                                 <span
                                                                                                                   style={{
                                                                                                                     color:
-                                                                                                                      "rgb(89, 89, 89)"
+                                                                                                                      "inherit"
                                                                                                                   }}
                                                                                                                 >
                                                                                                                   <span
@@ -11563,7 +11563,7 @@ const Privacy = () => {
                                                                                                                     <span
                                                                                                                       style={{
                                                                                                                         color:
-                                                                                                                          "rgb(89, 89, 89)"
+                                                                                                                          "inherit"
                                                                                                                       }}
                                                                                                                     >
                                                                                                                       <span data-custom-class="body_text">
@@ -11576,7 +11576,7 @@ const Privacy = () => {
                                                                                                                             <span
                                                                                                                               style={{
                                                                                                                                 color:
-                                                                                                                                  "rgb(89, 89, 89)"
+                                                                                                                                  "inherit"
                                                                                                                               }}
                                                                                                                             >
                                                                                                                               <span
@@ -11587,7 +11587,7 @@ const Privacy = () => {
                                                                                                                                 <span
                                                                                                                                   style={{
                                                                                                                                     color:
-                                                                                                                                      "rgb(89, 89, 89)"
+                                                                                                                                      "inherit"
                                                                                                                                   }}
                                                                                                                                 >
                                                                                                                                   <span
@@ -11598,7 +11598,7 @@ const Privacy = () => {
                                                                                                                                     <span
                                                                                                                                       style={{
                                                                                                                                         color:
-                                                                                                                                          "rgb(89, 89, 89)"
+                                                                                                                                          "inherit"
                                                                                                                                       }}
                                                                                                                                     >
                                                                                                                                       <span
@@ -11609,7 +11609,7 @@ const Privacy = () => {
                                                                                                                                         <span
                                                                                                                                           style={{
                                                                                                                                             color:
-                                                                                                                                              "rgb(89, 89, 89)"
+                                                                                                                                              "inherit"
                                                                                                                                           }}
                                                                                                                                         >
                                                                                                                                           <span data-custom-class="body_text">
@@ -11648,7 +11648,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(0, 0, 0)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span data-custom-class="body_text">
@@ -11677,14 +11677,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11720,14 +11720,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11766,14 +11766,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11874,14 +11874,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11917,14 +11917,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -11942,14 +11942,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -11957,21 +11957,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12000,14 +12000,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12022,7 +12022,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12034,7 +12034,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12060,14 +12060,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12075,14 +12075,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -12090,21 +12090,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12133,14 +12133,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12155,7 +12155,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12167,7 +12167,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12193,14 +12193,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12208,14 +12208,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -12223,21 +12223,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12266,14 +12266,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12290,7 +12290,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12302,7 +12302,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12328,14 +12328,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12343,14 +12343,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -12358,21 +12358,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12401,14 +12401,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12424,7 +12424,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12436,7 +12436,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12462,14 +12462,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12477,14 +12477,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -12492,21 +12492,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12535,14 +12535,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12563,7 +12563,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12575,7 +12575,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12601,14 +12601,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12616,14 +12616,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -12631,21 +12631,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12674,14 +12674,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12707,7 +12707,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12719,7 +12719,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12745,14 +12745,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12760,14 +12760,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -12775,21 +12775,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -12818,14 +12818,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -12843,7 +12843,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
@@ -12855,7 +12855,7 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -12886,14 +12886,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12953,14 +12953,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -12999,14 +12999,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13044,14 +13044,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13081,14 +13081,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13234,14 +13234,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13353,14 +13353,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13378,14 +13378,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13393,14 +13393,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -13408,21 +13408,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -13451,14 +13451,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -13476,21 +13476,21 @@ const Privacy = () => {
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -13502,7 +13502,7 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(0, 0, 0)"
+                                                                                                      "inherit"
                                                                                                   }}
                                                                                                 >
                                                                                                   <span
@@ -13531,14 +13531,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13546,14 +13546,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -13561,21 +13561,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -13604,14 +13604,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -13644,21 +13644,21 @@ const Privacy = () => {
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -13670,7 +13670,7 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(0, 0, 0)"
+                                                                                                      "inherit"
                                                                                                   }}
                                                                                                 >
                                                                                                   <span
@@ -13699,14 +13699,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13714,14 +13714,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -13729,21 +13729,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -13772,14 +13772,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -13839,21 +13839,21 @@ const Privacy = () => {
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -13865,7 +13865,7 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(0, 0, 0)"
+                                                                                                      "inherit"
                                                                                                   }}
                                                                                                 >
                                                                                                   <span
@@ -13894,14 +13894,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -13909,14 +13909,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -13924,21 +13924,21 @@ const Privacy = () => {
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span
                                                                                             style={{
                                                                                               fontSize: 15,
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span data-custom-class="body_text">
                                                                                               <span
                                                                                                 style={{
                                                                                                   color:
-                                                                                                    "rgb(89, 89, 89)",
+                                                                                                    "inherit",
                                                                                                   fontSize: 15
                                                                                                 }}
                                                                                               >
@@ -13967,14 +13967,14 @@ const Privacy = () => {
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -14028,21 +14028,21 @@ const Privacy = () => {
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(0, 0, 0)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
@@ -14054,7 +14054,7 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(0, 0, 0)"
+                                                                                                      "inherit"
                                                                                                   }}
                                                                                                 >
                                                                                                   <span
@@ -14088,14 +14088,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -14111,7 +14111,7 @@ const Privacy = () => {
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)",
+                                                                                      "inherit",
                                                                                     fontSize: 15
                                                                                   }}
                                                                                 >
@@ -14119,7 +14119,7 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)",
+                                                                                          "inherit",
                                                                                         fontSize: 15
                                                                                       }}
                                                                                     >
@@ -14195,7 +14195,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)",
+                                                                                  "inherit",
                                                                                 fontSize: 15
                                                                               }}
                                                                             >
@@ -14206,20 +14206,20 @@ const Privacy = () => {
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span
                                                                                           style={{
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)",
+                                                                                              "inherit",
                                                                                             fontSize: 15
                                                                                           }}
                                                                                         >
@@ -14227,7 +14227,7 @@ const Privacy = () => {
                                                                                             <span
                                                                                               style={{
                                                                                                 color:
-                                                                                                  "rgb(89, 89, 89)",
+                                                                                                  "inherit",
                                                                                                 fontSize: 15
                                                                                               }}
                                                                                             >
@@ -14235,7 +14235,7 @@ const Privacy = () => {
                                                                                                 <span
                                                                                                   style={{
                                                                                                     color:
-                                                                                                      "rgb(89, 89, 89)",
+                                                                                                      "inherit",
                                                                                                     fontSize: 15
                                                                                                   }}
                                                                                                 >
@@ -14243,7 +14243,7 @@ const Privacy = () => {
                                                                                                     <span
                                                                                                       style={{
                                                                                                         color:
-                                                                                                          "rgb(89, 89, 89)",
+                                                                                                          "inherit",
                                                                                                         fontSize: 15
                                                                                                       }}
                                                                                                     >
@@ -14284,13 +14284,13 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(127, 127, 127)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -14298,21 +14298,21 @@ const Privacy = () => {
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       id="control"
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <strong>
@@ -14351,14 +14351,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -14404,14 +14404,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -14521,13 +14521,13 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(127, 127, 127)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -14535,21 +14535,21 @@ const Privacy = () => {
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       id="control"
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <strong>
@@ -14589,14 +14589,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -14614,7 +14614,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)",
+                                                                                        "inherit",
                                                                                       fontSize: 15
                                                                                     }}
                                                                                   >
@@ -14633,7 +14633,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)",
+                                                                                        "inherit",
                                                                                       fontSize: 15
                                                                                     }}
                                                                                   >
@@ -14649,14 +14649,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -14673,7 +14673,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)",
+                                                                                        "inherit",
                                                                                       fontSize: 15
                                                                                     }}
                                                                                   >
@@ -14689,14 +14689,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -14717,7 +14717,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)",
+                                                                                        "inherit",
                                                                                       fontSize: 15
                                                                                     }}
                                                                                   >
@@ -14729,14 +14729,14 @@ const Privacy = () => {
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       style={{
                                                                                         fontSize: 15,
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span data-custom-class="body_text">
@@ -14770,14 +14770,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -14789,13 +14789,13 @@ const Privacy = () => {
                                                                                     <span
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(89, 89, 89)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <span
                                                                                         style={{
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span data-custom-class="body_text">
@@ -14814,7 +14814,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span data-custom-class="body_text">
@@ -14841,13 +14841,13 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -14858,21 +14858,21 @@ const Privacy = () => {
                                                                                         style={{
                                                                                           fontSize: 15,
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span
                                                                                           style={{
                                                                                             fontSize: 15,
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <span data-custom-class="body_text">
                                                                                             <span
                                                                                               style={{
                                                                                                 color:
-                                                                                                  "rgb(89, 89, 89)"
+                                                                                                  "inherit"
                                                                                               }}
                                                                                             >
                                                                                               <span data-custom-class="body_text">
@@ -14888,7 +14888,7 @@ const Privacy = () => {
                                                                                         <span
                                                                                           style={{
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <bdt className="block-component" />
@@ -14914,13 +14914,13 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span data-custom-class="body_text">
@@ -14932,7 +14932,7 @@ const Privacy = () => {
                                                                                         <span
                                                                                           style={{
                                                                                             color:
-                                                                                              "rgb(89, 89, 89)"
+                                                                                              "inherit"
                                                                                           }}
                                                                                         >
                                                                                           <bdt className="block-component" />
@@ -14964,7 +14964,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <bdt className="statement-end-if-in-editor" />
@@ -15007,7 +15007,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <bdt className="block-component" />
@@ -15028,14 +15028,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -15052,13 +15052,13 @@ const Privacy = () => {
                                                                                           <span
                                                                                             style={{
                                                                                               color:
-                                                                                                "rgb(89, 89, 89)"
+                                                                                                "inherit"
                                                                                             }}
                                                                                           >
                                                                                             <span
                                                                                               style={{
                                                                                                 color:
-                                                                                                  "rgb(89, 89, 89)"
+                                                                                                  "inherit"
                                                                                               }}
                                                                                             >
                                                                                               <bdt className="statement-end-if-in-editor" />
@@ -15084,7 +15084,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <bdt className="else-block">
@@ -15100,7 +15100,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <bdt className="else-block" />
@@ -15116,14 +15116,14 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <bdt className="statement-end-if-in-editor">
                                                                                       <span
                                                                                         style={{
                                                                                           color:
-                                                                                            "rgb(89, 89, 89)"
+                                                                                            "inherit"
                                                                                         }}
                                                                                       >
                                                                                         <span
@@ -15200,7 +15200,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -15240,7 +15240,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -15314,7 +15314,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)",
+                                                                                  "inherit",
                                                                                 fontSize: 15
                                                                               }}
                                                                             >
@@ -15327,7 +15327,7 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)",
+                                                                                  "inherit",
                                                                                 fontSize: 15
                                                                               }}
                                                                             >
@@ -15398,7 +15398,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -15437,7 +15437,7 @@ const Privacy = () => {
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -15502,7 +15502,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)",
+                                                                                        "inherit",
                                                                                       fontSize: 15
                                                                                     }}
                                                                                   >
@@ -15540,7 +15540,7 @@ const Privacy = () => {
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)",
+                                                                                      "inherit",
                                                                                     fontSize: 15
                                                                                   }}
                                                                                 >
@@ -15588,7 +15588,7 @@ const Privacy = () => {
                                                                                   <span
                                                                                     style={{
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)",
+                                                                                        "inherit",
                                                                                       fontSize: 15
                                                                                     }}
                                                                                   >
@@ -15614,7 +15614,7 @@ const Privacy = () => {
                                                                                 <span
                                                                                   style={{
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)",
+                                                                                      "inherit",
                                                                                     fontSize: 15
                                                                                   }}
                                                                                 >
@@ -15651,13 +15651,13 @@ const Privacy = () => {
                                                                             <span
                                                                               style={{
                                                                                 color:
-                                                                                  "rgb(127, 127, 127)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)",
+                                                                                    "inherit",
                                                                                   fontSize: 15
                                                                                 }}
                                                                               >
@@ -15665,21 +15665,21 @@ const Privacy = () => {
                                                                                   style={{
                                                                                     fontSize: 15,
                                                                                     color:
-                                                                                      "rgb(89, 89, 89)"
+                                                                                      "inherit"
                                                                                   }}
                                                                                 >
                                                                                   <span
                                                                                     style={{
                                                                                       fontSize: 15,
                                                                                       color:
-                                                                                        "rgb(89, 89, 89)"
+                                                                                        "inherit"
                                                                                     }}
                                                                                   >
                                                                                     <span
                                                                                       id="control"
                                                                                       style={{
                                                                                         color:
-                                                                                          "rgb(0, 0, 0)"
+                                                                                          "inherit"
                                                                                       }}
                                                                                     >
                                                                                       <strong>
@@ -15724,14 +15724,14 @@ const Privacy = () => {
                                                                               style={{
                                                                                 fontSize: 15,
                                                                                 color:
-                                                                                  "rgb(89, 89, 89)"
+                                                                                  "inherit"
                                                                               }}
                                                                             >
                                                                               <span
                                                                                 style={{
                                                                                   fontSize: 15,
                                                                                   color:
-                                                                                    "rgb(89, 89, 89)"
+                                                                                    "inherit"
                                                                                 }}
                                                                               >
                                                                                 <span data-custom-class="body_text">
@@ -15828,7 +15828,7 @@ const Privacy = () => {
                                                                         <div
                                                                           style={{
                                                                             color:
-                                                                              "#595959",
+                                                                              "inherit",
                                                                             fontSize: 14,
                                                                             fontFamily:
                                                                               "Arial",
