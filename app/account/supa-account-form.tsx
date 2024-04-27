@@ -175,7 +175,9 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
           {loading ? 'Loading ...' : 'Update Account'}
         </button>
       </div>
-
+      <div className="flex flex-col text-sm">
+       <a href="#" className="termly-display-preferences">Consent Preferences</a>
+     </div>
       <div className="flex flex-col w-full">
         <form action="/auth/signout" method="post">
           <button           className={buttonVariants({ variant: "outline" })} type="submit">
