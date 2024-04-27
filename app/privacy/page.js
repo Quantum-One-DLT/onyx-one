@@ -26,7 +26,7 @@ const Privacy = () => {
         <strong>
           <span style={{ fontSize: 15 }}>
             <span data-custom-class="subtitle">
-              Last updated <bdt className="question">October 17, 2022</bdt>
+              Last updated <bdt className="question">April 26, 2024</bdt>
             </span>
           </span>
         </strong>
@@ -14639,8 +14639,8 @@ const Privacy = () => {
                                                                                   >
                                                                                     <span data-custom-class="body_text">
                                                                                       <bdt className="question">
-                                                                                        Ryan
-                                                                                        Derr
+                                                                                        Cody
+                                                                                        Clark
                                                                                       </bdt>
                                                                                     </span>
                                                                                   </span>
@@ -14852,8 +14852,8 @@ const Privacy = () => {
                                                                                 >
                                                                                   <span data-custom-class="body_text">
                                                                                     <bdt className="question">
-                                                                                      Ryan
-                                                                                      Derr
+                                                                                      Cody
+                                                                                      Clark
                                                                                       <span
                                                                                         style={{
                                                                                           fontSize: 15,
@@ -15404,9 +15404,9 @@ const Privacy = () => {
                                                                               >
                                                                                 <span data-custom-class="body_text">
                                                                                   <bdt className="question">
-                                                                                    Ryan
-                                                                                    Derr
-                                                                                  </bdt>
+                                                                                   
+                     Cody                               
+                                          Clark                                       </bdt>
                                                                                 </span>
                                                                               </span>{" "}
                                                                               to
