@@ -24,12 +24,12 @@ const youtubeID = "HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf" as unknown as string;
 
 export default function AboutPage() {
   return (
-      <div className="w-full px-2 py-6 space-y-8">
+      <div className="w-full py-6 space-y-8">
       <div className="container space-y-2 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
-            <p className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2.4 trillion USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
+            <p className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justified-center"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2.4 trillion USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
             </p>
           </div>
         </div>
