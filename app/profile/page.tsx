@@ -14,5 +14,5 @@ export default async function ProfilePage() {
   }
 
   return <p className="mt-10 px-4 py-8 text-center font-bold">Hello {data.user.email}! Your complete profile is coming soon!</p>
-<Avatar/>
+
 }
