@@ -54,7 +54,7 @@ const nextConfig = {
 }
 
 module.exports = withPlugins(
-  [[withMDX], [withPWA]]
+  [[withMDX], [withPWA]],
   nextConfig
 );
 
