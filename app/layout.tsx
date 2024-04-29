@@ -143,12 +143,12 @@ export default function RootLayout({
              <div className="flex-1">
         <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider><Analytics/></div>
 </div>
-<CookieButton/>
+
 <SiteFooter/>
 <Script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
-       
+   <Cookie Button />    
 </ThemeProvider>
 
       </body>
