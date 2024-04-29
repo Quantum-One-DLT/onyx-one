@@ -21,7 +21,7 @@ data: { user },} = await supabase.auth.getUser()
     <div className="mx-auto px-2 flex w-full flex-col justify-center space-y-6">
 <div className="flex flex-col space-y-2 text-justified-center items-justified-center">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Account Profile</h1>
-        <p className="text-sm text-justified-center text-muted-foreground">
+        <p className="text-base text-justify ">
           AirDrops are sent to your 'Airdrop Wallet Address' shown in your account profile below. To add or update this address, you may simply enter and save your address to our database without connecting your wallet. For those who prefer to connect their wallet, use the 'Connect Wallet' button found at the top of the page, copy and paste your address into the 'AirDrop Wallet Address' field, and use the Update Account button to save your profile.</p>
 
         <Link
