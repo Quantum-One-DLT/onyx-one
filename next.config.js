@@ -1,6 +1,10 @@
-const withMDX = require('@next/mdx')()
-
 /** @type {import('next').NextConfig} */
+
+const withMDX = require('@next/mdx')()
+const withPWA = require("@ducanh2912/next-pwa").default({
+  dest: "public",
+});
+
 const nextConfig = {
   webpack: config => {
     config.externals.push('pino-pretty', 'lokijs', 'encoding')
@@ -48,4 +52,10 @@ const nextConfig = {
    pageExtensions: ['ts', 'tsx', 'mdx', 'js', 'jsx'],
 }
 
-module.exports = withMDX(nextConfig)
+module.exports = withPWA({
+  // Your Next.js config
+
+    withMDX(nextConfig)
+});
+
+
