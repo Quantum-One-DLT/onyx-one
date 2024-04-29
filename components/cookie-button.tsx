@@ -1,6 +1,7 @@
 import { siteConfig } from '@/config/site'
 import { Icons } from '@/components/icons'
 import { buttonVariants } from '@/components/ui/button'
+import Link from 'next/link'
 
 
 export function CookieButton() {
