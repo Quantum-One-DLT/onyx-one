@@ -3,7 +3,7 @@ import { Icons } from '@/components/icons'
 import { buttonVariants } from '@/components/ui/button'
 
 
-export default function CookieButton {
+export function CookieButton() {
 
 return (
 <div className="h-screen">
