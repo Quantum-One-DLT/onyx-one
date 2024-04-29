@@ -8,13 +8,8 @@ import { cn } from '@/lib/utils'
 export function CookieButton() {
 
 return (
-<div className="h-screen">
-<Link
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-              className="absolute bottom-0 right-0 z-50"
-            >
+<div className="absolute bottom-0 right-0 z-50">
+
               <div
                 className={buttonVariants({
                   size: "icon",
@@ -24,10 +19,10 @@ return (
                 
        <a href="#" className={cn("termly-display-preferences")}></a>
      
-                <Icons.cookie className="h-5 w-5" />
-                <span className="sr-only"></span>
+                <Icons.cookie className="h-16 w-16" />
+                <span className="sr-only">Cookie Preferences</span>
               </div>
-            </Link>
+            
 </div>
 
  )
