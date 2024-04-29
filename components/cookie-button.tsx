@@ -9,7 +9,7 @@ export function CookieButton() {
 return (
 <div className="h-screen">
 <Link
-              href="#'
+              href="#"
               target="_blank"
               rel="noreferrer"
               className="absolute bottom-0 right-0 z-50"
