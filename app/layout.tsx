@@ -148,7 +148,7 @@ export default function RootLayout({
 <Script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
-   <Cookie Button />    
+   <CookieButton />    
 </ThemeProvider>
 
       </body>
