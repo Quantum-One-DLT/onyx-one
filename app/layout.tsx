@@ -12,6 +12,7 @@ import { config } from '@/config'
 import Web3ModalProvider from '@/context'
 import { Toaster } from "@/components/ui/toaster"
 import { SiteHeader } from "@/components/site-header"
+import { CookieButton } from "@/components/cookie-button"
 import Link from 'next/link'
 import { SiteFooter } from "@/components/site-footer"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
@@ -142,6 +143,7 @@ export default function RootLayout({
              <div className="flex-1">
         <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider><Analytics/></div>
 </div>
+<CookieButton/>
 <SiteFooter/>
 <Script
   type="text/javascript"
