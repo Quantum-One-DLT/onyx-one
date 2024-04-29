@@ -1,13 +1,17 @@
- 
+import { siteConfig } from '@/config/site'
+import { Icons } from '@/components/icons'
+import { buttonVariants } from '@/components/ui/button'
 
 
+export default function CookieButton {
 
-
+return (
+<div className="h-screen">
 <Link
               href="#'
               target="_blank"
               rel="noreferrer"
-              className="absolute bottom-0 right-0"
+              className="absolute bottom-0 right-0 z-50"
             >
               <div
                 className={buttonVariants({
@@ -22,3 +26,7 @@
                 <span className="sr-only"></span>
               </div>
             </Link>
+</div>
+
+ )
+}
