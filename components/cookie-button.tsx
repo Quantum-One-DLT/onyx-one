@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils'
 export function CookieButton() {
 
 return (
-<div className="absolute bottom-0 right-0 z-50">
+<div className="sticky absolute bottom-0 right-0 z-50">
 
               <div
                 className={buttonVariants({
