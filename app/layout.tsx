@@ -12,6 +12,7 @@ import { config } from '@/config'
 import Web3ModalProvider from '@/context'
 import { Toaster } from "@/components/ui/toaster"
 import { SiteHeader } from "@/components/site-header"
+import Link from 'next/link'
 import { SiteFooter } from "@/components/site-footer"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { cn } from "@/lib/utils"
@@ -142,10 +143,30 @@ export default function RootLayout({
         <Web3ModalProvider initialState={initialState}>{children}<Toaster/></Web3ModalProvider><Analytics/></div>
 </div>
 <SiteFooter/>
-</ThemeProvider>
 <Script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
+        <Link
+              href="#'
+              target="_blank"
+              rel="noreferrer"
+              className="absolute bottom-0 right-0"
+            >
+              <div
+                className={buttonVariants({
+                  size: "icon",
+                  variant: "ghost",
+                })}
+              >
+                
+       <a href="#" className={cn("termly-display-preferences")}></a>
+     
+                <Icons.cookie className="h-5 w-5" />
+                <span className="sr-only"></span>
+              </div>
+            </Link>
+</ThemeProvider>
+
       </body>
     </html>
   )
