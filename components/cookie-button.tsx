@@ -17,9 +17,10 @@ return (
                 })}
               >
                 
-       <a href="#" className={cn("termly-display-preferences")}></a>
+       <a href="#" className={cn("termly-display-preferences")}>
      
                 <Icons.cookie className="h-16 w-16" />
+</a>
                 <span className="sr-only">Cookie Preferences</span>
               </div>
             
