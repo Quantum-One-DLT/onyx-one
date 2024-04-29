@@ -53,9 +53,6 @@ const nextConfig = {
    pageExtensions: ['ts', 'tsx', 'mdx', 'js', 'jsx'],
 }
 
-module.exports = withPlugins(
-  [[withMDX], [withPWA]],
-  nextConfig
-);
+module.exports = withMDX(nextConfig)
 
 
