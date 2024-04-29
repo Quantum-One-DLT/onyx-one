@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "@ducanh2912/next-pwa": "^10.2.6",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@evmos/eip712": "0.2.10",
@@ -114,6 +115,7 @@
     "eslint-plugin-tailwindcss": "^3.13.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "webpack": "^5.91.0"
   }
 }
