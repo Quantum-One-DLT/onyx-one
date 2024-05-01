@@ -11,9 +11,9 @@ export function SiteFooter() {
             rel="noreferrer"
             className="text-xs text-center font-medium"
           >
-            2024 QUANTUM ONE DAO LLC. All Rights Reserved.  
+            2024 QUANTUM ONE DAO LLC.  
           </a>
-          .
+          All Rights Reserved.
         </p>
       </div>
     </footer>
