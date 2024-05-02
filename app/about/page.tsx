@@ -36,7 +36,7 @@ export default function AboutPage() {
 <Separator/>
 <div className="flex flex-col justify-center px-4 md:px-8 space-y-8">
           <div className="space-y-3">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Values</h1>
+            <h1 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Our Values</h1>
 </div>
 </div>
         <div className="mx-auto max-w-3xl space-y-3">
