@@ -13,7 +13,6 @@ export function SiteFooter() {
           >
             2024 QUANTUM ONE DAO LLC.  
           </a>
-          All Rights Reserved.
         </p>
       </div>
     </footer>
