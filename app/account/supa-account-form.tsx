@@ -104,7 +104,7 @@ const { address } = useAccount()
   const { data: ensAvatar } = useEnsAvatar({ name: ensName! })
 
   return (
-    <div className="                                   w-full px-2 space-y-8">
+    <div className="                                   w-full px-2 py-8 space-y-8">
 <Avatar
       
       uid={user?.id ?? null}
