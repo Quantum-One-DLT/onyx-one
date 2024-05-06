@@ -64,7 +64,7 @@ export default function AboutPage() {
         </div>
 <Separator/>
         <div className="container space-y-8 px-4 md:px-6">
-        <div className="max-w-[800px] flex flex-col justify-center space-y-8">
+        <div className="max-w-[800px] flex flex-col items-center justify-center space-y-8">
             <h5 className="text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
           <div className="aspect-video overflow-hidden rounded-lg shadow-lg text-center">
