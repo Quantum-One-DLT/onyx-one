@@ -66,10 +66,11 @@ export default function AboutPage() {
       
         <div className="w-full flex flex-col items-center justify-center space-y-8">
             <h5 className="max-w-[800px] text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
-
-          <div className="max-w-[800px] aspect-video overflow-hidden rounded-lg shadow-lg text-center">
+          <div className="w-full flex items-center">
+            <div className="max-w-[800px] aspect-video overflow-hidden rounded-lg shadow-lg text-center">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
+            </div>
           </div>
 <Separator/>
 <div className="flex flex-col items-center justify-center space-y-3 text-center">
