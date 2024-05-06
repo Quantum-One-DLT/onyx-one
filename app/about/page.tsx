@@ -39,7 +39,7 @@ export default function AboutPage() {
             <h1 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Our Values</h1>
 </div>
 </div>
-        <div className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify mx-auto max-w-3xl space-y-3">
+        <div className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify mx-auto space-y-3">
           <ol className="list-decimal list-inside space-y-3">
             
              <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
