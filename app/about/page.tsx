@@ -29,12 +29,13 @@ export default function AboutPage() {
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
-            <p className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
+            <p className=" md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
             </p>
           </div>
-        
-<Separator/>
           </div>
+        <div className="max-w-[800px]">
+         <Separator/>
+        </div>
 <div className="flex flex-col justify-center space-y-8">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Our Values</h1>
