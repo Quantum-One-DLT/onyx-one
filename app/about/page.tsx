@@ -64,7 +64,7 @@ export default function AboutPage() {
         </div>
 <Separator/>
       
-      <div className="grid grid-cols-1 items-center max-w-[800px] justify-center">
+     
 
           <h5 className="max-w-[800px] text-center text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
            <div className="aspect-video overflow-hidden rounded-lg shadow-lg ">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
-            </div>
+          
     
 <Separator/>
 <div className="flex flex-col items-center justify-center space-y-3 text-center">
