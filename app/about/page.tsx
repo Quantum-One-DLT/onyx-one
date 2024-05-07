@@ -64,7 +64,7 @@ export default function AboutPage() {
         </div>
 <Separator/>
       
-      <div className="grid grid-cols-1 max-w-[800px] justify-center">
+      <div className="grid grid-cols-1 items-center max-w-[800px] justify-center">
 
           <h5 className="max-w-[800px] text-center text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
