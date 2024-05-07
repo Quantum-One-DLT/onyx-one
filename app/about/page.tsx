@@ -61,18 +61,19 @@ export default function AboutPage() {
 
 <li>Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.</li>
           </ol>
-        </div>
+        
 <Separator/>
       
      
           <div>
-          <h5 className="max-w-[800px] text-center text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
+          <h5 className="max-w-[800px] place-self-center text-center text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
          
-           <div className="aspect-video overflow-hidden rounded-lg shadow-lg ">
+           <div className="place-self-center max-w-[800px] aspect-video overflow-hidden rounded-lg shadow-lg ">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
-            </div>
+          </div>
+          </div>
           
     
 <Separator/>
