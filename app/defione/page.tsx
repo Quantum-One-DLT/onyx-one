@@ -23,8 +23,8 @@ return (
     <section className="container mx-auto grid justify-evenly justify-items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col justify-evenly justify-items-center gap-1 space-y-8">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          DeFi ONE <br className=" xs:inline" />
-         Swap tokens and NFTs on every chain,  including BitCoin. 
+          Swap tokens and NFTs across every chain, including BitCoin on<br className=" xs:inline" />
+          DeFi ONE.
         </h1>
         <p className="max-w-[980px] text-lg text-muted-foreground text-justified">
        DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3k users will automatically receive an airdrop in a random amount. </p> 
