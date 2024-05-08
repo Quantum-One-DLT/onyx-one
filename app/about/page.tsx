@@ -26,15 +26,14 @@ export default function AboutPage() {
   return (
       <div className="w-full py-6 space-y-8">
       <div className="container space-y-8 px-4 md:px-6">
-        <div className="flex flex-col max-w-[800px] items-center justify-center space-y-6 text-center">
+        <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
-            <p className=" md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
+            <p className="max-w-[800px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
             </p>
-         
-        </div>
           </div>
-          
+        </div>
+<Separator/>
 <div className="flex flex-col justify-center space-y-8">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Our Values</h1>
@@ -74,7 +73,7 @@ export default function AboutPage() {
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
  </div>
           </div>
-         
+          </div>
           
     
 <Separator/>
@@ -115,11 +114,8 @@ export default function AboutPage() {
         /></div>
 <div className="text-sm text-center font-muted">Cody Clark</div>
 <div className="text-xs text-center font-muted">Co-Founder/COO</div>
-   
-   </div>
         </div>
         </div>
     </div>
   )
 }
-
