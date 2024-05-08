@@ -65,7 +65,7 @@ export default function AboutPage() {
 <Separator/>
       
      
-          <div>
+          <div className="space-y-3">
           <h5 className="max-w-[800px] place-self-center text-center text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
 
          
