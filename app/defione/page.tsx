@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
+import { Separator } from '@/components/ui/separator'
 
 export const metadata: Metadata = {
   title: 'DeFi ONE',
@@ -45,7 +46,9 @@ return (
 <li> Additional details will be posted here and accompany several formal AP PR's planned over the next two quarters.</li>
 </ol>
 
-<div className="flex flex-col items-center justify-center space-y-6">
+<Separator/>
+
+<div className="flex flex-col space-y-6">
           <div className="space-y-3">
        <Link
           href={siteConfig.links.dafietherscan}
@@ -65,6 +68,7 @@ return (
 Upon upgrading Da-Fi Token, we plan on changing the token name and symbol to better align with our vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. 
 </p>
 
+<Separator/>
 <p className="max-w-[980px] text-lg text-muted-foreground text-justified"> Access the live interface using the button below! 
 </p>
       
