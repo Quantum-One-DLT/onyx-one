@@ -71,7 +71,7 @@ export default function AboutPage() {
          
            <div className="place-self-center max-w-[800px] aspect-video overflow-hidden rounded-lg shadow-lg ">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
- </div>
+ 
           </div>
           </div>
           
@@ -114,6 +114,7 @@ export default function AboutPage() {
         /></div>
 <div className="text-sm text-center font-muted">Cody Clark</div>
 <div className="text-xs text-center font-muted">Co-Founder/COO</div>
+  </div>
         </div>
         </div>
     </div>
