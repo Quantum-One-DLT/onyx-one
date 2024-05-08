@@ -19,16 +19,16 @@ const { data: userSession } = await readUserSession();
  }   
 
 return (
-    <section className="container mx-auto grid justify-items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="flex max-w-[980px] flex-col items-start gap-1">
+    <section className="container mx-auto grid justify-evenly justify-items-center gap-6 pb-8 pt-6 md:py-10">
+      <div className="flex max-w-[980px] flex-col justify-evenly justify-items-center gap-1">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           DeFi ONE <br className=" xs:inline" />
          Swap tokens and NFTs on every chain,  including BitCoin. 
         </h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground">
+        <p className="max-w-[980px] text-lg text-muted-foreground text-justified">
        DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3k users will automatically receive an airdrop in a random amount. </p> 
 
-<p className="max-w-[700px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DeFi ONE. The final details will be formally announced via press release in the next few weeks. DeFi ONEs user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
+<p className="max-w-[980px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DeFi ONE. The final details will be formally announced via press release in the next few weeks. DeFi ONEs user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
 </p>
       <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
 
@@ -58,7 +58,7 @@ return (
 </div>
 </div>
 
-<p className="max-w-[700px] text-lg text-muted-foreground"> Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility. For those curious, our Securities and Exchange Commision (SEC) issued CIK number is 0001912440.
+<p className="max-w-[980px] text-lg text-muted-foreground"> Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility. For those curious, our Securities and Exchange Commision (SEC) issued CIK number is 0001912440.
 </p>
 
 <p className="max-w-[700px] text-lg text-muted-foreground"> 
