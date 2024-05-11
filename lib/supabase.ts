@@ -250,6 +250,7 @@ export type Database = {
           username: string | null
           waddress: string | null
           website: string | null
+          xhandle: string | null
         }
         Insert: {
           avatar_url?: string | null
@@ -260,6 +261,7 @@ export type Database = {
           username?: string | null
           waddress?: string | null
           website?: string | null
+          xhandle?: string | null
         }
         Update: {
           avatar_url?: string | null
@@ -270,6 +272,7 @@ export type Database = {
           username?: string | null
           waddress?: string | null
           website?: string | null
+          xhandle?: string | null
         }
         Relationships: [
           {
