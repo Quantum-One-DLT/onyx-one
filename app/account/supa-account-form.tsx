@@ -15,9 +15,10 @@ export default function AccountForm({ user }: { user: User | null }) {
   const [username, setUsername] = useState<string | null>(null)
   const [website, setWebsite] = useState<string | null>(null)
   const [avatar_url, setAvatarUrl] = useState<string | null>(null)
-const [email, setEmail] = useState<string | null>(null)
-const [waddress, setWaddress] = useState<string | null>(null)
-const languages = [
+  const [email, setEmail] = useState<string | null>(null)
+  const [waddress, setWaddress] = useState<string | null>(null)
+  const [xhandle, setXhandle] = useState<string | null>(null)
+  const languages = [
   { label: "English", value: "en" },
   { label: "French", value: "fr" },
   { label: "German", value: "de" },
@@ -35,7 +36,7 @@ const languages = [
 
       const { data, error, status } = await supabase
         .from('profiles')
-        .select(`full_name, username, website, avatar_url, email, waddress`)
+        .select(`full_name, username, website, avatar_url, email, waddress, xhandle`)
         .eq('id', user?.id as string)
         .single()
 
@@ -51,6 +52,7 @@ const languages = [
         setAvatarUrl(data.avatar_url)
         setEmail(data.email)
         setWaddress(data.waddress)
+        setXhandle(data.xhandle)
       }
     } catch (error) {
       alert('Error loading user data!')
@@ -69,6 +71,7 @@ const languages = [
     avatar_url,
     email,
     waddress,
+    xhandle,
   }: {
     username: string | null
     fullname: string | null
@@ -76,6 +79,7 @@ const languages = [
     avatar_url: string | null
     email: string | null
     waddress: string | null
+    xhandle: string | null
   }) {
     try {
       setLoading(true)
@@ -88,6 +92,7 @@ const languages = [
         avatar_url,
         email,
         waddress: address, 
+        xhandle,
         updated_at: new Date().toISOString(),
       })
       if (error) throw error
@@ -112,7 +117,7 @@ const { address } = useAccount()
       size={144}
       onUpload={(url) => {
         setAvatarUrl(url)
-        updateProfile({ fullname, username, website, email, waddress, avatar_url: url })
+        updateProfile({ fullname, username, website, email, waddress, xhandle, avatar_url: url })
       }}
     />
  <div className="flex flex-col">
@@ -136,6 +141,15 @@ const { address } = useAccount()
           type="text"
           value={username || ''}
           onChange={(e) => setUsername(e.target.value)}
+        />
+      </div>
+      <div className="flex flex-col">
+        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor="username">Twitter|X Username</label>
+        <input className={cn("flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50")}
+          id="xhandle"
+          type="text"
+          value={xhandle || ''}
+          onChange={(e) => setXhandle(e.target.value)}
         />
       </div>
       <div className="flex flex-col">
@@ -169,7 +183,7 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
       
         <button
           className={buttonVariants({ variant: "outline" })}
-          onClick={() => updateProfile({ fullname, username, website, email, waddress, avatar_url })}
+          onClick={() => updateProfile({ fullname, username, website, email, waddress, xhandle, avatar_url })}
           disabled={loading}
         >
           {loading ? 'Loading ...' : 'Update Account'}
