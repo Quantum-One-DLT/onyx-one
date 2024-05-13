@@ -20,7 +20,7 @@ export default async function IndexPage() {
           Opportunity is Engineered. 
 	</h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        Sign up to receive our DAO governance token airdrop and learn how you help launch DeFi ONE on Zetachain!  
+        Sign up to learn how you can help launch DeFi ONE on Zetachain and receive our DAO governance token airdrop!  
         </p>
 </div>
       
