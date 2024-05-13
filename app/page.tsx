@@ -15,7 +15,7 @@ export default async function IndexPage() {
 	}
   return (
     <section className="container grid items-center mx-auto gap-6 pb-8 pt-6 px-4 md:py-10 space-y-8">
-      <div className="flex max-w-[980px] flex-col place-items-center gap-2">
+      <div className="flex max-w-[980px] flex-col place-items-evenly gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Opportunity is Engineered. 
 	</h1>
@@ -23,7 +23,7 @@ export default async function IndexPage() {
         Sign up to receive our DAO governance token airdrop and learn how you help launch DeFi ONE on Zetachain!  
         </p>
       
-      <div className="flex flex-cols-1 place-content-evenly"
+      <div className="flex flex-cols-3 place-content-evenly"
       <div className="gap-4">
         <Link
           href={siteConfig.links.login}
