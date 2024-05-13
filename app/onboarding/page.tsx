@@ -55,18 +55,7 @@ export default function OnboardingPage() {
         />
           </div>
           <div className="relative z-20 flex items-center text-lg font-medium">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="mr-2 h-6 w-6"
-            >
-              <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
-            </svg>
+  <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" className="mr-2 h-6 w-6"><g><path fill="currentColor" stroke="#00000" d="m319.734 319.734h192.266v192.266h-192.266z"/><path fill="currentColor" d="m127.469 256c0-70.986 57.545-128.531 128.531-128.531s128.531 57.545 128.531 128.531h127.469c0-141.385-114.615-256-256-256s-256 114.615-256 256 114.615 256 256 256v-127.469c-70.986 0-128.531-57.545-128.531-128.531z"/></g></svg>
             
           </div>
           <div className="relative z-20 mt-auto">
