@@ -14,17 +14,18 @@ export default async function IndexPage() {
 		return redirect("/account");
 	}
   return (
-    <section className="container grid items-center mx-auto gap-6 pb-8 pt-6 px-4 md:py-10 space-y-8">
-      <div className="flex max-w-[980px] flex-col place-items-evenly gap-2">
+    <section className="container grid items-center gap-6 pb-8 pt-6 px-4 md:py-10 space-y-8">
+      <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Opportunity is Engineered. 
 	</h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
         Sign up to receive our DAO governance token airdrop and learn how you help launch DeFi ONE on Zetachain!  
         </p>
+</div>
       
-      <div className="flex flex-col place-content-evenly">
-      <div className="gap-4">
+      
+      <div className="flex gap-4">
         <Link
           href={siteConfig.links.login}
           target="_blank"
@@ -49,8 +50,7 @@ export default async function IndexPage() {
               >
              DeFi ONE
             </Link>
-            </div>
-            </div>
+          
       </div>
     </section>
   )
