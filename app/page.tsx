@@ -23,6 +23,7 @@ export default async function IndexPage() {
         Sign up to receive our DAO governance token airdrop and learn how you help launch DeFi ONE on Zetachain!  
         </p>
       
+      <div className="flex flex-cols-1 place-content-evenly"
       <div className="gap-4">
         <Link
           href={siteConfig.links.login}
@@ -48,6 +49,7 @@ export default async function IndexPage() {
               >
              DeFi ONE
             </Link>
+            </div>
             </div>
       </div>
     </section>
