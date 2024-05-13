@@ -15,7 +15,7 @@ export default async function IndexPage() {
 	}
   return (
     <section className="container grid items-center mx-auto gap-6 pb-8 pt-6 px-4 md:py-10">
-      <div className="flex max-w-[980px] flex-col items-start gap-2">
+      <div className="flex max-w-[980px] flex-col place-items-center gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Opportunity is<br className=" xs:inline" />
          Engineered. 
