@@ -29,7 +29,7 @@ export default function AboutPage() {
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-3">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
-            <p className="max-w-[980px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> Our overarching vision views the rapidly approaching quantum and photonic computing era as an era of greater decentralized opportunity, a new paradigm. We seek to unite the blockchain community to reclaim its independence from cloud service providers by leveraging its $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and the cornerstone of future public blockchain technology. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, and asset ownership. 
+            <p className="max-w-[980px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> We seek to unite the public blockchain community to reclaim our sovereignty from cloud service providers, build a portfolio of tangible revenue generating assets, and assure a highly successful post quantum era by leveraging our $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and, thus, the cornerstone of future public blockchain technology and the era of greater decentralized opportunity. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, asset ownership, and the regulatory compliance thereof.
             </p>
             <Separator/>
           </div>
@@ -41,6 +41,7 @@ export default function AboutPage() {
 </div>
 </div>
         <div className="max-w-[980px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify mx-auto space-y-8">
+<p>Our overarching vision was formed against the backdrop of the rapidly accelerating arrival of the quantum and photonic computing era. With great humility, we postulated the rapid acceleration of quantum computing would significantly impact public blockchains 2 years before Ethereum founder Vitalik Buterin admitted on October 18, 2023 that the sudden arrival of the quantum era would, in fact, necessitate a hard fork of the Ethereum blockchain and, thus, jeopardize the integrity and continuity of not only the Ethereum blockchain, but public blockchain technology in its entirety. Buterin's admittance is proof that the significance of quantum computing as it relates to public blockchain technology has been largely understated. Thus, we firmly believe it is time to decisively reevaluate our trajectory and consolidate our collective vision before  quantum advantage becomes the next ChatGPT like technological explosion. With companies like IonQ and others proclaiming quantum advantage is around the corner, time is unquestionably of essence. </p>
           <ol className="list-decimal list-inside space-y-3">
             
              <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
