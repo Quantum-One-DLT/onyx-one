@@ -7,7 +7,7 @@ import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
 import Avatar from './avatar'
 import { Input } from '@/components/ui/input'
-import { Checkbox } from @/components/ui/checkbox'
+import { Checkbox } from '@/components/ui/checkbox'
 
 export default function AccountForm({ user }: { user: User | null }) {
   const supabase = useSupabaseBrowser()
