@@ -7,6 +7,7 @@ import useSupabaseBrowser from '@/utils/supabase-browser'
 import { type User } from '@supabase/supabase-js'
 import Avatar from './avatar'
 import { Input } from '@/components/ui/input'
+import { Checkbox } from @/components/ui/checkbox'
 
 export default function AccountForm({ user }: { user: User | null }) {
   const supabase = useSupabaseBrowser()
@@ -189,6 +190,24 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
           {loading ? 'Loading ...' : 'Update Account'}
         </button>
         </div>
+
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Notifications</h2>
+              <div className="space-y-2">
+                <div className="flex items-center">
+                  <Checkbox defaultChecked id="newsletter" />
+                  <Label className="ml-2" htmlFor="newsletter">
+                    Subscribe to newsletter
+                  </Label>
+                </div>
+                <div className="flex items-center">
+                  <Checkbox defaultChecked id="alerts" />
+                  <Label className="ml-2" htmlFor="alerts">
+                    Receive alerts
+                  </Label>
+                </div>
+                <div className="flex items-center" />
+              </div>
       
       <div className="flex flex-col w-full mb-2">
         <form className="space-y-8 items-center" action="/auth/signout" method="post">
