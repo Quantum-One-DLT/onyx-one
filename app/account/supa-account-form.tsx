@@ -176,22 +176,6 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
       {address && <div className={cn("flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 overflow-x-auto hover:overflow-x-scroll")}>{ensName ? `${ensName} (${address})` : address}</div>}
  </div>
 </div>
-<div className="w-full grid grid-cols-2 gap-x-4 justify-evenly">    
-<button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect Wallet</button>
-   
-    
-    
-
-      
-        <button
-          className={buttonVariants({ variant: "outline" })}
-          onClick={() => updateProfile({ fullname, username, website, email, waddress, xhandle, avatar_url })}
-          disabled={loading}
-        >
-          {loading ? 'Loading ...' : 'Update Account'}
-        </button>
-        </div>
-
             <div>
               <h2 className="text-2xl font-bold mb-4">Notifications</h2>
               <div className="space-y-2">
@@ -210,6 +194,24 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
                 <div className="flex items-center" />
               </div>
               </div>
+
+<div className="w-full grid grid-cols-2 gap-x-4 justify-evenly">    
+<button           className={buttonVariants({ variant: "outline" })} onClick={() => disconnect()}>Disconnect Wallet</button>
+   
+    
+    
+
+      
+        <button
+          className={buttonVariants({ variant: "outline" })}
+          onClick={() => updateProfile({ fullname, username, website, email, waddress, xhandle, avatar_url })}
+          disabled={loading}
+        >
+          {loading ? 'Loading ...' : 'Update Account'}
+        </button>
+        </div>
+
+           
       
       <div className="flex flex-col w-full mb-2">
         <form className="space-y-8 items-center" action="/auth/signout" method="post">
