@@ -43,22 +43,13 @@ export default async function IndexPage() {
           Sign Up
         </Link>
         <Link
-              href={siteConfig.links.defione}
-              target="_blank"
-              rel="noreferrer"
-	      className={buttonVariants()}
-              > DeFi ONE
-		<div
-                className={buttonVariants({
-                  size: "icon",
-                  variant: "ghost",
-                })}
-              >
-                <Icons.defione className="h-5 w-5" />
-                <span className="sr-only">DeFi ONE</span>
-              </div>
-             
-            </Link>
+           href={siteConfig.links.defione}
+           target="_blank"
+           rel="noreferrer"
+           className={buttonVariants()}
+              > 
+	       DeFi ONE
+        </Link>
           
       </div>
     </section>
