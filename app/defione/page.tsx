@@ -27,21 +27,24 @@ return (
           DeFi ONE.
         </h1>
         <p className="max-w-[980px] text-lg text-muted-foreground text-justified">
-       DeFi ONE is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3k users will automatically receive an airdrop in a random amount. </p> 
+       DeFi ONE (DFI1) is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3K Quantum One users will automatically receive an airdrop of our governance token in a random amount. </p> 
 
 <p className="max-w-[980px] text-lg text-muted-foreground">
-DeFi ONE (DFI1) is designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents to enable token, NFT, and native-to-native coin swaps on every chain, including BitCoin. After launch, we will implement an incentivized quantum bounty program designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms and protocols within a quantum and photonic computing scope.
+DFI1 is designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents to enable token, NFT, and native-to-native coin swaps on every chain, including BitCoin. After launch, we will implement an incentivized quantum bounty program designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms and protocols within a quantum and photonic computing scope.
 </p>
 
-<p className="max-w-[980px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DeFi ONE. The final details will be formally announced via press release in the next few weeks. DeFi ONEs user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
+<p className="max-w-[980px] text-lg text-muted-foreground">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DFI1. The final details will be formally announced via press release in the next few weeks. DFI1's user interface is live and ready for developers to swap in our smart contract addresses upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
 </p>
       <ol className="list-decimal list-inside space-y-2 text-lg text-muted-foreground">
 
-<li> Upgrade smart contracts for our existing ERC20 DAO governance token and deployment of upgraded ERC20 token on ZetaChain. </li>
+<li> Upgrade smart contracts for our existing ERC20 DAO governance token symbol DA-FI and deployment of upgraded ERC20 token on ZetaChain. </li>
 
 <li> Deployment of optimized Uniswap v3 smart contracts on mainnet and Zetachain. </li> 
 
 <li> Live launch of DeFi ONE PWA and mobile DApps.</li>
+
+<li> Deployment of DFI1's ZRC20 omnichain governance token on ZetaChain. We'll post the Simple Agreement for Future Token (SAFT) and tokenomics once finalized.
+ </li>
 
 <li> Launch of DeFi ONE mobile wallet.</li>
 
