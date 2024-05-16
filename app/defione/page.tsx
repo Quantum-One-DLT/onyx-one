@@ -73,7 +73,7 @@ Upon upgrading Da-Fi Token, we plan on changing the token name and symbol to bet
 </p>
 
 <Separator/>
-<p className="max-w-[980px] text-lg text-muted-foreground text-justified"> Access the live interface using the button below! 
+<p className="max-w-[980px] text-lg text-muted-foreground text-justified"> Access the live interface demo using the button below! Please note that demo's are never considered fully tested, functional applications. 
 </p>
       
          <Link
