@@ -19,7 +19,7 @@ export default async function IndexPage() {
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Opportunity is Engineered. 
 	</h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground">
+        <p className="max-w-[980px] text-lg text-muted-foreground">
         Sign up to learn how you can help launch DeFi ONE on Zetachain and receive our DAO governance token airdrop!  
         </p>
 </div>
