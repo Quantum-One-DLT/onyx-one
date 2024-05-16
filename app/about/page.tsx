@@ -118,6 +118,27 @@ export default function AboutPage() {
 <div className="text-xs text-center font-muted">Co-Founder/COO</div>
   </div>
         </div>
+<Separator/>
+
+<div className="flex flex-col space-y-6">
+          <div className="space-y-3">
+       <Link
+          href={siteConfig.links.dafietherscan}
+          target="_blank"
+          rel="noreferrer"
+          className="text-3xl font-bold tracking-tighter sm:text-5xl"
+        >
+          What is Da-Fi Token?
+        </Link>
+</div>
+</div>
+
+<p className="max-w-[980px] text-lg text-muted-foreground text-justified"> Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. It's important to mention that Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility and practicality. 
+</p>
+
+<p className="max-w-[980px] text-lg text-muted-foreground text-justified"> 
+Upon upgrading and migrating DA-FI token to a ZRC20 omnichain token on Zetachain, we anticipate changing the token name and symbol to better align with Quantum One's vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will automatically receive the new token that's symbol will be announced along with the planned PR campaign. 
+</p>
         </div>
     </div>
   )
