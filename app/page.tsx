@@ -46,7 +46,8 @@ export default async function IndexPage() {
               href={siteConfig.links.defione}
               target="_blank"
               rel="noreferrer"
-              >
+	      className={buttonVariants()}
+              > DeFi ONE
 		<div
                 className={buttonVariants({
                   size: "icon",
@@ -56,7 +57,7 @@ export default async function IndexPage() {
                 <Icons.defione className="h-5 w-5" />
                 <span className="sr-only">DeFi ONE</span>
               </div>
-             DeFi ONE
+             
             </Link>
           
       </div>
