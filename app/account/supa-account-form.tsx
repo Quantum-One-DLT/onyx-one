@@ -208,6 +208,7 @@ id="waddress" type="text" value={waddress || ''} onChange={(e) => setWaddress(e.
                 </div>
                 <div className="flex items-center" />
               </div>
+              </div>
       
       <div className="flex flex-col w-full mb-2">
         <form className="space-y-8 items-center" action="/auth/signout" method="post">
