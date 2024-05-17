@@ -12,12 +12,16 @@ export const docsConfig: DocsConfig = {
       href: "/",
     },
     { 
+      title: "Account",
+      href: "/account",
+    },
+    { 
       title: "DeFi ONE",
       href: "/defione",
     },
     { 
-      title: "Account",
-      href: "/account",
+      title: "DA-FI Token",
+      href: "/dafitoken",
     },
     { 
       title: "About",
