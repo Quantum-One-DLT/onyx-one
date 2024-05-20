@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Quantum One",
   description:
-    "Swap tokens and NFTs on any chain, including BitCoin with DeFi ONE. Created by Quantum One DAO - the new opportunity paradigm.",
+    "The chain-agnostic DAO for a post quantum world.",
   mainNav: [
     {
       title: "Home",
