@@ -23,10 +23,10 @@ export default async function page() {
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
               <h1 className="text-2xl font-semibold tracking-tight">
-                Alerts and airdrop!
+                Welcome back!
               </h1>
               <p className="text-sm text-muted-foreground">
-                Airdrop limited to the 1st 3K users who sign up.
+               Login to your Quantum One account.
               </p>
             </div>
             <AuthForm />
