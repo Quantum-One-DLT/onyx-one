@@ -17,7 +17,7 @@ data: { user },} = await supabase.auth.getUser()
   }
  
   return (
-    <div className="mt-10 px-2 lg:p-8">
+    <div className="mt-10 max-w-[980px] px-2 lg:p-8">
     <div className="mx-auto px-2 flex w-full flex-col justify-center space-y-6">
 <div className="flex flex-col space-y-2 text-justified-center items-justified-center">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Account Profile</h1>
