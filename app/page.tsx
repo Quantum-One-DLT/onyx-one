@@ -17,7 +17,7 @@ export default async function IndexPage() {
     <section className="container grid items-center gap-6 pb-8 pt-6 px-4 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Chain-agnostic digital asset and governance solutions for a post quantum and photonic world. 
+          Chain-agnostic DAO's for a post quantum world. 
 	</h1>
         <p className="max-w-[980px] text-lg text-muted-foreground">
         Sign up to learn how you can help launch DeFi ONE on Zetachain and receive our DAO governance token airdrop!  
