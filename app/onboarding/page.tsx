@@ -69,10 +69,10 @@ export default function OnboardingPage() {
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
               <h1 className="text-2xl font-semibold tracking-tight">
-                Sign up to receive an airdrop!
+                Sign up for alerts and an airdrop!
               </h1>
               <p className="text-sm text-muted-foreground">
-                Limited to the 1st 3K users.
+                Airdrop limited to the 1st 3K users.
               </p>
             </div>
             <AuthFormLegacy />
