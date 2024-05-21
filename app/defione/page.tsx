@@ -20,8 +20,8 @@ const { data: userSession } = await readUserSession();
  }   
 
 return (
-    <section className="container mx-auto max-w-[980px] grid justify-evenly justify-items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="flex max-w-[980px] flex-col justify-evenly justify-items-center gap-1 space-y-8">
+    <section className="container mx-auto max-w-[980px] px-4 justify-evenly gap-6 pb-8 pt-6 md:py-10">
+      <div className="flex max-w-[980px] flex-col justify-evenly gap-1 space-y-8">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Swap tokens & NFTs on every chain, including BitCoin with<br className=" xs:inline" />
           DeFi ONE.
