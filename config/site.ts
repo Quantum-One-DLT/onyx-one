@@ -34,18 +34,14 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/quantumonedlt",
     github: "https://github.com/quantum-one-dlt/onyx-one",
-    defione:
-"https://defione.io",
-    login:"https://quantumone.io/auth",
-    signup:"https://quantumone.io/onboarding",
-    signout:"https://quantumone.io/signout",
-
-linkedinRM: "https://linkedin.com/in/robertmoureyjr",
-linkedinCC: "https://linkedin.com/in/codyclark",
-
-dafietherscan:"https://etherscan.io/token/0xeaad65885fea47a3b1258935f4ce83aab06fdd3a",
-
-qonepaper: "https://www.notion.so/Quantum-One-Research-and-Data-Room-9c2497e7f4534ee08eb2f25d131d7ed5?pvs=4"
-}
+    defione: "https://defione.io",
+    login: "https://quantumone.io/auth",
+    signup: "https://quantumone.io/onboarding",
+    signout: "https://quantumone.io/signout",
+    linkedinRM: "https://linkedin.com/in/robertmoureyjr",
+    linkedinCC: "https://linkedin.com/in/codyclark",
+    dafietherscan:"https://etherscan.io/token/0xeaad65885fea47a3b1258935f4ce83aab06fdd3a",
+    qonepaper: "https://www.notion.so/Quantum-One-Research-and-Data-Room-9c2497e7f4534ee08eb2f25d131d7ed5?pvs=4",
+  },
 
 }
