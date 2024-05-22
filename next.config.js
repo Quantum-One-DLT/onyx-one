@@ -47,6 +47,14 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+
+      {
+
+        protocol: 'https',
+        hostname: 'api.web3modal.com',
+        port: '',
+      
+      },
     ],
   },
 
