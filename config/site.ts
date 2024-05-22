@@ -43,7 +43,9 @@ export const siteConfig = {
 linkedinRM: "https://linkedin.com/in/robertmoureyjr",
 linkedinCC: "https://linkedin.com/in/codyclark",
 
-dafietherscan:"https://etherscan.io/token/0xeaad65885fea47a3b1258935f4ce83aab06fdd3a"
+dafietherscan:"https://etherscan.io/token/0xeaad65885fea47a3b1258935f4ce83aab06fdd3a",
+
+qonepaper: "https://www.notion.so/Quantum-One-DAO-Research-Pitch-Paper-321fc275cc254c9b97eac6c569dbd152?pvs=4"
 }
 
 }
