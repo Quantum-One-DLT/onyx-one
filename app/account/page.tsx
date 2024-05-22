@@ -24,19 +24,11 @@ data: { user },} = await supabase.auth.getUser()
   return (
     <div className="mt-6 max-w-[980px] px-2 lg:p-8 mx-auto">
     <div className="mx-auto px-2 flex flex-col justify-center space-y-6">
-<div className="flex flex-col space-y-2 text-center items-justified-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Account Profile</h1>
+<div className="flex flex-col space-y-2 items-justified-center">
+        <h1 className="text-lg font-bold tracking-tighter text-muted-foreground sm:text-xl">Account</h1>
         <p className="text-base text-justify ">
-          AirDrops are sent to your 'Airdrop Wallet Address' shown in your account profile below. To add or update this address, you may simply enter and save your address to our database without connecting your wallet. For those who prefer to connect their wallet, use the 'Connect Wallet' button found at the top of the page, copy and paste your address into the 'AirDrop Wallet Address' field, and use the Update Account button to save your profile. Be sure to add your X (Twitter) username to be eligible for X associated airdrop campaigns. </p>
+          AirDrops are sent to your 'Airdrop Wallet Address'. To update, you may enter and save your address to our database without connecting your wallet. Or you may use the 'Connect Wallet' button found at the top of and copy and paste your address into the 'AirDrop Wallet Address' field. Be sure to add your X (Twitter) username to be eligible for X associated airdrop campaigns. Note that all airdrop recipients will be required to authenticate their legal identity to claim our upgraded DAO governance token. </p>
 
-        <Link
-          href="/defione"
-          target="_blank"
-          rel="noreferrer"
-          className="text-1xl font-bold tracking-tighter sm:text-3xl"
-        >
-         Learn about DeFi ONE!
-        </Link>
        </div>
       <Separator />
       <AccountForm user={user}/>
