@@ -26,11 +26,10 @@ return (
           Swap tokens & NFTs on every chain, including BitCoin with<br className=" xs:inline" />
           DeFi ONE.
         </h1>
-        <p className="max-w-[980px] text-lg text-justified">
-       DeFi ONE (DFI1) is the first product delivery planned within our roadmap that spans 100+ years and envisages DAO driven data center ownership powering the future of public blockchains and the era of decentralized opportunity. If you are new to Quantum One DAO, connect your wallet using the button above to view your Da-Fi Token balance and verify if you were a recipient of our randomized airdrop. The 1st 3K Quantum One users will automatically receive an airdrop of our governance token in a random amount. </p> 
+       
 
 <p className="max-w-[980px] text-lg">
-DeFi ONE (DFI1) is a KYC/KYB compliant decentralized digital asset exchange designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents and vectorized databases to enable AI token, NFT, and native-to-native coin swaps on every chain, including BitCoin. DFI1 will offer automated market maker (AMM) capabilities, simplified yet highly secure onboarding experience and user interface powered by compliant smart accounts that meet or exceed US investment bank account standards. Accordingly, users and DFI1 token holders will be required to authenticate their legal identity prior to platform use and token ownership. DFI1's incentivized development and bug bounty programs are designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms, protocols, and architectures within classical, quantum and photonic computing scopes to ultimately enable inclusive enterprise use cases across numerous industries. Areas of focus will include: </p>
+DeFi ONE (DFI1) is a KYC/KYB compliant decentralized digital asset exchange designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents and vectorized databases to enable AI token, NFT, and native-to-native coin swaps on every chain, including BitCoin. DFI1 will offer automated market maker (AMM) capabilities, simplified yet highly secure onboarding experience and user interface powered by compliant smart accounts that meet or exceed US investment bank account standards. Accordingly, users and DFI1 token holders will be required to authenticate their legal identity prior to platform use and token ownership. DFI1's incentivized development and bug bounty programs are designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms, protocols, and architectures within classical, quantum and photonic computing scopes to ultimately enable inclusive enterprise use cases across numerous industries. Areas of focus should include: </p>
 
 <ol className="list-decimal list-inside space-y-2 text-lg text-justify">
 
@@ -45,7 +44,7 @@ DeFi ONE (DFI1) is a KYC/KYB compliant decentralized digital asset exchange desi
 <li>True post quantum and photonic compute security and usability</li>
 </ol>
 
-<p className="max-w-[980px] text-lg">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DFI1. The final details will be formally announced via press release in the next few weeks. DFI1's user interface is live and ready for developers to swap in our smart contract addresses and live API keys upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
+<p className="max-w-[980px] text-lg">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DFI1. The final details will be formally announced via press release and in SAFT format in the next few weeks. DFI1's user interface is live and ready for developers to swap in our smart contract addresses and live API keys upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
 </p>
       <ol className="list-decimal list-inside space-y-2 text-lg text-justify">
 
