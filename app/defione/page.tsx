@@ -73,7 +73,7 @@ True post quantum and photonic compute security and usability</li>
           target="_blank"
           rel="noreferrer"
           href={siteConfig.links.defione}
-                    className={buttonVariants({ size: "small" })}
+                    className={buttonVariants({ size: "sm" })}
         >
           DFI1
         </Link>
