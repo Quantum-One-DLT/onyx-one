@@ -33,8 +33,21 @@ export default function DafitokenPage() {
               <p className="max-w-[980px] text-lg text-justify"> 
               Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. It's important to mention that Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility and practicality.
               </p>
+ <p className="max-w-[980px] text-lg text-justified">
+       If you are new to Quantum One DAO, we suggest first reviewing our research and data compendium.</p>
+<Link
+          target="_blank"
+          rel="noreferrer"
+          href={siteConfig.links.qonepaper}
+                    className={buttonVariants({ variant: "ghost" size: "sm" })}
+        >
+         Compendium 
+        </Link>
 
-              <p className="max-w-[980px] text-lg text-justify">Upon upgrading and migrating DA-FI token to a ZRC20 omnichain token on Zetachain, we anticipate changing the token name and symbol to better align with Quantum One's vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000 tokens. Existing holders will be required to claim the new token that's symbol will be announced along with the planned PR campaign provided they authenticate their identity and claim their tokens within 180 days of deployment. Through a combination of Zetachain and planned development, we're aiming for a hybrid structure that marries chain-agnostic, digital governance capabilities with traditional, physically tangible, and regulatory compliant assets secured by provably post quantum secure encryption that does not exist in today's blockchains. We're not pretending to know exactly how laws, regulations, and quantum computing will impact the industry as time progresses. However we're being as proactive as possible on all fronts. Considering we've been publicly warning the blockchain community about potential compliance issues and quantum hacks since late 2021, we like our chances at remaining ahead of the curve. 
+<p className="max-w-[980px] text-lg text-justified"> Then connect your wallet to view your Da-Fi Token balance and verify if you received one of our previous randomized airdrops. The 1st 3K Quantum One users can participate in the airdrop by adding their preferred Ethereum address to their Quantum One profile.</p> 
+              
+
+<p className="max-w-[980px] text-lg text-justify">While upgrading DA-FI token to a chain-agnostic governance token on ZetaChain, we anticipate changing the token name and symbol to better align with Quantum One's vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000. Existing holders will be required to claim the new token provided they authenticate their legal identity using our specified application and claim their tokens within 180 days of deployment. The new name and symbol will be announced within a press release and in Simple Agreement for Future Token (SAFT) format. Through a combination of Zetachain and planned development, we're aiming for a hybrid structure that marries chain-agnostic, digital governance capabilities with traditional, physically tangible, and regulatory compliant assets secured by provably post quantum secure encryption that does not exist in today's blockchains. We're not pretending to know exactly how laws, regulations, and quantum computing will impact the industry as time progresses. However we're being as proactive as possible on all fronts. Considering we've been publicly warning the blockchain community about potential compliance issues and quantum hacks since late 2021, we like our chances at remaining ahead of the curve. 
               </p>
               <Separator/>
             </div>
