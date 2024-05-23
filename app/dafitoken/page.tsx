@@ -33,13 +33,13 @@ export default function DafitokenPage() {
               <p className="max-w-[980px] text-lg text-justify"> 
               Da-Fi Token is legally registered with the state of Wyoming, USA as an open blockchain network token, a digital consumer asset, and as the governance token of Quantum One DAO LLC. The token is one of the few that is also represented off chain by legally will-able, physically printable share certificates through Carta. It's important to mention that Wyoming law enables DAO LLC's to operate with full, partial, or zero autonomy and, thus, great flexibility and practicality.
               </p>
- <p className="max-w-[980px] text-lg text-justified">
-       If you are new to Quantum One DAO, we suggest first reviewing our research and data compendium.</p>
+ <p className="max-w-[980px] text-lg text-justified">If you are new to Quantum One DAO, we suggest first reviewing our research and data compendium.
+</p>
+
 <Link
-          target="_blank"
-          rel="noreferrer"
-          href={siteConfig.links.qonepaper}
-                    className={buttonVariants({ variant: "ghost" size: "sm" })}
+    target="_blank"
+    rel="noreferrer"
+    href={siteConfig.links.qonepaper}            className={buttonVariants({ variant: "ghost", size: "sm" })}
         >
          Compendium 
         </Link>
