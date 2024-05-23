@@ -42,8 +42,7 @@ DeFi ONE (DFI1) is a KYC/KYB compliant decentralized digital asset exchange desi
 
 <li>Translating DeFi to the insurance industry</li>
 
-<li>
-True post quantum and photonic compute security and usability</li>
+<li>True post quantum and photonic compute security and usability</li>
 </ol>
 
 <p className="max-w-[980px] text-lg">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DFI1. The final details will be formally announced via press release in the next few weeks. DFI1's user interface is live and ready for developers to swap in our smart contract addresses and live API keys upon deployment. Currently, we anticipate including the following goals within the formal campaign announcement: 
