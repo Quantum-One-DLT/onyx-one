@@ -29,39 +29,60 @@ return (
        
 
 <p className="max-w-[980px] text-lg">
-DeFi ONE (DFI1) is a KYC/KYB compliant decentralized digital asset exchange designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents and vectorized databases to enable AI token, NFT, and native-to-native coin swaps on every chain, including BitCoin. DFI1 will offer automated market maker (AMM) capabilities, simplified yet highly secure onboarding experience and user interface powered by compliant smart accounts that meet or exceed US investment bank account standards. Accordingly, users and DFI1 token holders will be required to authenticate their legal identity prior to platform use and token ownership. DFI1's incentivized development and bug bounty programs are designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms, protocols, and architectures within classical, quantum and photonic computing scopes to ultimately enable inclusive enterprise use cases across numerous industries. Areas of focus should include: </p>
+DeFi ONE (DFI1) should be a KYC/KYB compliant decentralized digital asset exchange designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents and vectorized databases to enable AI token, NFT, and native-to-native coin swaps on every chain, including BitCoin. DFI1 should offer automated market maker (AMM) capabilities, a simplified yet highly secure onboarding experience and user interface powered by compliant smart accounts that meet or exceed US investment bank account standards. Accordingly, users and DFI1 token holders should be required to authenticate their legal identity prior to platform use and token ownership. DFI1's incentivized development and bug bounty programs should be designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms, protocols, and architectures within classical, quantum and photonic computing scopes to ultimately enable inclusive enterprise use cases across numerous industries. Areas of focus should include: </p>
 
 <ol className="list-decimal list-inside space-y-2 text-lg text-justify">
 
-<li> Regulatory compliant cross chain governance and asset custody  </li>
+<li>Pre-launch validation/invalidation of quantum threats to public key encryption.</li>
 
-<li>Chain-agnostic NFT's representing legally authenticated identity claims</li>
+<li>If threats are validated, develop an industry wide solution and shift focus to quantum era blockchain network development.<li>
 
-<li>Simpler and more efficient management of DAO's across multiple blockchains</li>
-
-<li>Translating DeFi to the insurance industry</li>
-
-<li>True post quantum and photonic compute security and usability</li>
 </ol>
 
-<p className="max-w-[980px] text-lg">In the near term, we are finalizing plans for a token sale campaign to help fund the launch of DFI1. The final details will be formally announced via press release and in SAFT format in the next few weeks. Currently, we anticipate including the following goals within the formal campaign announcement: 
+<p className="max-w-[980px] text-lg"> If quantum threats are invalidated:
+</p>
+
+<ol className="list-decimal list-inside space-y-2 text-lg text-justify">
+
+
+<li>Regulatory compliant cross chain governance and asset custody.</li>
+
+<li>Chain-agnostic NFT's representing legally authenticated identity claims.</li>
+
+<li>Simpler and more efficient management of DAO's across multiple blockchains.</li>
+
+<li>Chain-agnostic protocols designed for insurance industry.</li>
+
+</ol>
+
+<p className="max-w-[980px] text-lg">In the near term, we are exploring grant and token sale options to help fund the launch of DFI1. The final details will be formally announced via press release and, if necessary, in SAFT format in the next few weeks. Currently, we anticipate including the following goals within the formal campaign announcement: 
 </p>
       <ol className="list-decimal list-inside space-y-2 text-lg text-justify">
 
+<li>Pre-launch validation/invalidation of quantum threats to public key encryption.</li>
+
+<li>If quantum threats are validated, develop an industry wide solution and shift focus to quantum era blockchain network development.<li>
+
+</ol>
+
+<p className="max-w-[980px] text-lg"> If quantum threats are invalidated:
+</p>
+
+<ol className="list-decimal list-inside space-y-2 text-lg text-justify">
 
 <li> Deployment of optimized Uniswap v3 smart contracts on Zetachain. </li> 
 
-<li> Live launch of DeFi ONE PWA and mobile DApps.</li>
+<li> Live launch of DeFi ONE PWA, mobile DApp, and wallet.</li>
 
-<li> Deployment of DFI1's ZRC20 omnichain governance token on ZetaChain. We'll post the Simple Agreement for Future Token (SAFT) and tokenomics once finalized.
- </li>
+<li> Deployment of DFI1's ZRC20 omnichain governance token on ZetaChain.</li>
 
-<li> Launch of DeFi ONE mobile wallet.</li>
+<li> Continued rollout of new Quantum One website and refinements to pre-existing roadmap, whitepaper, and DAO governance framework.</li>
 
-<li> Continued rollout of new Quantum One website and general refinements to pre-existing roadmap, whitepaper, and DAO governance framework. </li>
-
-<li> Additional details will be posted here and accompany several formal AP PR's planned over the next two quarters.</li>
 </ol>
+
+<p className="max-w-[980px] text-lg"> Additional details will be posted here and accompany several formal AP PR's planned over the next two quarters.
+</p>
+
 
 <Separator/>
 <p className="max-w-[980px] text-lg"> Access the DFI1 demo using the button below! Please note that demos are not considered fully tested, functional applications. 
