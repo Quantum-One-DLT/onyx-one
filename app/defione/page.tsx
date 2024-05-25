@@ -29,13 +29,15 @@ return (
        
 
 <p className="max-w-[980px] text-lg">
-DeFi ONE (DFI1) should be a KYC/KYB compliant decentralized digital asset exchange designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents and vectorized databases to enable AI token, NFT, and native-to-native coin swaps on every chain, including BitCoin. DFI1 should offer automated market maker (AMM) capabilities, a simplified yet highly secure onboarding experience and user interface powered by compliant smart accounts that meet or exceed US investment bank account standards. Accordingly, users and DFI1 token holders should be required to authenticate their legal identity prior to platform use and token ownership. DFI1's incentivized development and bug bounty programs should be designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms, protocols, and architectures within classical, quantum and photonic computing scopes to ultimately enable inclusive enterprise use cases across numerous industries. Areas of focus should include: </p>
+DeFi ONE (DFI1) should be a KYC/KYB compliant decentralized digital asset exchange designed to utilize the interoperability and abstractability of ZetaChain and augmented with an AI layer compromised of programmable, cross-chain messaging capable autonomous agents and vectorized databases to enable AI token, NFT, and native-to-native coin swaps on every chain, including BitCoin. DFI1 should offer automated market maker (AMM) capabilities, a simplified yet highly secure onboarding experience and user interface powered by compliant smart accounts that meet or exceed US investment bank account standards. Accordingly, users and DFI1 token holders should be required to authenticate their legal identity prior to platform use and token ownership. DFI1's incentivized development and bug bounty programs should be designed to motivate talented individuals and teams to find security vulnerabilities and ideate new algorithms, protocols, and architectures within classical, quantum and photonic computing scopes to ultimately enable inclusive enterprise use cases across numerous industries. Areas of focus should include: 
+</p>
 
 <ol className="list-decimal list-inside space-y-2 text-lg text-justify">
 
-<li>Pre-launch validation/invalidation of quantum threats to public key encryption.</li>
+<li>Pre-launch validation/invalidation of quantum threats to public key encryption.
+</li>
 
-<li>If threats are validated, develop an industry wide solution and shift focus to quantum era blockchain network development.<li>
+<li>If threats are validated, develop an industry wide solution and shift focus to quantum era blockchain network development.</li>
 
 </ol>
 
