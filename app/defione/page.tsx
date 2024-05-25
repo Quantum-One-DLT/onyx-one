@@ -63,7 +63,7 @@ DeFi ONE (DFI1) should be a KYC/KYB compliant decentralized digital asset exchan
 
 <li>Pre-launch validation/invalidation of quantum threats to public key encryption.</li>
 
-<li>If quantum threats are validated, develop an industry wide solution and shift focus to quantum era blockchain network development.<li>
+<li>If quantum threats are validated, develop an industry wide solution and shift focus to quantum era blockchain network development.</li>
 
 </ol>
 
