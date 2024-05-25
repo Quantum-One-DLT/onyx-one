@@ -59,6 +59,7 @@ DeFi ONE (DFI1) should be a chain-agnostic, KYC/KYB compliant, decentralized dig
 </ol>
 
 <p className="max-w-[980px] text-lg">In the near term, we are exploring partnership, grant and token sale options to help fund the launch of DFI1. The final details will be formally announced via press release and, if necessary, in SAFT format over the next quarter. 
+</p>
 
 
 <Separator/>
