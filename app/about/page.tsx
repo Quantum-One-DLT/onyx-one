@@ -123,6 +123,18 @@ export default function AboutPage() {
 <div className="text-sm text-center font-muted">Cody Clark</div>
 <div className="text-xs text-center font-muted">Co-Founder/COO</div>
   </div>
+
+<div className="grid grid-cols-1 justify-items-center">
+<div><Image
+          src="https://quantumone.b-cdn.net/onyx/asaito-profile.png"
+          width={500}
+          height={500}
+          alt="Akira Saito profile picture"
+          className="rounded-full border-none shadow-sm"
+        /></div>
+<div className="text-sm text-center font-muted">Akira Saito</div>
+<div className="text-xs text-center font-muted">Software Engineer</div>
+  </div>
         </div>
 
         </div>
