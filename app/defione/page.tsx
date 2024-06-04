@@ -22,8 +22,8 @@ const { data: userSession } = await readUserSession();
 return (
     <section className="container mx-auto max-w-[980px] px-4 justify-evenly gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col justify-evenly gap-1 space-y-8">
-        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Swap tokens & NFTs on every chain, including BitCoin with<br className=" xs:inline" />
+        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">The compliant, chain-agnostic DEX for the quantum/photonic era:
+          <br className=" xs:inline" />
           DeFi ONE.
         </h1>
        
@@ -34,10 +34,10 @@ DeFi ONE (DFI1) should be a chain-agnostic, KYC/KYB compliant, decentralized dig
 
 <ol className="list-decimal list-inside space-y-2 text-lg text-start">
 
-<li>Pre-launch validation/invalidation of quantum/photonic (QP) threats to public key encryption. 
+<li>Pre-launch validation/invalidation of quantum/photonic (QP) threats to public key encryption using technologies available now - ie. LightSolver. 
 </li>
 
-<li>If QP threats are validated, engineer industry wide solution and shift focus to QP based blockchain network development.</li>
+<li>If QP threats are validated, we allocate all resources toward ensuring Ethereum and EVM compatible chains safely navigate their quantum contingency plan and hard fork.</li>
 </ol>
 
 <p className="max-w-[980px] text-lg"> If QP threats are invalidated, areas of focus should include:
