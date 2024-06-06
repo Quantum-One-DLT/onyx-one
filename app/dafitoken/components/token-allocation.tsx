@@ -17,25 +17,25 @@ export default function TokenAllocation() {
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Public Sale</td>
             <td className="px-4 py-3">30%</td>
-            <td className="px-4 py-3">300,000,000</td>
+            <td className="px-4 py-3">15,000</td>
             <td className="px-4 py-3">Immediate Unlock</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Team</td>
-            <td className="px-4 py-3">20%</td>
-            <td className="px-4 py-3">200,000,000</td>
+            <td className="px-4 py-3">10%</td>
+            <td className="px-4 py-3">5,000</td>
             <td className="px-4 py-3">12-month Vesting</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
-            <td className="px-4 py-3">Advisors</td>
-            <td className="px-4 py-3">10%</td>
-            <td className="px-4 py-3">100,000,000</td>
+            <td className="px-4 py-3">Liquidity</td>
+            <td className="px-4 py-3">20%</td>
+            <td className="px-4 py-3">10,000</td>
             <td className="px-4 py-3">6-month Vesting</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Ecosystem</td>
-            <td className="px-4 py-3">40%</td>
-            <td className="px-4 py-3">400,000,000</td>
+            <td className="px-4 py-3">35%</td>
+            <td className="px-4 py-3">17,500</td>
             <td className="px-4 py-3">Gradual Unlock</td>
           </tr>
         </tbody>
