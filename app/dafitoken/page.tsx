@@ -42,6 +42,8 @@ export default function DafitokenPage() {
 <p className="max-w-[980px] text-lg text-justify">While upgrading DA-FI token to a chain-agnostic governance token on ZetaChain, we anticipate changing the token name and symbol to better align with Quantum One's vision and brand. The total and maximum supply of the upgraded token will remain the same at 50,000. Existing holders will be required to claim the new token provided they authenticate their legal identity using our specified application and claim their tokens within 180 days of deployment. The new name and symbol will be announced within a press release and in Simple Agreement for Future Token (SAFT) format. Through a combination of Zetachain and planned development, we're aiming for a hybrid structure that marries chain-agnostic, digital governance capabilities with traditional, physically tangible, and regulatory compliant assets secured by provably post quantum secure encryption that does not exist in today's blockchains. We're not pretending to know exactly how laws, regulations, and quantum computing will impact the industry as time progresses. However we're being as proactive as possible on all fronts. Considering we've been publicly warning the blockchain community about potential compliance issues and quantum hacks since late 2021, we like our chances at remaining ahead of the curve.  
               </p>
               <Separator/>
+              <TokenAllocation />
+              <Separator />
             <Link
           href={siteConfig.links.qonepaper}
           target="_blank"

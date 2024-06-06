@@ -33,9 +33,9 @@ export default function TokenAllocation() {
             <td className="px-4 py-3">6-month Vesting</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
-            <td className="px-4 py-3">Ecosystem</td>
-            <td className="px-4 py-3">35%</td>
-            <td className="px-4 py-3">17,500</td>
+            <td className="px-4 py-3">Ecosystem Growth</td>
+            <td className="px-4 py-3">40%</td>
+            <td className="px-4 py-3">20,000</td>
             <td className="px-4 py-3">Gradual Unlock</td>
           </tr>
         </tbody>
