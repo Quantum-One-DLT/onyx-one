@@ -16,27 +16,45 @@ export default function TokenAllocation() {
         <tbody>
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Public Sale</td>
-            <td className="px-4 py-3">30%</td>
-            <td className="px-4 py-3">15,000</td>
-            <td className="px-4 py-3">Immediate Unlock</td>
+            <td className="px-4 py-3">25%</td>
+            <td className="px-4 py-3">12,500</td>
+            <td className="px-4 py-3">50% TGE, vesting 6 months</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Team</td>
             <td className="px-4 py-3">10%</td>
             <td className="px-4 py-3">5,000</td>
-            <td className="px-4 py-3">12-month Vesting</td>
+            <td className="px-4 py-3">Cliff 3 months, vesting 36 months</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Liquidity</td>
             <td className="px-4 py-3">20%</td>
             <td className="px-4 py-3">10,000</td>
-            <td className="px-4 py-3">6-month Vesting</td>
+            <td className="px-4 py-3">45% TGE, vesting 6 months</td>
           </tr>
           <tr className="border-b border-gray-200 dark:border-gray-700">
             <td className="px-4 py-3">Ecosystem Growth</td>
-            <td className="px-4 py-3">40%</td>
-            <td className="px-4 py-3">20,000</td>
-            <td className="px-4 py-3">Gradual Unlock</td>
+            <td className="px-4 py-3">35%</td>
+            <td className="px-4 py-3">17,500</td>
+            <td className="px-4 py-3">20% TGE, vesting 24 months</td>
+          </tr>
+ <tr className="border-b border-gray-200 dark:border-gray-700">
+            <td className="px-4 py-3">AirDrop</td>
+            <td className="px-4 py-3">2.5%</td>
+            <td className="px-4 py-3">1250</td>
+            <td className="px-4 py-3">Variable</td>
+          </tr>
+ <tr className="border-b border-gray-200 dark:border-gray-700">
+            <td className="px-4 py-3">Sources</td>
+            <td className="px-4 py-3">5%</td>
+            <td className="px-4 py-3">2500</td>
+            <td className="px-4 py-3">50% TGE, vesting 24 months</td>
+          </tr>
+ <tr className="border-b border-gray-200 dark:border-gray-700">
+            <td className="px-4 py-3">Angel Investors</td>
+            <td className="px-4 py-3">2.5%</td>
+            <td className="px-4 py-3">1250</td>
+            <td className="px-4 py-3">50% TGE, vesting 12 months</td>
           </tr>
         </tbody>
       </table>
