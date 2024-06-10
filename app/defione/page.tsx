@@ -34,24 +34,12 @@ DeFi ONE (DFI1) should be a chain-agnostic, KYC/KYB compliant, decentralized dig
 
 <ol className="list-decimal list-inside space-y-2 text-lg text-start">
 
-<li>Pre-launch validation/invalidation of quantum/photonic (QP) threats to public key encryption using technologies available now - ie. LightSolver. 
-</li>
 
-<li>If QP threats are validated, we allocate all resources toward ensuring Ethereum and EVM compatible chains safely navigate their quantum contingency plan and hard fork.</li>
-</ol>
+<li>Development of a quantum inspired, off- chain AI protocol</li>
 
-<p className="max-w-[980px] text-lg"> If QP threats are invalidated, areas of focus should include:
-</p>
+<li>Simpler, regulatory compliant cross chain DAO governance and asset management and custody.</li>
 
-<ol className="list-decimal list-inside space-y-2 text-lg text-start">
-
-<li>QP inspired, off chain data vectorization protocol enabling AI at quantum speeds</li>
-
-<li>Regulatory compliant cross chain governance and asset custody.</li>
-
-<li>Chain-agnostic, identity claims and investor accreditation represented by NFTs</li>
-
-<li>Simpler and more efficient management of DAO's across multiple blockchains.</li>
+<li>Chain-agnostic, NFT managed digital identity and accreditation </li>
 
 <li>Chain-agnostic primitives for efficient DeFi-to-any industry translation ie. insurance</li>
 
