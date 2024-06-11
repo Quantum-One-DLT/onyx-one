@@ -42,6 +42,8 @@ export const siteConfig = {
     linkedinCC: "https://linkedin.com/in/codyclark",
     dafietherscan:"https://etherscan.io/token/0xeaad65885fea47a3b1258935f4ce83aab06fdd3a",
     qonepaper: "https://www.notion.so/Quantum-One-Research-and-Pitch-Paper-9c2497e7f4534ee08eb2f25d131d7ed5",
+    discord: "https://discord.com/invite/AJw2bDsCNh",
+
   },
 
 }
