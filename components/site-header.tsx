@@ -35,6 +35,21 @@ export function SiteHeader() {
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
+  <Link
+              href={siteConfig.links.discord}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div
+                className={buttonVariants({
+                  size: "icon",
+                  variant: "ghost",
+                })}
+              >
+                <Icons.discord className="h-5 w-5" />
+                <span className="sr-only">Discord</span>
+              </div>
+            </Link>
             <ThemeToggle />
           </nav>
         </div>
