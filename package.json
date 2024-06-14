@@ -61,7 +61,7 @@
     "@vercel/analytics": "^1.2.2",
     "@web3modal/wagmi": "^4.1.1",
     "@zetachain/example-contracts": "1.0.0-rc1",
-    "@zetachain/toolkit": "5.0.1-rc1",
+    "@zetachain/toolkit": "6.0.0",
     "bech32": "^2.0.0",
     "class-variance-authority": "^0.7.0",
     "classnames": "^2.5.1",
