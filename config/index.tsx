@@ -30,4 +30,8 @@ export const config = defaultWagmiConfig({
   storage: createStorage({
     storage: cookieStorage,
   }),
+  transports: {
+    [mainnet.id]: http('https://eth-mainnet.g.alchemy.com/v2/tIh40leTPQfMnBjxhQgufOcR8XLsIEYj'),
+    [sepolia.id]: http('https://eth-sepolia.g.alchemy.com/v2/77QUMuC-ZMH9rBPab1aBMR8X_pJxBg5p'),
+  },
 })
