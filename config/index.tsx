@@ -1,6 +1,6 @@
 import { defaultWagmiConfig } from '@web3modal/wagmi/react/config'
 
-import { cookieStorage, createStorage } from 'wagmi'
+import { cookieStorage, createStorage, http } from 'wagmi'
 import { mainnet, sepolia, optimism, classic, fantom, polygon, filecoin, gnosis, shimmer, zkSync, defichainEvm, iotex, zetachainAthensTestnet, foundry, celo, arbitrum } from 'wagmi/chains'
 
 // Get projectId at https://cloud.walletconnect.com
