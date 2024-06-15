@@ -1,4 +1,5 @@
-import * as React from "react"
+
+  import * as React from "react"
 import Link from "next/link"
 
 import { NavItem } from "@/types/nav"
@@ -19,7 +20,7 @@ export function MainNav({ items }: MainNavProps) {
         <span className="hidden sm:inline-block font-bold">{siteConfig.name}</span>
       </Link>
       {items?.length ? (
-        <nav className="flex gap-4 text-sm lg:gap-6">
+        <nav className="xs:mr-1 flex gap-4 text-sm lg:gap-6">
           {items?.map(
             (item, index) =>
               item.href && (
