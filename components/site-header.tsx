@@ -21,7 +21,7 @@ export function SiteHeader() {
     
 <MobileNav/>
 
-<div className="flex flex-1 items-center justify-between space-x-2 xs:items-right md:justify-end"> 
+<div className="flex flex-1 items-center justify-between space-x-2 xs:items-end md:justify-end"> 
 <nav className="flex items-center">
            <ConnectButton/>
         <Link
