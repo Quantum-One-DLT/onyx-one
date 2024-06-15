@@ -13,8 +13,8 @@ interface MainNavProps {
 
 export function MainNav({ items }: MainNavProps) {
   return (
-    <div className="mr-4 hidden md:flex md:gap-6">
-      <Link href="/" className="mr-6 flex items-center space-x-2">
+    <div className="mr-2 hidden md:flex md:gap-4">
+      <Link href="/" className="mr-4 flex items-center space-x-2">
         <Icons.quantum className="h-6 w-6" />
         <span className="hidden sm:inline-block font-bold">{siteConfig.name}</span>
       </Link>
