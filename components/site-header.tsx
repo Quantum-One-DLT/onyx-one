@@ -30,7 +30,7 @@ export function SiteHeader() {
               rel="noreferrer"
             >
               <div
-                className={buttonVariants({
+                className={cn(buttonVariants({
                   size: "icon",
                   variant: "ghost",
                 }),
@@ -47,7 +47,7 @@ export function SiteHeader() {
               rel="noreferrer"
             >
               <div
-                className={buttonVariants({
+                className={cn(buttonVariants({
                   size: "icon",
                   variant: "ghost",
                 }),
