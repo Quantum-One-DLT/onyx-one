@@ -5,10 +5,6 @@ export const siteConfig = {
   description:
     "The chain-agnostic DAO for a post quantum world.",
   mainNav: [
-    {
-      title: "Home",
-      href: "/",
-    },
     
     { 
       title: "Account",
