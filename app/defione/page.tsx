@@ -49,8 +49,8 @@ DeFi ONE (DFI1) should be a chain-agnostic, KYC/KYB compliant, decentralized dig
 
 
 <Separator/>
-<p className="max-w-[980px] text-lg"> We have a couple of demo's we're currently working on. DFI1 has multiple cross-chain capabilities including contract-to-contract messaging, token/NFT swaps, and liquidity pools. DFI1 DEX is a Uniswap v3 based DEX that's ready for developers to add in our smart contracts and API keys upon deployment. 
-</p>
+<p className="max-w-[980px] text-lg"> We have a couple of demo's we're currently working on. DFI1 leverages Zetachain to enable multiple cross-chain capabilities including contract-to-contract messaging, token/NFT swaps, and liquidity pools. DFI1 DEX is a Uniswap v3 based DEX that's ready for developers to add in our smart contracts and API keys upon deployment. 
+Think DeFi Llama with identity authentication, investor accreditation, and the power to harness quantum advantage.</p>
       
          <Link
           target="_blank"
