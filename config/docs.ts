@@ -16,7 +16,7 @@ export const docsConfig: DocsConfig = {
       href: "/defione",
     },
     { 
-      title: "Governance",
+      title: "Token",
       href: "/dafitoken",
     },
     { 
@@ -27,15 +27,27 @@ export const docsConfig: DocsConfig = {
       title: "Contact",
       href: "/contact",
     },
+    {
+      title: "Docs",
+      href: "/docs/dfi1/v1/factorycontract",
+    },
   ],
   sidebarNav: [
     {
       title: "Tools",
       items: [
+        
+        {
+          title: "Docs",
+          href: "/docs/dfi1/v1/factorycontract",
+          items: [],
+          
+        },
         {
           title: "Sign Out",
           href: "/signout",
           items: [],
+          
         },
       ],
     },
