@@ -3899,7 +3899,7 @@ _Throws if |tick| > max tick_
 function getTickAtSqrtRatio(uint160 sqrtPriceX96) internal pure returns (int24 tick)
 ```
 
-Calculates the greatest tick value such that getRatioAtTick(tick) <= ratio
+Calculates the greatest tick value such that getRatioAtTick(tick) $\le$ ratio
 
 _Throws in case sqrtPriceX96 $\lt$ MIN_SQRT_RATIO, as MIN_SQRT_RATIO is the lowest value getRatioAtTick may
 ever return._
