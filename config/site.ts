@@ -15,7 +15,7 @@ export const siteConfig = {
       href: "/defione",
     },
     { 
-      title: "Governance",
+      title: "Token",
       href: "/dafitoken",
     }, 
     { 
