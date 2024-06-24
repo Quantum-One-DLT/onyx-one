@@ -27,22 +27,11 @@ export const docsConfig: DocsConfig = {
       title: "Contact",
       href: "/contact",
     },
-    {
-      title: "Docs",
-      href: "/docs/dfi1/v1/factorycontract",
-    },
   ],
   sidebarNav: [
     {
       title: "Tools",
       items: [
-        
-        {
-          title: "Docs",
-          href: "/docs/dfi1/v1/factorycontract",
-          items: [],
-          
-        },
         {
           title: "Sign Out",
           href: "/signout",
