@@ -26,10 +26,14 @@ export const siteConfig = {
       title: "Contact",
       href: "/contact",
     },
+    {
+      title: "Docs",
+      href: "/docs/dfi1/v1/factorycontract",
+    },
   ],
   links: {
     twitter: "https://twitter.com/quantumonedlt",
-    github: "https://github.com/quantum-one-dlt/onyx-one",
+    github: "https://github.com/quantum-one-dlt",
     defione: "https://defione.io",
     dexdefione: "https://dex.defione.io",
     login: "https://quantumone.io/auth",
