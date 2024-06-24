@@ -28,14 +28,14 @@ createWeb3Modal({
   tokens: {
     1: {
       address: '0xeaaD65885fEA47a3B1258935f4Ce83aaB06FDD3A',
-      image: 'https://quantumone.b-cdn.net/onyx/share-32x32.png',
+      image: 'https://quantumone.b-cdn.net/onyx/qlogo-blk-48x48.png',
 
     },
     
   },
 
  themeVariables: {
-     '--w3m-accent': '#020713',
+     '--w3m-accent': '#6b7280',
 
   },
 
