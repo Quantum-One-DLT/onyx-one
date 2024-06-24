@@ -26,10 +26,6 @@ export const siteConfig = {
       title: "Contact",
       href: "/contact",
     },
-    {
-      title: "Docs",
-      href: "/docs/dfi1/v1/factorycontract",
-    },
   ],
   links: {
     twitter: "https://twitter.com/quantumonedlt",
