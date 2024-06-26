@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
+  manifest: 'https://quantumone.io/manifest.json',
   metadataBase: new URL('https://quantumone.io'),
   alternates: {
     canonical: '/',
