@@ -17,14 +17,14 @@ export default function OnboardingPage() {
     <>
       <div className="hidden">
         <Image
-          src="https://quantumone.b-cdn.net/onyx/IMG_4777.jpeg"
+          src="/opengraph-image.jpg"
           width={1280}
           height={843}
           alt="Onboarding"
           className="block dark:hidden"
         />
         <Image
-          src="https://quantumone.b-cdn.net/onyx/IMG_5036.jpeg"
+          src="/opengraph-image.jpg"
           width={1280}
           height={843}
           alt="Onboarding-two"
@@ -46,7 +46,7 @@ export default function OnboardingPage() {
         <div className="relative hidden h-full flex-col bg-inherit p-10 text-white md:flex dark:border-r">
                     <div className="absolute inset-0 bg-inherit">
           <Image
-          src="https://quantumone.b-cdn.net/onyx/og-image.jpg"
+          src="/opengraph-image.jpg"
           width={2048}
           height={1946}
           alt="Onboarding-two"
