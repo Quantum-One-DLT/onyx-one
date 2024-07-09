@@ -17,16 +17,16 @@ export default function OnboardingPage() {
     <>
       <div className="hidden">
         <Image
-          src="/opengraph-image.jpg"
-          width={1280}
-          height={843}
+          src="/og-image.jpg"
+          width={2688}
+          height={1536}
           alt="Onboarding"
           className="block dark:hidden"
         />
         <Image
-          src="/opengraph-image.jpg"
-          width={1280}
-          height={843}
+          src="/og-image.jpg"
+          width={2688}
+          height={1536}
           alt="Onboarding-two"
           className="hidden"
         />
@@ -46,9 +46,9 @@ export default function OnboardingPage() {
         <div className="relative hidden h-full flex-col bg-inherit p-10 text-white md:flex dark:border-r">
                     <div className="absolute inset-0 bg-inherit">
           <Image
-          src="/opengraph-image.jpg"
-          width={2048}
-          height={1946}
+          src="/og-image.jpg"
+          width={2688}
+          height={1536}
           alt="Onboarding-two"
           style={{objectFit: "contain"}}
           
