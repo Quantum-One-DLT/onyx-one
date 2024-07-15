@@ -28,7 +28,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/quantumonedlt",
+    twitter: "https://twitter.com/quantumonedao",
     github: "https://github.com/quantum-one-dlt",
     defione: "https://defione.io",
     dexdefione: "https://dex.defione.io",
