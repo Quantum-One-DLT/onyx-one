@@ -11,7 +11,7 @@ export function SiteFooter() {
             rel="noreferrer"
             className="text-xs text-center font-medium"
           >
-            2024 QUANTUM ONE DAO LLC registration number 2022-001071935 Wyoming, USA.  
+            2024 QUANTUM ONE DAO LLC Registration No. 2022-001071935 Wyoming, USA.  
           </a>
         </p>
     
