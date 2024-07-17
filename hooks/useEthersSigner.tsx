@@ -1,5 +1,5 @@
 import * as React from "react"
-import { providers } from "ethers"
+import { Provider } from "ethers"
 import { useWalletClient, type WalletClient } from "wagmi"
 
 /**
@@ -15,7 +15,7 @@ export function walletClientToSigner(walletClient: WalletClient) {
     name: chain.name,
     ensAddress: chain.contracts?.ensRegistry?.address,
   }
-  const provider = new providers.Web3Provider(transport, network)
+  const provider = new Provider.Web3Provider(transport, network)
   const signer = provider.getSigner(account.address)
   return signer
 }
