@@ -1,4 +1,4 @@
-import Link from "next/link"
+Siimport Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
@@ -20,7 +20,7 @@ export default async function IndexPage() {
           The chain-agnostic DAO for a post quantum world. 
 	</h1>
         <p className="max-w-[980px] text-lg text-muted-foreground">
-        Sign up to learn how you can help launch DeFi ONE and receive our DAO governance token airdrop!  
+        Sign up and be among the first test drive DFI1's Quantum Layer!  
         </p>
 </div>
       
