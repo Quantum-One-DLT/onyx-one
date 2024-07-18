@@ -21,7 +21,6 @@
     "@jdion/tilt-react": "^1.0.0",
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
-    "@mui/material": "^5.15.6",
     "@next/mdx": "^14.2.2",
     "@pythnetwork/pyth-evm-js": "1.29.2",
     "@radix-ui/react-alert-dialog": "^1.0.5",
