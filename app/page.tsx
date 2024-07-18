@@ -20,7 +20,7 @@ export default async function IndexPage() {
           The chain-agnostic DAO for a post quantum world. 
 	</h1>
         <p className="max-w-[980px] text-lg text-muted-foreground">
-        Sign up and be among the first test drive DFI1's Quantum Layer!  
+        Sign up and be among the first test drive DeFi One's Quantum Layer!  
         </p>
 </div>
       
