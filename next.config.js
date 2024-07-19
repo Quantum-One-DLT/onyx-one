@@ -40,6 +40,12 @@ const nextConfig = {
         port: '',
         pathname: '/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
 
       {
         protocol: 'https',
