@@ -18,8 +18,6 @@ import { SiteFooter } from "@/components/site-footer"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { cn } from "@/lib/utils"
 const inter = Inter({ subsets: ['latin'] })
-import { headers } from 'next/headers'
-import Script from 'next/script'
 
 
 export const metadata: Metadata = {
