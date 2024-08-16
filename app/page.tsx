@@ -17,11 +17,7 @@ const { data: userSession } = await readUserSession();
 		return redirect("/account");
 	}
   return (
-<Script
-      src="https://www.googletagmanager.com/gtag/js"
-      strategy="afterInteractive"
-      nonce={nonce}
-    />
+
     <section className="container mx-auto flex flex-1 flex-col items-center justify-center gap-6 pb-8 pt-6 px-4 py-12 md:px-6 md:py-10 lg:py-24">
       <div className="flex max-w-[980px] flex-col text-center gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
@@ -61,5 +57,10 @@ const { data: userSession } = await readUserSession();
           
       </div>
     </section>
+	  <Script
+      src="https://www.googletagmanager.com/gtag/js"
+      strategy="afterInteractive"
+      nonce={nonce}
+    />
   )
 }
