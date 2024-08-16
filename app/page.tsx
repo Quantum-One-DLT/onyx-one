@@ -6,11 +6,9 @@ import { Icons } from '@/components/icons'
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 import ConnectButton from "@/components/connect-button";
-import { headers } from 'next/headers'
-import Script from 'next/script'
 
 export default async function IndexPage() {
-  const nonce = headers().get('x-nonce')
+  
 const { data: userSession } = await readUserSession();
 
 	if (userSession.session) {
@@ -57,10 +55,6 @@ const { data: userSession } = await readUserSession();
           
       </div>
     </section>
-	  <Script
-      src="https://www.googletagmanager.com/gtag/js"
-      strategy="afterInteractive"
-      nonce={nonce}
-    />
+	 
   )
 }
