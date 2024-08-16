@@ -18,6 +18,9 @@ import { SiteFooter } from "@/components/site-footer"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { cn } from "@/lib/utils"
 const inter = Inter({ subsets: ['latin'] })
+import { headers } from 'next/headers'
+import Script from 'next/script'
+
 
 export const metadata: Metadata = {
   title: {
@@ -125,6 +128,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   const initialState = cookieToInitialState(config, headers().get('cookie'))
+const nonce = headers().get('x-nonce')
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(
@@ -149,6 +153,7 @@ export default function RootLayout({
 <Script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
+ <Script src="https://www.googletagmanager.com/gtag/js"strategy="afterInteractive" nonce={nonce}/>
    <CookieButton />    
 </ThemeProvider>
 
