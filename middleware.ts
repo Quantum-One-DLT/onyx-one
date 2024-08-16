@@ -12,7 +12,8 @@ const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
     style-src 'self' 'nonce-${nonce}';
     img-src 'self' blob: data:;
     font-src 'self';
-    object-src 'none';
+    media-src *.supabase.co quantumone.b-cdn.net/*;
+    object-src none;
     base-uri 'self';
     form-action 'self';
     frame-ancestors 'none';
