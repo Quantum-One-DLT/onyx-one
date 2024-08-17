@@ -151,7 +151,8 @@ const nonce = headers().get('x-nonce')
 <Script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
- <Script src="https://www.googletagmanager.com/gtag/js"strategy="afterInteractive" nonce=`{nonce} ??`/>
+ <Script
+type="text/javascript" src="https://www.googletagmanager.com/gtag/js"strategy="afterInteractive" nonce=`{nonce} ??`/>
    <CookieButton />    
 </ThemeProvider>
 
