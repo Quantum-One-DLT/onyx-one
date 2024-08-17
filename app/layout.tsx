@@ -126,7 +126,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
 
-  const initialState = cookieToInitialState(config, headers().get('cookie'), headers().get('x-nonce'))
+  const initialState = cookieToInitialState(config, headers().get('cookie'))
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(
