@@ -125,8 +125,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const initialState = cookieToInitialState(config, headers().get('cookie'))
-const nonce = headers().get('x-nonce')
+
+  const initialState = cookieToInitialState(config, headers().get('cookie'), headers().get('x-nonce'))
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(
@@ -151,9 +151,7 @@ const nonce = headers().get('x-nonce')
 <Script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/a49f36df-8d64-46a3-9ef6-253dcebfaaf0?autoBlock=off"/>
- <Script
-type="text/javascript" src="https://www.googletagmanager.com/gtag/js"strategy="afterInteractive" nonce=`{nonce} ??`/>
-   <CookieButton />    
+ <CookieButton />    
 </ThemeProvider>
 
       </body>
