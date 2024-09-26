@@ -107,6 +107,15 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'cloud.walletconnect.com',
         port: '',
+        pathname: '/**',
+
+      },
+      {
+
+        protocol: 'https',
+        hostname: 'api.web3modal.com',
+        port: '',
+        pathname: '/**',
 
       },
     ],
