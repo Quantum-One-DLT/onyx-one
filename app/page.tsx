@@ -16,7 +16,7 @@ const { data: userSession } = await readUserSession();
 	}
   return (
 
-    <section className="container mx-auto flex flex-1 flex-col items-center justify-center gap-6 pb-8 pt-6 px-4 py-12 md:px-6 md:py-10 lg:py-24">
+    <section className="container                         mt-10 px-2 lg:p-8 mx-auto flex flex-1 flex-col items-center justify-center gap-6 pb-8 pt-6 px-4 py-12 md:px-6 md:py-10 lg:py-24">
       <div className="flex max-w-[980px] flex-col text-center gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           The chain-agnostic DAO for a post quantum world. 
