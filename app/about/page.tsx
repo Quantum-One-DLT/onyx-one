@@ -81,10 +81,6 @@ export default function AboutPage() {
 
 <Separator/>
 
-
-
-<Separator/>
-
 <div className="flex flex-col items-center justify-center space-y-3 text-center">
           <div className="space-y-8">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Team</h2>
