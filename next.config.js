@@ -7,7 +7,7 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 });
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' *.supabase.co googleapis.com *.walletconnect.com *.web3modal.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' *.supabase.co googleapis.com *.walletconnect.com *.web3modal.com *.termly.io;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
   media-src *.supabase.co quantumone.b-cdn.net *.unsplash.com youtube.com;
