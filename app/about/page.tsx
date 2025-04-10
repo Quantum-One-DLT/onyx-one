@@ -1,139 +1,153 @@
-import { Metadata } from 'next'
-import Image from 'next/image'
-import Link from "next/link"
-import { siteConfig } from "@/config/site"
-import { Icons } from "@/components/icons"
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
-import { UserAuthForm } from "@/app/auth/components/user-auth-form"
-import { PromoVideo } from '@/components/ui/promo-video'
-import { useState } from 'react'
-import { Separator } from '@/components/ui/separator'
+"use client"
 
-interface YouTubeID {
-  youtubeID : string;
-}
-export const metadata: Metadata = {
-  title: 'About',
-}
-
-const youtubeID = "HR6a2aHhY_c?si=D1u5cPVyi7xuDWdf" as unknown as string;
-
-
-
+import { motion } from "framer-motion"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { ChevronRight, Star, Zap, Shield } from "lucide-react"
+import { Contact } from '@/components/forms/contact'
 
 export default function AboutPage() {
   return (
-      <div className="w-full py-6 space-y-8">
-      <div className="container space-y-8 px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-6 text-center">
-          <div className="space-y-3">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Mission</h1>
-            <p className="max-w-[980px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify"> We seek to unite the public blockchain community to reclaim our sovereignty from cloud service providers, discern reality from theories regarding the susceptibility of public key encryption to quantum and photonic computing, build a portfolio of tangible revenue generating assets, and assure a highly successful post quantum era by leveraging our $2 trillion plus USD market capitalization to build pre and post quantum capable, eco-friendly, 'DAO owned' data centers and, thus, the cornerstone of future public blockchain technology and the era of greater decentralized opportunity. Simultaneously, we are committed to advancing global economic prosperity by promoting financial inclusion, security, autonomy, asset ownership, and the regulatory compliance thereof.
-            </p>
-            <Separator/>
-          </div>
-        </div>
-
-<div className="flex flex-col justify-center space-y-8">
-          <div className="space-y-3">
-            <h1 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Our Values</h1>
-</div>
-</div>
-        <div className="max-w-[980px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify mx-auto space-y-8">
-<p>Our overarching vision was formed against the backdrop of the rapidly accelerating arrival of the quantum and photonic computing era. With great humility, we postulated the rapid acceleration of quantum computing advancement could significantly impact public blockchains and public key encryption 2 plus years before a Ripple mathematician concluded the same according to a May 2024 CoinTelegraph article. And prior to Ethereum founder Vitalik Buterin's October 18, 2023 statement indicating the sudden arrival of the quantum era would necessitate a hard fork of the Ethereum blockchain and, thus, from our perspective, jeopardize the integrity and continuity of not only the Ethereum blockchain, but public blockchain technology in its entirety. Buterin's admittance is proof that the significance of quantum computing as it relates to public blockchain technology has been largely understated. Thus, we firmly believe it is time to decisively reevaluate our trajectory and consolidate our collective vision before quantum advantage becomes the next ChatGPT like technological explosion. With the recent release LightSolvers' desktop size, laser powered computer benchmarking in line and, at times ahead, of the fastest classic and quantum computers on the market, time is unquestionably of the essence. </p>
-          <ol className="list-decimal list-inside space-y-3">
-            
-             <li>Decentralization: Embrace the decentralized nature of decision-making, allowing all stakeholders to have a voice in governance processes.</li>
-
-<li>Transparency: Ensure transparency in operations, finances, and decision-making to build trust among members and the wider community.</li>
-
- <li>Autonomy: Empower individuals to take ownership of their contributions and decisions within the organization.</li>
-
-<li>Innovation: Foster a culture of innovation and experimentation to drive continuous improvement and adaptation to evolving challenges.</li>
-
-<li>Inclusivity: Promote diversity and inclusivity, welcoming individuals from all backgrounds and perspectives to contribute to the success.</li>
-
-<li>Accountability: Hold members accountable for their actions and decisions, establishing clear mechanisms for responsibility and consequences.</li>
-
-<li>Sustainability: Prioritize sustainable practices in all aspects of operations, including environmental, social, and economic sustainability for both pre and post quantum computing eras.</li>
-
-<li>Community Engagement: Actively engage with and listen to the community to ensure that the actions align with the needs and values of its members.</li>
-<li>Fairness: Uphold principles of fairness and equity in resource distribution, decision-making processes, and governance structures.</li>
-
-<li>Openness: Maintain an open and collaborative environment where ideas are freely shared, debated, and implemented for the benefit of the entire ecosystem.</li>
-          </ol>
-        
-<Separator/>
-      
-     
-          <div className="space-y-8">
-          <h5 className="max-w-[980px] place-self-center text-center text-3xl font-bold tracking-tighter sm:text-5xl"> Why are Gemini and ChatGPT Bullish on DAO Owned Data Centers?</h5>
-
-         
-           <div className="place-self-center max-w-[980px] aspect-video overflow-hidden rounded-lg shadow-lg ">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/HR6a2aHhY_c?si=L2O3Cf7pQ-0HHhsP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
- 
-          </div>
-          </div>
-          
-    
-
-<Separator/>
-
-<div className="flex flex-col items-center justify-center space-y-3 text-center">
-          <div className="space-y-8">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Team</h2>
-</div>
-</div>
-
-<div className="grid grid-cols-1 justify-items-center">
-        <div><Image
-          src="https://quantumone.b-cdn.net/rmourey-profile-pic.png"
-          width={500}
-          height={500}
-          alt="Robert Mourey profile picture"
-          className="rounded-full border-none shadow-sm"
-        /> 
-        </div>
-        
-        <Link
-          href={siteConfig.links.linkedinRM}
-          target="_blank"
-          rel="noreferrer"
-          className="text-sm text-center font-muted"
+    <div className="container mx-auto px-4 py-12">
+      <motion.section
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-center mb-16"
+      >
+        <motion.h1
+          initial={{ scale: 0.9 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-bold mb-4"
         >
-          Robert Mourey Jr
-        </Link>
-<div className="text-xs text-center font-muted">Founder/CEO</div>
-</div>
+          About Our Company
+        </motion.h1>
+        <p className="text-xl text-muted-foreground">
+          We&#39;re on a mission to build a next generation blockchain network designed to act as gateway between classic and quantum blockchain realms where classic chains can leverage the power quantum advantage and new proof of quantum work chains emerge becoming the foundation of post quantum based blockchain networks. We also advocate for public blockchains organization and foundations to form a data center collective where DAO's own data centers to ensure sustainability, true sovereignty, and greater profitability. 
+        </p>
+      </motion.section>
 
-<div className="grid grid-cols-1 justify-items-center">
-<div><Image
-          src="https://quantumone.b-cdn.net/onyx/CodyClark-prof.png"
-          width={500}
-          height={500}
-          alt="Cody Clark profile picture"
-          className="rounded-full border-none shadow-sm"
-        /></div>
-<div className="text-sm text-center font-muted">Cody Clark</div>
-<div className="text-xs text-center font-muted">Co-Founder/COO</div>
-  </div>
-
-<div className="grid grid-cols-1 justify-items-center">
-<div><Image
-          src="https://quantumone.b-cdn.net/onyx/asaito-profile.png"
-          width={500}
-          height={500}
-          alt="Akira Saito profile picture"
-          className="rounded-full border-none shadow-sm"
-        /></div>
-<div className="text-sm text-center font-muted">Akira Saito</div>
-<div className="text-xs text-center font-muted">Software Engineer</div>
-  </div>
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        className="mb-16"
+      >
+        <h2 className="text-2xl font-semibold mb-8 text-center">Our Team</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {teamMembers.map((member, index) => (
+            <motion.div
+              key={member.name}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
+              <Card>
+                <CardHeader className="text-center">
+                  <Avatar className="w-24 h-24 mx-auto mb-4">
+                    <AvatarImage src={member.avatar} alt={member.name} />
+                    <AvatarFallback>
+                      {member.name
+                        .split(" ")
+                        .map((n) => n[0])
+                        .join("")}
+                    </AvatarFallback>
+                  </Avatar>
+                  <CardTitle>{member.name}</CardTitle>
+                  <CardDescription>{member.role}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-center">{member.bio}</p>
+                </CardContent>
+              </Card>
+            </motion.div>
+          ))}
         </div>
+      </motion.section>
 
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+        className="mb-16"
+      >
+        <h2 className="text-2xl font-semibold mb-8 text-center">Our Values</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {values.map((value, index) => (
+            <motion.div
+              key={value.title}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="text-center"
+            >
+              <div className="mb-4">{value.icon}</div>
+              <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
+              <p className="text-muted-foreground">{value.description}</p>
+            </motion.div>
+          ))}
         </div>
+      </motion.section>
+
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="mb-16"
+      >
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl font-semibold mb-4">Contact Us</CardTitle>
+            <CardDescription>Have questions? Get in touch with our team.</CardDescription>
+          </CardHeader>
+          <CardContent>
+          <Contact/>
+          </CardContent>
+        </Card>
+      </motion.section>
     </div>
   )
 }
+
+const teamMembers = [
+  {
+    name: "Robert Mourey Jr",
+    role: "Founder",
+    bio: "Visionary leader with 20+ years of professional experience who in November 2021 predicted the rapid advancement of quantum computing and rise of quantum based blockchain networks.",
+    avatar: "https://quantumone.b-cdn.net/rmourey-profile-pic.png",
+  },
+  {
+    name: "Cody Clark",
+    role: "Co-Founder",
+    bio: "Fintech guru passionate about creating cutting-edge solutions with experience unveiling tens of millions of dollars in operational efficiency.",
+    avatar: "https://quantumone.b-cdn.net/onyx/CodyClark-prof.png",
+  },
+  {
+    name: "Akira Saito",
+    role: "Protocol Engineer",
+    bio: "Software engineer with 15+ years of professional experience building enterprise solutions who's passionate about the mass adoption of blockchain technology.",
+    avatar: "https://quantumone.b-cdn.net/onyx/asaito-profile.png",
+  },
+]
+
+const values = [
+  {
+    title: "Innovation",
+    description: "We constantly push the boundaries of conventional wisdom to create groundbreaking solutions.",
+    icon: <Star className="w-12 h-12 mx-auto text-primary" />,
+  },
+  {
+    title: "Efficiency",
+    description: "We work hard to envision from the optimal perspective to achieve a greater level of efficiency in all that we do.",
+    icon: <Zap className="w-12 h-12 mx-auto text-primary" />,
+  },
+  {
+    title: "Integrity",
+    description: "We uphold the highest standards of honesty and transparency in all we do.",
+    icon: <Shield className="w-12 h-12 mx-auto text-primary" />,
+  },
+]
