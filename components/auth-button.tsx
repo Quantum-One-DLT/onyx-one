@@ -8,7 +8,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 
-export default async function AuthButton() {
+export default function AuthButton() {
 
          const { data: userSession } = await readUserSession();
 
