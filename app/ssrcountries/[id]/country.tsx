@@ -1,4 +1,3 @@
-// app/posts/posts.jsx
 'use client'
 
 import useSupabaseBrowser from '@/utils/supabase-browser'
