@@ -1,20 +1,64 @@
-import { createClient } from "@/utils/supa-server-actions";
-import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
+import { type EmailOtpType } from '@supabase/supabase-js';
+import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
+import { createSupbaseServerClient } from '@/utils/supaone';
 
-export async function GET(request: Request) {
-  // The `/auth/callback` route is required for the server-side auth flow implemented
-  // by the Auth Helpers package. It exchanges an auth code for the user's session.
-  // https://supabase.com/docs/guides/auth/auth-helpers/nextjs#managing-sign-in-with-code-exchange
-  const requestUrl = new URL(request.url);
-  const code = requestUrl.searchParams.get("code");
+export const dynamic = 'force-dynamic';
 
-  if (code) {
-    const cookieStore = cookies();
-    const supabase = createClient(cookieStore);
-    await supabase.auth.exchangeCodeForSession(code);
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const token_hash_searchParam = searchParams.get('token_hash');
+  const code = searchParams.get('code');
+  const type = searchParams.get('type') as EmailOtpType | null;
+  const next = searchParams.get('next') ?? '/';
+  const redirectTo = request.nextUrl.clone();
+
+  const token_hash = code ?? token_hash_searchParam;
+
+  if (token_hash && type) {
+    const supabase = await createSupbaseServerClient();
+
+    const { data } = await supabase.auth.verifyOtp({
+      type,
+      token_hash
+    });
+
+    if (data) {
+      if (next) {
+        redirectTo.pathname = next;
+        redirectTo.searchParams.set(
+          'message',
+          encodeURIComponent('You can now sign in.')
+        );
+      } else {
+        redirectTo.pathname = '/auth';
+        redirectTo.searchParams.set(
+          'message',
+          encodeURIComponent('You can now sign in.')
+        );
+      }
+    } else {
+      // Instead of redirecting to error page, go to root with error message
+      redirectTo.pathname = '/';
+      redirectTo.searchParams.set(
+        'error',
+        encodeURIComponent('Authentication failed. Please try again.')
+      );
+    }
+  } else {
+    // No valid token or type, go to root with error message
+    redirectTo.pathname = '/';
+    redirectTo.searchParams.set(
+      'error',
+      encodeURIComponent('Invalid authentication attempt. Please try again.')
+    );
   }
 
-  // URL to redirect to after sign in process completes
-  return NextResponse.redirect(requestUrl.origin);
+  // Clean up unnecessary parameters
+  redirectTo.searchParams.delete('token_hash');
+  redirectTo.searchParams.delete('code');
+  redirectTo.searchParams.delete('type');
+  redirectTo.searchParams.delete('next');
+
+  return NextResponse.redirect(redirectTo);
 }
