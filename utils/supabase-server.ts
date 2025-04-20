@@ -4,7 +4,7 @@ import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
 import { Database } from '@/lib/supabase'
 
-export default async function SupabaseServerAsync(
+export async function SupabaseServerAsync(
   cookieStore: ReturnType<typeof cookies>
 ) {
   return createServerClient<Database>(
