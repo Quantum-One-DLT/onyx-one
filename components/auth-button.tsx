@@ -1,5 +1,3 @@
-"use client"
-
 import { logout } from "@/app/auth/actions";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -8,7 +6,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 
-export default function AuthButton() {
+export default async function AuthButton() {
 
          const { data: userSession } = await readUserSession();
 
