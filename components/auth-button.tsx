@@ -6,15 +6,17 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { readUserSession } from "@/utils/actions";
 import { redirect } from "next/navigation";
 
-export default async function AuthButton() {
+export function AuthButton() {
 
-         const { data: userSession } = await readUserSession();
+         
 
         
         const [isPending, startTransition] = useTransition();
         const onSubmit = async () => {
+const { data: userSession } = await readUserSession();
                 startTransition(async () => {
-                        await logout();
+                        
+                    await logout();
                 });
         };
 
