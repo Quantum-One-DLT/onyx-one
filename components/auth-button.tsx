@@ -8,12 +8,12 @@ import { redirect } from "next/navigation";
 
 export function AuthButton() {
 
-         
+const { data: userSession } = await readUserSession();         
 
         
-        const [isPending, startTransition] = useTransition();
         const onSubmit = async () => {
-const { data: userSession } = await readUserSession();
+const [isPending, startTransition] = useTransition();
+
                 startTransition(async () => {
                         
                     await logout();
