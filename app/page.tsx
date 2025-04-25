@@ -22,7 +22,7 @@ const { data: userSession } = await readUserSession();
           The chain-agnostic DAO for a post quantum world. 
 	</h1>
         <p className="max-w-[980px] text-lg text-muted-foreground">
-        Sign up and be among the first test drive DeFi One's Quantum Layer!  
+        Quantum proof of work on classic machines.  
         </p>
 </div>
       
@@ -44,15 +44,6 @@ const { data: userSession } = await readUserSession();
         >
           Sign Up
         </Link>
-        <Link
-           href={siteConfig.links.defione}
-           target="_blank"
-           rel="noreferrer"
-           className={buttonVariants()}
-              > 
-	       DeFi ONE
-        </Link>
-          
       </div>
     </section>
 	 
