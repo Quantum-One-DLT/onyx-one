@@ -27,7 +27,7 @@ export default function AboutPage() {
           About Our Company
         </motion.h1>
         <p className="text-xl text-muted-foreground">
-          We&#39;re on a mission to build a next generation blockchain network designed to act as gateway between classic and quantum blockchain realms where classic chains can leverage the power quantum advantage and new proof of quantum work chains emerge becoming the foundation of post quantum based blockchain networks. We also advocate for public blockchains organization and foundations to form a data center collective where DAO's own data centers to ensure sustainability, true sovereignty, and greater profitability. 
+          We&#39;re on a mission to build a next generation blockchain network designed to act as gateway between classic and quantum blockchain realms where classic chains can leverage the power of quantum advantage and new proof of quantum work chains emerge becoming the foundation of post quantum based blockchain networks. We also advocate for public blockchain organizations and foundations to form a data center collective where DAO's own data centers to ensure sustainability, true sovereignty, and greater profitability. 
         </p>
       </motion.section>
 
