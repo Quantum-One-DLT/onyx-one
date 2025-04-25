@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import { useRouter } from "next/navigation"
-import { DialogProps } from "@radix-ui/react-dialog"
 import { type DialogProps } from "@radix-ui/react-dialog"
 import {
   CircleIcon,
